@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE Resource SYSTEM "sty.dtd">
+<Resource type="aamap" name="System" version="5.0.0" author="Smart" category="maps">
+  <Map version="0.2.8">
+    <World>
+      <Field>
+        <Axes number="12"/>
+        <Spawn x="290" y="20" xdir="-1" ydir="0"/>
+        <Wall height="50">
+          <Point x="0" y="0"/>
+		  <Point x="300" y="0"/>
+		  <Point x="300" y="300"/>
+		  <Point x="0" y="300"/>
+		  <Point x="0" y="0"/>
+		</Wall>
+        <Zone effect="death">
+          <ShapeCircle radius="110" growth="0">
+            <Point x="260" y="150"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="10" growth="0">
+            <Point x="250" y="260"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="10" growth="0">
+            <Point x="250" y="40"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="10" growth="0">
+            <Point x="150" y="150"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="50" growth="0">
+            <Point x="50" y="50"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="50" growth="0">
+            <Point x="50" y="150"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="50" growth="0">
+            <Point x="50" y="250"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="20" growth="0">
+            <Point x="110" y="100"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="20" growth="0">
+            <Point x="110" y="200"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="20" growth="0">
+            <Point x="140" y="30"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="20" growth="0">
+            <Point x="140" y="270"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="5" growth="0">
+            <Point x="195" y="35"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="5" growth="0">
+            <Point x="195" y="265"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="5" growth="0">
+            <Point x="145" y="95"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="5" growth="0">
+            <Point x="145" y="205"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="5" growth="0">
+            <Point x="130" y="150"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="10" growth="0">
+            <Point x="170" y="60"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="10" growth="0">
+            <Point x="170" y="260"/>
+          </ShapeCircle>
+        </Zone>
+      </Field>
+    </World>
+  </Map>
+</Resource>

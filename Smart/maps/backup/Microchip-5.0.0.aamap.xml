@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE Resource SYSTEM "sty.dtd">
+<Resource type="aamap" name="Microchip" version="5.0.0" author="smart" category="maps">
+  <Map version="0.2.8">
+    <World>
+      <Field>
+        <Axes number="8"/>
+        <Spawn x="75" y="90" xdir="0" ydir="1"/>
+        <!-- Outer rim -->
+        <Wall height="5">
+          <Point x="0" y="0"/>
+          <Point x="0" y="150"/>
+          <Point x="150" y="150"/>
+          <Point x="150" y="0"/>
+          <Point x="0" y="0"/>
+        </Wall>
+        <!-- Jew Star -->
+        <Wall height="5">
+          <Point x="0" y="75"/>
+          <Point x="25" y="100"/>
+          <Point x="25" y="125"/>
+          <Point x="50" y="125"/>
+          <Point x="75" y="150"/>
+          <Point x="100" y="125"/>
+          <Point x="125" y="125"/>
+          <Point x="125" y="100"/>
+          <Point x="150" y="75"/>
+          <Point x="125" y="50"/>
+          <Point x="125" y="25"/>
+          <Point x="100" y="25"/>
+          <Point x="75" y="0"/>
+          <Point x="50" y="25"/>
+          <Point x="25" y="25"/>
+          <Point x="25" y="50"/>
+          <Point x="0" y="75"/>
+        </Wall>
+        <!-- Spawn wall -->
+        <Wall>
+          <Point x="70" y="140"/>
+          <Point x="70" y="105"/>
+          <Point x="60" y="95"/>
+          <Point x="75" y="80"/>
+          <Point x="90" y="95"/>
+          <Point x="80" y="105"/>
+          <Point x="80" y="130"/>
+          <Point x="100" y="110"/>
+          <Point x="100" y="105"/>
+          <Point x="105" y="100"/>
+          <Point x="110" y="100"/>
+          <Point x="135" y="75"/>
+          <Point x="110" y="50"/>
+          <Point x="105" y="50"/>
+          <Point x="100" y="45"/>
+          <Point x="100" y="40"/>
+          <Point x="75" y="15"/>
+          <Point x="50" y="40"/>
+          <Point x="50" y="45"/>
+          <Point x="45" y="50"/>
+          <Point x="40" y="50"/>
+          <Point x="15" y="75"/>
+          <Point x="40" y="100"/>
+          <Point x="45" y="100"/>
+          <Point x="50" y="105"/>
+          <Point x="50" y="110"/>
+          <Point x="65" y="125"/>
+        </Wall>
+        <Wall>
+          <Point x="65" y="140"/>
+          <Point x="85" y="140"/>
+        </Wall>
+        <Wall>
+          <Point x="70" y="100"/>
+          <Point x="75" y="105"/>
+          <Point x="80" y="100"/>
+        </Wall>
+        <!-- Inner Walls -->
+        <Wall>
+          <Point x="70" y="120"/>
+          <Point x="25" y="75"/>
+          <Point x="75" y="25"/>
+          <Point x="125" y="75"/>
+          <Point x="85" y="115"/>
+        </Wall>
+        <!-- Top left box -->
+        <Wall>
+          <Point x="30" y="120"/>
+          <Point x="30" y="105"/>
+          <Point x="45" y="105"/>
+          <Point x="45" y="120"/>
+          <Point x="30" y="120"/>
+        </Wall>
+        <!-- Top right box -->
+        <Wall>
+          <Point x="105" y="120"/>
+          <Point x="105" y="105"/>
+          <Point x="120" y="105"/>
+          <Point x="120" y="120"/>
+          <Point x="105" y="120"/>
+        </Wall>
+        <!-- Bottom Left box -->
+        <Wall>
+          <Point x="30" y="45"/>
+          <Point x="30" y="30"/>
+          <Point x="45" y="30"/>
+          <Point x="45" y="45"/>
+          <Point x="30" y="45"/>
+        </Wall>
+        <!-- Bottom Right box -->
+        <Wall>
+          <Point x="105" y="45"/>
+          <Point x="105" y="30"/>
+          <Point x="120" y="30"/>
+          <Point x="120" y="45"/>
+          <Point x="105" y="45"/>
+        </Wall>
+        <Wall>
+          <Point x="90" y="95"/>
+          <Point x="90" y="50"/>
+        </Wall>
+        <Wall>
+          <Point x="60" y="95"/>
+          <Point x="60" y="50"/>
+        </Wall>
+        <Wall>
+          <Point x="75" y="25"/>
+          <Point x="75" y="75"/>
+        </Wall>
+        <Zone effect="target">
+          <ShapeCircle radius="3" growth="0">
+            <Point x="65" y="107"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="10" growth="0">
+            <Point x="0" y="75"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="10" growth="0">
+            <Point x="150" y="75"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="1" growth="0">
+            <Point x="75" y="103"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="2" growth="0">
+            <Point x="100" y="105"/>
+          </ShapeCircle>
+        </Zone> 
+        <Zone effect="death">
+          <ShapeCircle radius="2" growth="0">
+            <Point x="105" y="100"/>
+          </ShapeCircle>
+        </Zone> 
+        <Zone effect="death">
+          <ShapeCircle radius="2" growth="0">
+            <Point x="105" y="50"/>
+          </ShapeCircle>
+        </Zone> 
+        <Zone effect="death">
+          <ShapeCircle radius="2" growth="0">
+            <Point x="100" y="45"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="2" growth="0">
+            <Point x="50" y="105"/>
+          </ShapeCircle>
+        </Zone> 
+        <Zone effect="death">
+          <ShapeCircle radius="2" growth="0">
+            <Point x="45" y="100"/>
+          </ShapeCircle>
+        </Zone> 
+        <Zone effect="death">
+          <ShapeCircle radius="2" growth="0">
+            <Point x="45" y="50"/>
+          </ShapeCircle>
+        </Zone> 
+        <Zone effect="death">
+          <ShapeCircle radius="2" growth="0">
+            <Point x="50" y="45"/>
+          </ShapeCircle>
+        </Zone>
+      </Field>
+    </World>
+  </Map>
+</Resource>

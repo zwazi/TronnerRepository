@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Resource SYSTEM "sty.dtd">
+<Resource type="aamap" name="Triform" category="Season1b" version="0.1" author="Tronner">
+  <Map version="0.2.8">
+    <World>
+      <Field>
+        <Axes number="6"/>
+        <Spawn x="22" y="8.25" angle="0"/>
+        <Zone effect="target">
+          <ShapeCircle radius="1" growth="0">
+            <Point x="8" y="11"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="1">
+            <Point x="10" y="6"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="1">
+            <Point x="22" y="6"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="1">
+            <Point x="15" y="12"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="1">
+            <Point x="12" y="17"/>
+          </ShapeCircle>
+        </Zone>
+        <Wall height="5">
+          <Point x="20" y="13"/>
+          <Point x="14" y="23"/>
+          <Point x="10" y="23"/>
+          <Point x="4" y="13"/>
+          <Point x="10" y="3"/>
+          <Point x="13" y="8"/>
+          <Point x="9" y="8"/>
+          <Point x="12" y="13"/>
+          <Point x="6" y="13"/>
+          <Point x="11" y="22"/>
+          <Point x="13" y="22"/>
+          <Point x="21" y="8"/>
+          <Point x="25" y="8"/>
+          <Point x="22" y="3"/>
+          <Point x="19" y="8"/>
+          <Point x="21" y="8"/>
+        </Wall>
+		<Wall height="5">
+          <Point x="19.8" y="10"/>
+          <Point x="28" y="10"/>
+          <Point x="22" y="0"/>
+          <Point x="16" y="10"/>
+          <Point x="18" y="10"/>
+          <Point x="12" y="20"/>
+          <Point x="9" y="15"/>
+          <Point x="15" y="15"/>
+          <Point x="12" y="10"/>
+          <Point x="16" y="10"/>
+          <Point x="10" y="0"/>
+          <Point x="1" y="15"/>
+          <Point x="7" y="25"/>
+          <Point x="16" y="25"/>
+          <Point x="25" y="10"/>
+		</Wall>
+      </Field>
+    </World>
+  </Map>
+</Resource>

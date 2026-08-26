@@ -1,0 +1,780 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Resource SYSTEM "sty.dtd">
+<Resource category='maps' version='5.0.0' type='aamap' name='Teleporting' author='VOV'>
+  <Map version='0.2.8'>
+    <World>
+      <Field>
+        <Axes number='8'/>
+
+	<!-- The main spawn; this is where the race starts ;) -->
+        <Spawn y='160.0' x='118.5' ydir='1' xdir='0'/>
+
+
+
+
+	<!-- The zones shall be teleport zones; the spawns are the teleport locations -->
+
+        <!--
+
+
+        <Zone effect='teleport'>
+          <ShapeCircle radius='9.5'>
+            <Point y='295.0' x='640.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Spawn y='327.0' x='640.0' ydir='1' xdir='0'/>
+
+
+        <Zone effect='teleport'>
+          <ShapeCircle radius='9.5'>
+            <Point y='320.0' x='665.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Spawn y='320.0' x='633.0' ydir='0' xdir='-1'/>
+
+
+        <Zone effect='teleport'>
+          <ShapeCircle radius='25.0'>
+            <Point y='100' x='-380.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Spawn y='160.0' x='-720.0' ydir='1' xdir='0'/>
+
+
+
+        <Zone effect='teleport'>
+          <ShapeCircle radius='27.5'>
+            <Point y='160.0' x='-320.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Spawn y='100.0' x='-739.0' ydir='-1' xdir='0'/>
+
+
+
+
+        -->
+
+
+
+
+        <!-- The last teleport zone; let this one go back to the start or whereever you want :) -->
+
+        <!--<Zone effect='teleport'>
+          <ShapeCircle radius='12.5'>
+            <Point y='155.0' x='65.0'/>
+          </ShapeCircle>
+        </Zone>-->
+
+
+
+
+
+        <!-- Win zone at (0|0), good for resizing etc. -->
+        <Zone effect='target'>
+          <ShapeCircle growth='0' radius='55.0'>
+            <Point y='0.0' x='0.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='55.0'>
+            <Point y='40.0' x='120.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='172.5'>
+            <Point y='120.0' x='440.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='172.5'>
+            <Point y='80.0' x='-560.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='102.5'>
+            <Point y='400.0' x='-680.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='102.5'>
+            <Point y='320.0' x='-440.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='50.0'>
+            <Point y='280.0' x='0.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='40.0'>
+            <Point y='340.0' x='55.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='40.0'>
+            <Point y='407.5' x='80.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='37.5'>
+            <Point y='432.5' x='145.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='37.5'>
+            <Point y='462.5' x='202.5'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='37.5'>
+            <Point y='457.5' x='270.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='77.5'>
+            <Point y='495.0' x='367.5'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='77.5'>
+            <Point y='627.5' x='482.5'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='77.5'>
+            <Point y='35.0' x='825.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='55.0'>
+            <Point y='-160.0' x='-560.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='65.0'>
+            <Point y='-120.0' x='200.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='32.5'>
+            <Point y='-280.0' x='240.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='32.5'>
+            <Point y='-160.0' x='360.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='32.5'>
+            <Point y='-200.0' x='400.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='32.5'>
+            <Point y='-360.0' x='40.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='32.5'>
+            <Point y='-320.0' x='80.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='32.5'>
+            <Point y='-200.0' x='-40.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='32.5'>
+            <Point y='-160.0' x='0.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='70.0'>
+            <Point y='200.0' x='-80.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='82.5'>
+            <Point y='80.0' x='-160.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='50.0'>
+            <Point y='-40.0' x='-120.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='45.0'>
+            <Point y='-40.0' x='-240.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='45.0'>
+            <Point y='80.0' x='-320.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='32.5'>
+            <Point y='-160.0' x='-120.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='32.5'>
+            <Point y='-80.0' x='80.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='32.5'>
+            <Point y='-200.0' x='280.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='32.5'>
+            <Point y='-320.0' x='-40.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='35.0'>
+            <Point y='-80.0' x='440.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='35.0'>
+            <Point y='-160.0' x='520.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='35.0'>
+            <Point y='40.0' x='680.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='35.0'>
+            <Point y='160.0' x='640.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='62.5'>
+            <Point y='720.0' x='-560.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='62.5'>
+            <Point y='720.0' x='-160.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='62.5'>
+            <Point y='640.0' x='-400.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='12.5'>
+            <Point y='685.0' x='337.5'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='12.5'>
+            <Point y='652.5' x='292.5'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='12.5'>
+            <Point y='597.5' x='242.5'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='12.5'>
+            <Point y='542.5' x='157.5'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='12.5'>
+            <Point y='525.0' x='35.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='25.0'>
+            <Point y='435.0' x='-92.5'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='25.0'>
+            <Point y='517.5' x='-147.5'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='25.0'>
+            <Point y='437.5' x='-165.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='25.0'>
+            <Point y='482.5' x='-237.5'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='25.0'>
+            <Point y='395.0' x='-252.5'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='25.0'>
+            <Point y='372.5' x='-120.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='25.0'>
+            <Point y='372.5' x='-192.5'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='25.0'>
+            <Point y='447.5' x='-312.5'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='25.0'>
+            <Point y='277.5' x='-277.5'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='25.0'>
+            <Point y='497.5' x='-65.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='25.0'>
+            <Point y='560.0' x='-55.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='50.0'>
+            <Point y='760.0' x='-320.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='50.0'>
+            <Point y='840.0' x='-120.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='50.0'>
+            <Point y='960.0' x='-200.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='160.0'>
+            <Point y='720.0' x='80.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='165.0'>
+            <Point y='680.0' x='800.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='137.5'>
+            <Point y='920.0' x='480.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='115.0'>
+            <Point y='-360.0' x='520.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='95.0'>
+            <Point y='-320.0' x='880.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='115.0'>
+            <Point y='320.0' x='960.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='52.5'>
+            <Point y='560.0' x='-520.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect='death'>
+          <ShapeCircle radius='52.5'>
+            <Point y='320.0' x='280.0'/>
+          </ShapeCircle>
+        </Zone>
+        <Wall>
+          <Point y='80.0' x='280.0'/>
+          <Point y='0.0' x='320.0'/>
+          <Point y='-40.0' x='400.0'/>
+          <Point y='-40.0' x='480.0'/>
+          <Point y='0.0' x='560.0'/>
+          <Point y='80.0' x='600.0'/>
+          <Point y='160.0' x='600.0'/>
+          <Point y='240.0' x='560.0'/>
+          <Point y='280.0' x='480.0'/>
+          <Point y='280.0' x='400.0'/>
+          <Point y='240.0' x='320.0'/>
+          <Point y='160.0' x='280.0'/>
+          <Point y='80.0' x='280.0'/>
+          <Point y='0.0' x='240.0'/>
+          <Point y='-40.0' x='160.0'/>
+          <Point y='-40.0' x='80.0'/>
+          <Point y='-80.0' x='0.0'/>
+          <Point y='-80.0' x='-80.0'/>
+          <Point y='-40.0' x='-160.0'/>
+          <Point y='40.0' x='-200.0'/>
+          <Point y='120.0' x='-200.0'/>
+          <Point y='200.0' x='-160.0'/>
+          <Point y='240.0' x='-80.0'/>
+          <Point y='240.0' x='0.0'/>
+          <Point y='200.0' x='80.0'/>
+          <Point y='120.0' x='120.0'/>
+          <Point y='120.0' x='160.0'/>
+          <Point y='200.0' x='120.0'/>
+          <Point y='280.0' x='120.0'/>
+          <Point y='360.0' x='160.0'/>
+          <Point y='400.0' x='240.0'/>
+          <Point y='400.0' x='320.0'/>
+          <Point y='360.0' x='400.0'/>
+          <Point y='360.0' x='480.0'/>
+          <Point y='400.0' x='560.0'/>
+          <Point y='480.0' x='600.0'/>
+          <Point y='560.0' x='600.0'/>
+          <Point y='640.0' x='560.0'/>
+          <Point y='680.0' x='480.0'/>
+          <Point y='680.0' x='400.0'/>
+          <Point y='640.0' x='320.0'/>
+          <Point y='560.0' x='280.0'/>
+          <Point y='520.0' x='200.0'/>
+          <Point y='520.0' x='120.0'/>
+          <Point y='480.0' x='40.0'/>
+          <Point y='400.0' x='0.0'/>
+          <Point y='360.0' x='-80.0'/>
+          <Point y='360.0' x='-160.0'/>
+          <Point y='320.0' x='-240.0'/>
+          <Point y='240.0' x='-280.0'/>
+          <Point y='120.0' x='-280.0'/>
+          <Point y='120.0' x='-360.0'/>
+          <Point y='480.0' x='-360.0'/>
+          <Point y='480.0' x='-520.0'/>
+          <Point y='640.0' x='-520.0'/>
+          <Point y='640.0' x='-200.0'/>
+          <Point y='840.0' x='-200.0'/>
+          <Point y='840.0' x='0.0'/>
+        </Wall>
+        <Wall>
+          <Point y='400.0' x='560.0'/>
+          <Point y='40.0' x='920.0'/>
+        </Wall>
+        <Wall>
+          <Point y='240.0' x='560.0'/>
+          <Point y='600.0' x='920.0'/>
+        </Wall>
+        <Wall>
+          <Point y='920.0' x='80.0'/>
+          <Point y='920.0' x='-280.0'/>
+          <Point y='720.0' x='-280.0'/>
+          <Point y='720.0' x='-600.0'/>
+          <Point y='480.0' x='-600.0'/>
+          <Point y='480.0' x='-760.0'/>
+          <Point y='120.0' x='-760.0'/>
+          <Point y='120.0' x='-360.0'/>
+        </Wall>
+        <Wall>
+          <Point y='120.0' x='-720.0'/>
+          <Point y='40.0' x='-720.0'/>
+          <Point y='-40.0' x='-680.0'/>
+          <Point y='-80.0' x='-600.0'/>
+          <Point y='-80.0' x='-520.0'/>
+          <Point y='-40.0' x='-440.0'/>
+          <Point y='40.0' x='-400.0'/>
+          <Point y='120.0' x='-400.0'/>
+        </Wall>
+        <Wall>
+          <Point y='120.0' x='-760.0'/>
+          <Point y='0.0' x='-760.0'/>
+          <Point y='-80.0' x='-720.0'/>
+          <Point y='-120.0' x='-640.0'/>
+          <Point y='-120.0' x='-600.0'/>
+          <Point y='-160.0' x='-600.0'/>
+          <Point y='-160.0' x='-520.0'/>
+          <Point y='-120.0' x='-520.0'/>
+          <Point y='-120.0' x='-480.0'/>
+          <Point y='-80.0' x='-400.0'/>
+          <Point y='0.0' x='-360.0'/>
+          <Point y='120.0' x='-360.0'/>
+        </Wall>
+        <Wall height='60'>
+          <Point y='480.0' x='480.0'/>
+          <Point y='440.0' x='480.0'/>
+          <Point y='440.0' x='520.0'/>
+          <Point y='480.0' x='520.0'/>
+          <Point y='480.0' x='480.0'/>
+        </Wall>
+        <Wall>
+          <Point y='-80.0' x='-400.0'/>
+          <Point y='-160.0' x='-320.0'/>
+          <Point y='-160.0' x='-200.0'/>
+          <Point y='-240.0' x='-120.0'/>
+          <Point y='-360.0' x='-120.0'/>
+          <Point y='-440.0' x='-40.0'/>
+          <Point y='-440.0' x='80.0'/>
+          <Point y='-360.0' x='160.0'/>
+          <Point y='-360.0' x='280.0'/>
+          <Point y='-280.0' x='360.0'/>
+          <Point y='-280.0' x='480.0'/>
+          <Point y='-200.0' x='560.0'/>
+          <Point y='-80.0' x='560.0'/>
+          <Point y='0.0' x='640.0'/>
+          <Point y='0.0' x='760.0'/>
+          <Point y='-80.0' x='840.0'/>
+          <Point y='-200.0' x='840.0'/>
+          <Point y='-280.0' x='760.0'/>
+          <Point y='-280.0' x='640.0'/>
+          <Point y='-200.0' x='560.0'/>
+        </Wall>
+        <Wall>
+          <Point y='-200.0' x='-80.0'/>
+          <Point y='-120.0' x='-40.0'/>
+          <Point y='-160.0' x='40.0'/>
+          <Point y='-240.0' x='0.0'/>
+          <Point y='-200.0' x='-80.0'/>
+        </Wall>
+        <Wall>
+          <Point y='-120.0' x='120.0'/>
+          <Point y='-40.0' x='200.0'/>
+          <Point y='-120.0' x='280.0'/>
+          <Point y='-200.0' x='200.0'/>
+          <Point y='-120.0' x='120.0'/>
+        </Wall>
+        <Wall height='60'>
+          <Point y='-240.0' x='80.0'/>
+          <Point y='-200.0' x='80.0'/>
+          <Point y='-200.0' x='120.0'/>
+          <Point y='-240.0' x='120.0'/>
+          <Point y='-240.0' x='80.0'/>
+        </Wall>
+        <Wall>
+          <Point y='-200.0' x='320.0'/>
+          <Point y='-120.0' x='360.0'/>
+          <Point y='-160.0' x='440.0'/>
+          <Point y='-240.0' x='400.0'/>
+          <Point y='-200.0' x='320.0'/>
+        </Wall>
+        <Wall>
+          <Point y='-320.0' x='0.0'/>
+          <Point y='-280.0' x='80.0'/>
+          <Point y='-360.0' x='120.0'/>
+          <Point y='-400.0' x='40.0'/>
+          <Point y='-320.0' x='0.0'/>
+        </Wall>
+        <Wall>
+          <Point y='-240.0' x='240.0'/>
+          <Point y='-280.0' x='200.0'/>
+          <Point y='-320.0' x='240.0'/>
+          <Point y='-280.0' x='280.0'/>
+          <Point y='-240.0' x='240.0'/>
+        </Wall>
+        <Wall>
+          <Point y='400.0' x='720.0'/>
+          <Point y='480.0' x='720.0'/>
+          <Point y='560.0' x='680.0'/>
+          <Point y='640.0' x='680.0'/>
+          <Point y='720.0' x='640.0'/>
+          <Point y='760.0' x='560.0'/>
+          <Point y='760.0' x='480.0'/>
+          <Point y='720.0' x='400.0'/>
+          <Point y='720.0' x='320.0'/>
+          <Point y='680.0' x='240.0'/>
+          <Point y='600.0' x='200.0'/>
+          <Point y='560.0' x='120.0'/>
+          <Point y='560.0' x='40.0'/>
+          <Point y='600.0' x='-40.0'/>
+          <Point y='600.0' x='-120.0'/>
+          <Point y='640.0' x='-200.0'/>
+        </Wall>
+        <Wall>
+          <Point y='40.0' x='0.0'/>
+          <Point y='160.0' x='0.0'/>
+          <Point y='160.0' x='40.0'/>
+          <Point y='120.0' x='80.0'/>
+          <Point y='160.0' x='80.0'/>
+          <Point y='200.0' x='40.0'/>
+          <Point y='200.0' x='0.0'/>
+          <Point y='160.0' x='-40.0'/>
+          <Point y='120.0' x='-40.0'/>
+          <Point y='80.0' x='-80.0'/>
+          <Point y='40.0' x='-80.0'/>
+          <Point y='0.0' x='-40.0'/>
+        </Wall>
+        <Wall>
+          <Point y='920.0' x='80.0'/>
+          <Point y='920.0' x='120.0'/>
+          <Point y='880.0' x='160.0'/>
+        </Wall>
+        <Wall>
+          <Point y='800.0' x='240.0'/>
+          <Point y='760.0' x='280.0'/>
+          <Point y='760.0' x='320.0'/>
+        </Wall>
+        <Wall>
+          <Point y='800.0' x='600.0'/>
+          <Point y='840.0' x='640.0'/>
+          <Point y='840.0' x='680.0'/>
+        </Wall>
+        <Wall>
+          <Point y='880.0' x='800.0'/>
+          <Point y='880.0' x='840.0'/>
+          <Point y='840.0' x='880.0'/>
+        </Wall>
+        <Wall>
+          <Point y='720.0' x='960.0'/>
+          <Point y='680.0' x='1000.0'/>
+          <Point y='640.0' x='1000.0'/>
+        </Wall>
+        <Wall>
+          <Point y='560.0' x='1000.0'/>
+          <Point y='520.0' x='1000.0'/>
+          <Point y='480.0' x='960.0'/>
+        </Wall>
+        <Wall>
+          <Point y='440.0' x='880.0'/>
+          <Point y='400.0' x='840.0'/>
+          <Point y='360.0' x='840.0'/>
+        </Wall>
+        <Wall>
+          <Point y='280.0' x='840.0'/>
+          <Point y='240.0' x='840.0'/>
+          <Point y='200.0' x='880.0'/>
+        </Wall>
+        <Wall>
+          <Point y='160.0' x='960.0'/>
+          <Point y='120.0' x='1000.0'/>
+          <Point y='80.0' x='1000.0'/>
+        </Wall>
+        <Wall>
+          <Point y='0.0' x='1000.0'/>
+          <Point y='-40.0' x='1000.0'/>
+          <Point y='-80.0' x='960.0'/>
+        </Wall>
+        <Wall>
+          <Point y='-80.0' x='920.0'/>
+          <Point y='-120.0' x='880.0'/>
+          <Point y='-160.0' x='880.0'/>
+        </Wall>
+        <Wall>
+          <Point y='-160.0' x='920.0'/>
+          <Point y='-200.0' x='920.0'/>
+          <Point y='-240.0' x='880.0'/>
+        </Wall>
+        <Wall>
+          <Point y='-240.0' x='840.0'/>
+          <Point y='-280.0' x='800.0'/>
+          <Point y='-320.0' x='800.0'/>
+        </Wall>
+        <Wall>
+          <Point y='-320.0' x='760.0'/>
+          <Point y='-360.0' x='760.0'/>
+          <Point y='-400.0' x='720.0'/>
+        </Wall>
+        <Wall>
+          <Point y='-440.0' x='640.0'/>
+          <Point y='-480.0' x='600.0'/>
+          <Point y='-480.0' x='560.0'/>
+        </Wall>
+        <Wall>
+          <Point y='-480.0' x='480.0'/>
+          <Point y='-480.0' x='440.0'/>
+          <Point y='-440.0' x='400.0'/>
+        </Wall>
+        <Wall height='70'>
+          <Point y='400.0' x='1120.0'/>
+          <Point y='360.0' x='1120.0'/>
+          <Point y='360.0' x='1160.0'/>
+          <Point y='400.0' x='1160.0'/>
+          <Point y='400.0' x='1120.0'/>
+        </Wall>
+        <Wall height='70'>
+          <Point y='280.0' x='1120.0'/>
+          <Point y='240.0' x='1120.0'/>
+          <Point y='240.0' x='1160.0'/>
+          <Point y='280.0' x='1160.0'/>
+          <Point y='280.0' x='1120.0'/>
+        </Wall>
+        <Wall height='70'>
+          <Point y='1120.0' x='400.0'/>
+          <Point y='1080.0' x='400.0'/>
+          <Point y='1080.0' x='440.0'/>
+          <Point y='1120.0' x='440.0'/>
+          <Point y='1120.0' x='400.0'/>
+        </Wall>
+        <Wall height='70'>
+          <Point y='1120.0' x='520.0'/>
+          <Point y='1080.0' x='520.0'/>
+          <Point y='1080.0' x='560.0'/>
+          <Point y='1120.0' x='560.0'/>
+          <Point y='1120.0' x='520.0'/>
+        </Wall>
+        <Wall height='70'>
+          <Point y='0.0' x='-800.0'/>
+          <Point y='40.0' x='-800.0'/>
+          <Point y='40.0' x='-840.0'/>
+          <Point y='0.0' x='-840.0'/>
+          <Point y='0.0' x='-800.0'/>
+        </Wall>
+        <Wall height='70'>
+          <Point y='-80.0' x='-840.0'/>
+          <Point y='-120.0' x='-840.0'/>
+          <Point y='-120.0' x='-800.0'/>
+          <Point y='-80.0' x='-800.0'/>
+          <Point y='-80.0' x='-840.0'/>
+        </Wall>
+        <Wall height='70'>
+          <Point y='-520.0' x='120.0'/>
+          <Point y='-560.0' x='120.0'/>
+          <Point y='-560.0' x='160.0'/>
+          <Point y='-520.0' x='160.0'/>
+          <Point y='-520.0' x='120.0'/>
+        </Wall>
+        <Wall height='70'>
+          <Point y='-520.0' x='240.0'/>
+          <Point y='-560.0' x='240.0'/>
+          <Point y='-560.0' x='280.0'/>
+          <Point y='-520.0' x='280.0'/>
+          <Point y='-520.0' x='240.0'/>
+        </Wall>
+        <Wall height='60'>
+          <Point y='-120.0' x='680.0'/>
+          <Point y='-160.0' x='680.0'/>
+          <Point y='-160.0' x='720.0'/>
+          <Point y='-120.0' x='720.0'/>
+          <Point y='-120.0' x='680.0'/>
+        </Wall>
+        <Wall height='60'>
+          <Point y='600.0' x='-240.0'/>
+          <Point y='560.0' x='-240.0'/>
+          <Point y='560.0' x='-200.0'/>
+          <Point y='600.0' x='-200.0'/>
+          <Point y='600.0' x='-240.0'/>
+        </Wall>
+        <Wall height='60'>
+          <Point y='200.0' x='200.0'/>
+          <Point y='240.0' x='200.0'/>
+          <Point y='240.0' x='240.0'/>
+          <Point y='200.0' x='240.0'/>
+          <Point y='200.0' x='200.0'/>
+        </Wall>
+        <Wall height='60'>
+          <Point y='240.0' x='-240.0'/>
+          <Point y='200.0' x='-240.0'/>
+          <Point y='200.0' x='-200.0'/>
+          <Point y='240.0' x='-200.0'/>
+          <Point y='240.0' x='-240.0'/>
+        </Wall>
+      </Field>
+    </World>
+  </Map>
+</Resource>

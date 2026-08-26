@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE Resource SYSTEM "sty.dtd">
+<Resource type="aamap" name="Insanity" version="5.0.0" author="Smoothice" category="maps">
+<Map version="0.2.8">
+<World>
+<Field>
+<Spawn x="800" y="224" xdir="1" ydir="0"/>
+<Zone effect="death"><ShapeCircle radius="92"><Point x="160" y="736"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="92"><Point x="400" y="736"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="42"><Point x="512" y="736"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="42"><Point x="36" y="736"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="12"><Point x="280" y="728"/></ShapeCircle></Zone>
+<Zone effect="target"><ShapeCircle radius="12"><Point x="272" y="912"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="50"><Point x="527" y="241"/></ShapeCircle></Zone>
+<Zone effect="rubber" rubberVal="3"><ShapeCircle radius="50"><Point x="270" y="595"/></ShapeCircle></Zone>
+<Zone effect="rubber" rubberVal="3"><ShapeCircle radius="50"><Point x="71" y="892"/></ShapeCircle></Zone>
+<Zone effect="rubber" rubberVal="3"><ShapeCircle radius="50"><Point x="467" y="895"/></ShapeCircle></Zone>
+<Zone effect="rubber" rubberVal="3"><ShapeCircle radius="10"><Point x="575" y="384"/></ShapeCircle></Zone>
+<Zone effect="rubber" rubberVal="3"><ShapeCircle radius="10"><Point x="417" y="383"/></ShapeCircle></Zone>
+<Zone effect="rubber" rubberVal="3"><ShapeCircle radius="10"><Point x="307" y="268"/></ShapeCircle></Zone>
+<Zone effect="rubber" rubberVal="3"><ShapeCircle radius="10"><Point x="845" y="419"/></ShapeCircle></Zone>
+<Zone effect="rubber" rubberVal="3"><ShapeCircle radius="10"><Point x="790" y="123"/></ShapeCircle></Zone>
+<Zone effect="rubber" rubberVal="3"><ShapeCircle radius="10"><Point x="563" y="34"/></ShapeCircle></Zone>
+<Zone effect="rubber" rubberVal="3"><ShapeCircle radius="10"><Point x="404" y="33"/></ShapeCircle></Zone>
+<Zone effect="rubber" rubberVal="3"><ShapeCircle radius="10"><Point x="657" y="448"/></ShapeCircle></Zone>
+<Zone effect="rubber" rubberVal="3"><ShapeCircle radius="10"><Point x="518" y="445"/></ShapeCircle></Zone>
+<Zone effect="rubber" rubberVal="3"><ShapeCircle radius="10"><Point x="942" y="426"/></ShapeCircle></Zone>
+<Zone effect="rubber" rubberVal="3"><ShapeCircle radius="10"><Point x="921" y="333"/></ShapeCircle></Zone>
+<Zone effect="rubber" rubberVal="3"><ShapeCircle radius="10"><Point x="710" y="223"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="10"><Point x="398" y="129"/></ShapeCircle></Zone>
+<Zone effect="win"><ShapeCircle radius="6"><Point x="527" y="241"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="46"><Point x="527" y="241"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="43"><Point x="527" y="241"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="37"><Point x="527" y="241"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="32"><Point x="527" y="241"/></ShapeCircle></Zone>
+<Zone effect="rubber" rubberVal="3"><ShapeCircle radius="28"><Point x="527" y="241"/></ShapeCircle></Zone>
+<Zone effect="rubber" rubberVal="3"><ShapeCircle radius="20"><Point x="527" y="241"/></ShapeCircle></Zone>
+<Zone effect="rubber" rubberVal="3"><ShapeCircle radius="14"><Point x="527" y="241"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="52"><Point x="527" y="241"/></ShapeCircle></Zone>
+<Zone effect="rubber" rubberVal="3"><ShapeCircle radius="21"><Point x="935" y="248"/></ShapeCircle></Zone>
+<Zone effect="rubber" rubberVal="3"><ShapeCircle radius="19"><Point x="770" y="257"/></ShapeCircle></Zone>
+<Zone effect="rubber" rubberVal="3"><ShapeCircle radius="15"><Point x="651" y="228"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="15"><Point x="309" y="476"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="15"><Point x="986" y="476"/></ShapeCircle></Zone>
+<Zone effect="rubber" rubberVal="3"><ShapeCircle radius="15"><Point x="989" y="147"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="15"><Point x="495" y="107"/></ShapeCircle></Zone>
+<Wall height="2">
+<Point x="416" y="400"/>
+<Point x="848" y="400"/>
+<Point x="864" y="208"/>
+<Point x="768" y="208"/>
+<Point x="832" y="272"/>
+<Point x="816" y="368"/>
+<Point x="416" y="368"/>
+<Point x="416" y="352"/>
+<Point x="768" y="336"/>
+<Point x="768" y="288"/>
+<Point x="656" y="256"/>
+<Point x="560" y="304"/>
+<Point x="448" y="304"/>
+<Point x="416" y="240"/>
+<Point x="432" y="208"/>
+<Point x="560" y="176"/>
+<Point x="640" y="208"/>
+<Point x="704" y="176"/>
+<Point x="704" y="112"/>
+<Point x="576" y="64"/>
+<Point x="416" y="96"/>
+<Point x="352" y="112"/>
+<Point x="336" y="160"/>
+<Point x="336" y="208"/>
+<Point x="384" y="288"/>
+<Point x="336" y="336"/>
+<Point x="336" y="384"/>
+<Point x="352" y="432"/>
+<Point x="384" y="448"/>
+<Point x="480" y="464"/>
+<Point x="624" y="448"/>
+<Point x="720" y="448"/>
+<Point x="816" y="464"/>
+<Point x="960" y="400"/>
+<Point x="944" y="320"/>
+<Point x="928" y="192"/>
+<Point x="896" y="176"/>
+<Point x="800" y="128"/>
+<Point x="592" y="32"/>
+<Point x="352" y="32"/>
+<Point x="288" y="128"/>
+<Point x="288" y="496"/>
+<Point x="1008" y="496"/>
+<Point x="1008" y="128"/>
+<Point x="912" y="128"/>
+<Point x="800" y="48"/>
+<Point x="704" y="48"/>
+<Point x="608" y="0"/>
+<Point x="352" y="0"/>
+<Point x="256" y="96"/>
+<Point x="256" y="496"/>
+</Wall>
+<Wall height="2">
+<Point x="816" y="384"/>
+<Point x="384" y="384"/>
+<Point x="400" y="336"/>
+<Point x="742" y="318"/>
+<Point x="686" y="284"/>
+<Point x="560" y="314"/>
+<Point x="406" y="316"/>
+<Point x="410" y="288"/>
+<Point x="402" y="262"/>
+<Point x="398" y="236"/>
+<Point x="404" y="214"/>
+<Point x="420" y="192"/>
+<Point x="468" y="170"/>
+<Point x="540" y="156"/>
+<Point x="580" y="156"/>
+<Point x="614" y="162"/>
+<Point x="646" y="150"/>
+<Point x="632" y="120"/>
+<Point x="588" y="114"/>
+<Point x="552" y="116"/>
+<Point x="394" y="172"/>
+<Point x="384" y="212"/>
+<Point x="384" y="232"/>
+<Point x="392" y="272"/>
+<Point x="396" y="296"/>
+<Point x="396" y="310"/>
+<Point x="374" y="320"/>
+<Point x="366" y="336"/>
+<Point x="360" y="372"/>
+<Point x="374" y="414"/>
+<Point x="422" y="432"/>
+<Point x="508" y="432"/>
+<Point x="544" y="430"/>
+<Point x="632" y="420"/>
+<Point x="732" y="426"/>
+<Point x="764" y="428"/>
+<Point x="836" y="422"/>
+<Point x="872" y="412"/>
+<Point x="898" y="388"/>
+<Point x="894" y="326"/>
+<Point x="904" y="240"/>
+<Point x="874" y="188"/>
+<Point x="830" y="178"/>
+<Point x="738" y="180"/>
+<Point x="734" y="128"/>
+<Point x="714" y="106"/>
+<Point x="586" y="48"/>
+<Point x="482" y="56"/>
+<Point x="350" y="92"/>
+<Point x="332" y="110"/>
+<Point x="314" y="194"/>
+<Point x="328" y="242"/>
+<Point x="348" y="272"/>
+<Point x="318" y="314"/>
+<Point x="328" y="434"/>
+<Point x="338" y="458"/>
+<Point x="404" y="478"/>
+<Point x="500" y="478"/>
+<Point x="550" y="472"/>
+<Point x="616" y="472"/>
+<Point x="686" y="468"/>
+<Point x="742" y="468"/>
+<Point x="808" y="478"/>
+<Point x="840" y="476"/>
+<Point x="982" y="440"/>
+<Point x="970" y="184"/>
+<Point x="788" y="82"/>
+<Point x="698" y="62"/>
+<Point x="602" y="16"/>
+<Point x="370" y="14"/>
+<Point x="340" y="26"/>
+<Point x="276" y="106"/>
+<Point x="272" y="496"/>
+</Wall>
+<Wall height="5">
+<Point x="256" y="496"/>
+<Point x="0" y="656"/>
+<Point x="0" y="960"/>
+</Wall>
+<Wall height="5">
+<Point x="288" y="496"/>
+<Point x="528" y="640"/>
+<Point x="528" y="960"/>
+</Wall>
+<Wall height="5">
+<Point x="0" y="960"/>
+<Point x="528" y="960"/>
+</Wall>
+<Wall height="5">
+<Point x="144" y="880"/>
+<Point x="400" y="880"/>
+</Wall>
+<Wall height="2">
+<Point x="208" y="896"/>
+<Point x="208" y="928"/>
+</Wall>
+<Wall height="2">
+<Point x="336" y="896"/>
+<Point x="336" y="928"/>
+</Wall>
+</Field>
+</World>
+</Map>
+</Resource>

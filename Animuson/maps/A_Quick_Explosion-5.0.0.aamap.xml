@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Resource SYSTEM "sty.dtd">
+<Resource type="aamap" name="A_Quick_Explosion" version="5.0.0" author="Animuson" category="maps">
+<Map version="0.2.8">
+<World>
+<Field>
+<Axes number="4"/>
+<Spawn x="96" y="128" xdir="1" ydir="0"/>
+<Spawn x="16" y="48" xdir="0" ydir="-1"/>
+<Zone effect="target"><ShapeCircle radius="16"><Point x="0" y="144"/></ShapeCircle></Zone>
+<Wall>
+<Point x="0" y="144"/>
+<Point x="0" y="0"/>
+<Point x="144" y="0"/>
+<Point x="144" y="144"/>
+<Point x="0" y="144"/>
+</Wall>
+<Wall>
+<Point x="16" y="80"/>
+<Point x="16" y="96"/>
+<Point x="48" y="96"/>
+<Point x="48" y="128"/>
+<Point x="64" y="128"/>
+</Wall>
+<Wall>
+<Point x="0" y="112"/>
+<Point x="16" y="112"/>
+</Wall>
+<Wall>
+<Point x="32" y="144"/>
+<Point x="32" y="128"/>
+</Wall>
+<Wall>
+<Point x="48" y="0"/>
+<Point x="48" y="16"/>
+</Wall>
+<Wall>
+<Point x="80" y="0"/>
+<Point x="80" y="16"/>
+</Wall>
+<Wall>
+<Point x="144" y="96"/>
+<Point x="128" y="96"/>
+</Wall>
+<Wall>
+<Point x="144" y="64"/>
+<Point x="128" y="64"/>
+</Wall>
+<Wall>
+<Point x="48" y="48"/>
+<Point x="48" y="64"/>
+<Point x="96" y="64"/>
+</Wall>
+<Wall>
+<Point x="96" y="96"/>
+<Point x="80" y="96"/>
+<Point x="80" y="48"/>
+</Wall>
+<Wall>
+<Point x="0" y="64"/>
+<Point x="32" y="64"/>
+<Point x="32" y="32"/>
+<Point x="111" y="32"/>
+<Point x="111" y="16"/>
+</Wall>
+<Wall>
+<Point x="32" y="16"/>
+<Point x="32" y="80"/>
+<Point x="48" y="80"/>
+</Wall>
+<Wall>
+<Point x="64" y="16"/>
+<Point x="64" y="48"/>
+</Wall>
+<Wall>
+<Point x="96" y="16"/>
+<Point x="96" y="32"/>
+</Wall>
+<Wall>
+<Point x="80" y="144"/>
+<Point x="80" y="112"/>
+<Point x="112" y="112"/>
+<Point x="112" y="33"/>
+<Point x="128" y="33"/>
+</Wall>
+<Wall>
+<Point x="128" y="48"/>
+<Point x="112" y="48"/>
+</Wall>
+<Wall>
+<Point x="128" y="80"/>
+<Point x="96" y="80"/>
+</Wall>
+<Wall>
+<Point x="128" y="112"/>
+<Point x="64" y="112"/>
+<Point x="64" y="96"/>
+</Wall>
+<Zone effect="death"><ShapeCircle radius="14"><Point x="0" y="144"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="8"><Point x="103" y="24"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="8"><Point x="120" y="41"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="6"><Point x="16" y="128"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="10"><Point x="32" y="112"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="10"><Point x="128" y="16"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="4"><Point x="48" y="16"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="6"><Point x="80" y="16"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="4"><Point x="128" y="96"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="6"><Point x="128" y="64"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="10"><Point x="64" y="80"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="6"><Point x="64" y="128"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="6"><Point x="16" y="80"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="4"><Point x="96" y="80"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="4"><Point x="64" y="48"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="4"><Point x="48" y="64"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="4"><Point x="80" y="96"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="8"><Point x="96" y="48"/></ShapeCircle></Zone>
+</Field>
+</World>
+</Map>
+</Resource>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE Resource SYSTEM "sty.dtd">
+<Resource type="aamap" name="DeathJoin" version="1.0.0" author="Anonymous" category="maps">
+ <Map version="0.2.8">
+  <World>
+   <Field>
+   <Axes number="4"/>
+
+   <Spawn x="496" y="-256" xdir="1" ydir="0"/>
+   <Spawn x="496" y="-352" xdir="1" ydir="0"/>
+   <Spawn x="528" y="-320" xdir="1" ydir="0"/>
+   <Spawn x="416" y="-224" xdir="1" ydir="0"/>
+   <Spawn x="416" y="-288" xdir="1" ydir="0"/>
+
+   <Zone effect="death">
+    <ShapeCircle radius="183">
+     <Point x="464" y="-272"/>
+    </ShapeCircle>
+   </Zone>
+
+   <Wall height="50">
+    <Point x="368" y="-160"/>
+    <Point x="368" y="-400"/>
+    <Point x="576" y="-400"/>
+    <Point x="576" y="-160"/>
+    <Point x="368" y="-160"/>
+   </Wall>
+
+   </Field>
+  </World>
+ </Map>
+</Resource>
