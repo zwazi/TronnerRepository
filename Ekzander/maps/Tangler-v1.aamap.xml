@@ -65,13 +65,13 @@
 <Zone effect="death"><ShapeCircle radius="8"><Point x="88" y="144"/></ShapeCircle></Zone>
 <Zone effect="death"><ShapeCircle radius="8"><Point x="216" y="144"/></ShapeCircle></Zone>
 <Zone effect="death"><ShapeCircle radius="8"><Point x="216" y="80"/></ShapeCircle></Zone>
-<Wall height="5">
+<Wall height="4">
 <Point x="528" y="96"/>
 <Point x="576" y="48"/>
 <Point x="576" y="176"/>
 <Point x="528" y="128"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="80" y="128"/>
 <Point x="80" y="192"/>
 <Point x="16" y="128"/>
@@ -81,7 +81,7 @@
 <Point x="80" y="32"/>
 <Point x="80" y="96"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="80" y="128"/>
 <Point x="144" y="192"/>
 <Point x="144" y="128"/>
@@ -91,7 +91,7 @@
 <Point x="224" y="192"/>
 <Point x="288" y="128"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="80" y="96"/>
 <Point x="144" y="32"/>
 <Point x="144" y="96"/>
@@ -101,7 +101,7 @@
 <Point x="224" y="32"/>
 <Point x="288" y="96"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="80" y="112"/>
 <Point x="128" y="160"/>
 <Point x="128" y="128"/>
@@ -110,7 +110,7 @@
 <Point x="128" y="64"/>
 <Point x="80" y="112"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="160" y="112"/>
 <Point x="176" y="128"/>
 <Point x="176" y="160"/>
@@ -119,7 +119,7 @@
 <Point x="176" y="96"/>
 <Point x="160" y="112"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="304" y="112"/>
 <Point x="304" y="128"/>
 <Point x="224" y="208"/>
@@ -130,7 +130,7 @@
 <Point x="96" y="160"/>
 <Point x="96" y="208"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="304" y="112"/>
 <Point x="304" y="96"/>
 <Point x="224" y="16"/>
@@ -141,7 +141,7 @@
 <Point x="96" y="64"/>
 <Point x="96" y="16"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="48" y="112"/>
 <Point x="0" y="112"/>
 <Point x="0" y="128"/>
@@ -149,14 +149,14 @@
 <Point x="240" y="224"/>
 <Point x="336" y="128"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="0" y="112"/>
 <Point x="0" y="96"/>
 <Point x="96" y="0"/>
 <Point x="240" y="0"/>
 <Point x="336" y="96"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="96" y="16"/>
 <Point x="136" y="16"/>
 <Point x="104" y="48"/>
@@ -164,7 +164,7 @@
 <Point x="120" y="24"/>
 <Point x="112" y="32"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="208" y="32"/>
 <Point x="208" y="16"/>
 <Point x="168" y="16"/>
@@ -173,7 +173,7 @@
 <Point x="184" y="24"/>
 <Point x="192" y="32"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="96" y="208"/>
 <Point x="136" y="208"/>
 <Point x="104" y="176"/>
@@ -181,7 +181,7 @@
 <Point x="120" y="200"/>
 <Point x="112" y="192"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="208" y="192"/>
 <Point x="208" y="208"/>
 <Point x="168" y="208"/>
@@ -190,29 +190,29 @@
 <Point x="184" y="200"/>
 <Point x="192" y="192"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="336" y="128"/>
 <Point x="432" y="224"/>
 <Point x="528" y="128"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="528" y="96"/>
 <Point x="432" y="0"/>
 <Point x="336" y="96"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="352" y="112"/>
 <Point x="432" y="192"/>
 <Point x="432" y="32"/>
 <Point x="352" y="112"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="464" y="32"/>
 <Point x="464" y="96"/>
 <Point x="448" y="80"/>
 <Point x="448" y="16"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="464" y="192"/>
 <Point x="464" y="128"/>
 <Point x="448" y="144"/>

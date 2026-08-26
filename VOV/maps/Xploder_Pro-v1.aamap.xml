@@ -566,122 +566,122 @@
     </ShapeCircle>
    </Zone>
 
-   <Wall>
+   <Wall height="4">
     <Point x="624" y="-912"/>
     <Point x="624" y="-96"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="832" y="-912"/>
     <Point x="832" y="-96"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="624" y="-912"/>
     <Point x="720" y="-1008"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="832" y="-912"/>
     <Point x="736" y="-1008"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="624" y="-912"/>
     <Point x="720" y="-1104"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="832" y="-912"/>
     <Point x="736" y="-1104"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="720" y="-800"/>
     <Point x="720" y="-512"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="736" y="-800"/>
     <Point x="736" y="-512"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="704" y="-512"/>
     <Point x="624" y="-592"/>
     <Point x="704" y="-672"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="640" y="-672"/>
     <Point x="720" y="-752"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="752" y="-512"/>
     <Point x="832" y="-592"/>
     <Point x="752" y="-672"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="816" y="-672"/>
     <Point x="736" y="-752"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="736" y="-512"/>
     <Point x="752" y="-496"/>
     <Point x="816" y="-560"/>
     <Point x="816" y="-496"/>
     <Point x="752" y="-496"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="720" y="-512"/>
     <Point x="704" y="-496"/>
     <Point x="640" y="-560"/>
     <Point x="640" y="-496"/>
     <Point x="704" y="-496"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="816" y="-496"/>
     <Point x="736" y="-416"/>
     <Point x="736" y="-192"/>
     <Point x="816" y="-112"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="640" y="-496"/>
     <Point x="720" y="-416"/>
     <Point x="720" y="-192"/>
     <Point x="640" y="-112"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="656" y="-112"/>
     <Point x="720" y="-176"/>
     <Point x="736" y="-176"/>
     <Point x="800" y="-112"/>
     <Point x="656" y="-112"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="752" y="-304"/>
     <Point x="832" y="-304"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="704" y="-304"/>
     <Point x="624" y="-304"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="720" y="-192"/>
     <Point x="640" y="-272"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="736" y="-192"/>
     <Point x="816" y="-272"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="752" y="-304"/>
     <Point x="832" y="-384"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="704" y="-304"/>
     <Point x="624" y="-384"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="736" y="-720"/>
     <Point x="768" y="-720"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="720" y="-720"/>
     <Point x="688" y="-720"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="720" y="-1104"/>
     <Point x="656" y="-1168"/>
     <Point x="800" y="-1168"/>

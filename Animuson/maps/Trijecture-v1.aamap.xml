@@ -6,11 +6,11 @@
 <Field>
 <Spawn x="32" y="192" xdir="0" ydir="1"/>
 <Zone effect="win"><ShapeCircle radius="16"><Point x="48" y="96"/></ShapeCircle></Zone>
-<Wall>
+<Wall height="4">
 <Point x="0" y="8"/>
 <Point x="80" y="48"/>
 </Wall>
-<Wall>
+<Wall height="4">
 <Point x="48" y="32"/>
 <Point x="112" y="0"/>
 <Point x="144" y="0"/>
@@ -19,13 +19,13 @@
 <Point x="240" y="224"/>
 <Point x="80" y="144"/>
 </Wall>
-<Wall>
+<Wall height="4">
 <Point x="112" y="160"/>
 <Point x="176" y="128"/>
 <Point x="144" y="112"/>
 <Point x="176" y="96"/>
 </Wall>
-<Wall>
+<Wall height="4">
 <Point x="0" y="8"/>
 <Point x="0" y="152"/>
 <Point x="208" y="48"/>
@@ -34,24 +34,24 @@
 <Point x="176" y="144"/>
 <Point x="208" y="160"/>
 </Wall>
-<Wall>
+<Wall height="4">
 <Point x="16" y="192"/>
 <Point x="48" y="176"/>
 <Point x="48" y="224"/>
 <Point x="112" y="192"/>
 <Point x="16" y="144"/>
 </Wall>
-<Wall>
+<Wall height="4">
 <Point x="112" y="128"/>
 <Point x="112" y="32"/>
 </Wall>
-<Wall>
+<Wall height="4">
 <Point x="112" y="96"/>
 <Point x="16" y="48"/>
 <Point x="16" y="80"/>
 <Point x="48" y="64"/>
 </Wall>
-<Wall>
+<Wall height="4">
 <Point x="16" y="192"/>
 <Point x="16" y="256"/>
 <Point x="48" y="256"/>

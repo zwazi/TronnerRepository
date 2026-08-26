@@ -5,7 +5,7 @@
 <World>
 <Field>
 <Spawn x="23.5" y="43.5" xdir="1" ydir="0"/>
-<Wall>
+<Wall height="4">
 	<Point x="25" y="20"/>
 	<Point x="25" y="35"/>
 	<Point x="20" y="35"/>
@@ -15,7 +15,7 @@
 	<Point x="35" y="50"/>
 	<Point x="35" y="20"/>
 </Wall>
-<Wall>
+<Wall height="4">
 	<Point x="35" y="19.97"/>
 	<Point x="45" y="19.97"/>
 	<Point x="45" y="10"/>
@@ -23,7 +23,7 @@
 	<Point x="10" y="20"/>
 	<Point x="20" y="20"/>
 </Wall>
-<Wall>
+<Wall height="4">
 	<Point x="10" y="20"/>
 	<Point x="10" y="55"/>
 	<Point x="35" y="55"/>
@@ -31,31 +31,31 @@
 	<Point x="75" y="60"/>
 	<Point x="75" y="55.1"/>
 </Wall>
-<Wall>
+<Wall height="4">
 	<Point x="75" y="55"/>
 	<Point x="75" y="35"/>
 	<Point x="55" y="35"/>
 	<Point x="55" y="25"/>
 	<Point x="70" y="25"/>
 </Wall>
-<Wall>
+<Wall height="4">
 <Point x="45" y="19.9"/>
 <Point x="50" y="19.9"/>
 <Point x="50" y="40"/>
 <Point x="60" y="40"/>
 </Wall>
-<Wall>
+<Wall height="4">
 	<Point x="35.1" y="55"/>
 	<Point x="45" y="55"/>
 	<Point x="45" y="25"/>
 </Wall>
-<Wall>
+<Wall height="4">
 	<Point x="45" y="50"/>
 	<Point x="65" y="50"/>
 	<Point x="65" y="45"/>
 	<Point x="45" y="45"/>
 </Wall>
-<Wall>
+<Wall height="4">
 	<Point x="45" y="15"/>
 	<Point x="75" y="15"/>
 	<Point x="75" y="25"/>
@@ -67,11 +67,11 @@
 	<Point x="95" y="55"/>
 	<Point x="80" y="55"/>
 </Wall>
-<Wall>
+<Wall height="4">
 	<Point x="75" y="14.9"/>
 	<Point x="105" y="14.9"/>
 </Wall>
-<Wall>
+<Wall height="4">
 	<Point x="5" y="5"/>
 	<Point x="105" y="5"/>
 	<Point x="105" y="65"/>

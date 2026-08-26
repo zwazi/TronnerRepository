@@ -8,7 +8,7 @@
 
 				<Spawn x='192' y='-288' xdir='0' ydir='-1'/>
 
-				<Wall>
+				<Wall height="4">
 					<Point x='448' y='-256'/>
 					<Point x='456' y='-250'/>
 					<Point x='470' y='-249'/>
@@ -56,7 +56,7 @@
 					<Point x='107' y='-409'/>
 					<Point x='72' y='-272'/>
 				</Wall>
-				<Wall>
+				<Wall height="4">
 					<Point x='64' y='-272'/>
 					<Point x='208' y='-272'/>
 				</Wall>

@@ -879,7 +879,7 @@
     </ShapeCircle>
    </Zone>
 
-   <Wall>
+   <Wall height="4">
     <Point x="272" y="496"/>
     <Point x="272" y="512"/>
     <Point x="300" y="508"/>
@@ -954,85 +954,85 @@
     <Point x="240" y="512"/>
     <Point x="240" y="496"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="176" y="448"/>
     <Point x="240" y="512"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="336" y="448"/>
     <Point x="272" y="512"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="256" y="0"/>
     <Point x="256" y="32"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="255" y="288"/>
     <Point x="255" y="48"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="257" y="48"/>
     <Point x="257" y="288"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="160" y="352"/>
     <Point x="160" y="336"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="352" y="352"/>
     <Point x="352" y="336"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="0" y="256"/>
     <Point x="112" y="256"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="512" y="256"/>
     <Point x="400" y="256"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="272" y="80"/>
     <Point x="288" y="80"/>
     <Point x="304" y="64"/>
     <Point x="304" y="48"/>
     <Point x="272" y="16"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="240" y="80"/>
     <Point x="224" y="80"/>
     <Point x="208" y="64"/>
     <Point x="208" y="48"/>
     <Point x="240" y="16"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="128" y="32"/>
     <Point x="208" y="112"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="384" y="32"/>
     <Point x="304" y="112"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="255" y="288"/>
     <Point x="240" y="288"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="257" y="288"/>
     <Point x="272" y="288"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="257" y="224"/>
     <Point x="272" y="224"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="240" y="224"/>
     <Point x="255" y="224"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="255" y="48"/>
     <Point x="240" y="48"/>
    </Wall>
-   <Wall>
+   <Wall height="4">
     <Point x="257" y="48"/>
     <Point x="272" y="48"/>
    </Wall>

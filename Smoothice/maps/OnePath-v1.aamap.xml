@@ -85,7 +85,7 @@
 <Zone effect="death"><ShapeCircle radius="13"><Point x="2079" y="323"/></ShapeCircle></Zone>
 <Zone effect="death"><ShapeCircle radius="19"><Point x="1883" y="136"/></ShapeCircle></Zone>
 <Zone effect="death"><ShapeCircle radius="19"><Point x="1" y="329"/></ShapeCircle></Zone>
-<Wall height="5">
+<Wall height="4">
 <Point x="38" y="360"/>
 <Point x="272" y="304"/>
 <Point x="516" y="366"/>
@@ -93,7 +93,7 @@
 <Point x="864" y="346"/>
 <Point x="860" y="272"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="858" y="234"/>
 <Point x="850" y="146"/>
 <Point x="708" y="210"/>
@@ -103,19 +103,19 @@
 <Point x="0" y="328"/>
 <Point x="302" y="312"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="1170" y="276"/>
 <Point x="1374" y="410"/>
 <Point x="1500" y="282"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="1168" y="240"/>
 <Point x="1342" y="96"/>
 <Point x="1498" y="228"/>
 <Point x="1724" y="230"/>
 <Point x="1342" y="96"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="1620" y="390"/>
 <Point x="1624" y="304"/>
 <Point x="2032" y="292"/>
@@ -159,7 +159,7 @@
 <Point x="2062" y="530"/>
 <Point x="2084" y="480"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="1630" y="248"/>
 <Point x="2002" y="254"/>
 <Point x="1978" y="238"/>
@@ -183,49 +183,49 @@
 <Point x="2154" y="340"/>
 <Point x="2034" y="358"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="1788" y="352"/>
 <Point x="2106" y="408"/>
 <Point x="2208" y="212"/>
 <Point x="2100" y="114"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="1898" y="358"/>
 <Point x="1896" y="338"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="1870" y="340"/>
 <Point x="1868" y="328"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="1856" y="344"/>
 <Point x="1856" y="356"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="1838" y="340"/>
 <Point x="1838" y="328"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="1820" y="336"/>
 <Point x="1842" y="352"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="1946" y="370"/>
 <Point x="1944" y="336"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="1780" y="356"/>
 <Point x="1748" y="354"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="1692" y="352"/>
 <Point x="1718" y="352"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="1760" y="344"/>
 <Point x="1792" y="330"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="2080" y="394"/>
 <Point x="2052" y="452"/>
 <Point x="2008" y="472"/>
@@ -277,61 +277,61 @@
 <Point x="1670" y="280"/>
 <Point x="2044" y="292"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="842" y="228"/>
 <Point x="1336" y="116"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="850" y="274"/>
 <Point x="1252" y="320"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="1286" y="330"/>
 <Point x="1282" y="262"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="1282" y="230"/>
 <Point x="1282" y="178"/>
 <Point x="1284" y="178"/>
 <Point x="1344" y="156"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="1316" y="288"/>
 <Point x="1314" y="214"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="1348" y="354"/>
 <Point x="1348" y="270"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="1384" y="298"/>
 <Point x="1382" y="196"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="1426" y="328"/>
 <Point x="1426" y="228"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="1598" y="208"/>
 <Point x="2000" y="242"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="1368" y="374"/>
 <Point x="1404" y="316"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="1356" y="204"/>
 <Point x="1386" y="166"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="2134" y="318"/>
 <Point x="2108" y="300"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="2124" y="286"/>
 <Point x="2168" y="241"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="1562" y="334"/>
 <Point x="1500" y="282"/>
 </Wall>

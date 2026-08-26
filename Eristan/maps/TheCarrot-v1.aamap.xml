@@ -23,7 +23,7 @@
 					
 							
 				
-				<Wall>
+				<Wall height="4">
 					
 					
 					<Point x="119.0" y="7.0"/>
@@ -57,7 +57,7 @@
 				
 					
 				
-				<Wall>
+				<Wall height="4">
 					
 					
 					<Point x="70.0" y="231.0"/>
@@ -103,7 +103,7 @@
 				
 					
 				
-				<Wall>
+				<Wall height="4">
 					
 					
 					<Point x="133.0" y="326.667"/>
@@ -152,7 +152,7 @@
 				
 					
 				
-				<Wall>
+				<Wall height="4">
 					
 					
 					<Point x="98.0" y="273.0"/>
@@ -183,7 +183,7 @@
 				
 					
 				
-				<Wall>
+				<Wall height="4">
 					
 					
 					<Point x="119.0" y="14.0"/>
@@ -199,7 +199,7 @@
 				
 					
 				
-				<Wall>
+				<Wall height="4">
 					
 					
 					<Point x="126.0" y="14.0"/>
@@ -215,7 +215,7 @@
 				
 					
 				
-				<Wall>
+				<Wall height="4">
 					
 					
 					<Point x="115.5" y="35.0"/>
@@ -240,7 +240,7 @@
 				
 					
 				
-				<Wall>
+				<Wall height="4">
 					
 					
 					<Point x="91.0" y="84.0"/>
@@ -253,7 +253,7 @@
 				
 					
 				
-				<Wall>
+				<Wall height="4">
 					
 					
 					<Point x="133.0" y="84.0"/>
@@ -266,7 +266,7 @@
 				
 					
 				
-				<Wall>
+				<Wall height="4">
 					
 					
 					<Point x="84.0" y="105.0"/>
@@ -279,7 +279,7 @@
 				
 					
 				
-				<Wall>
+				<Wall height="4">
 					
 					
 					<Point x="112.0" y="105.0"/>
@@ -292,7 +292,7 @@
 				
 					
 				
-				<Wall>
+				<Wall height="4">
 					
 					
 					<Point x="79.334" y="119.0"/>
@@ -326,7 +326,7 @@
 				
 					
 				
-				<Wall>
+				<Wall height="4">
 					
 					
 					<Point x="74.667" y="133.0"/>
@@ -339,7 +339,7 @@
 				
 					
 				
-				<Wall>
+				<Wall height="4">
 					
 					
 					<Point x="165.667" y="119.0"/>
@@ -382,7 +382,7 @@
 				
 					
 				
-				<Wall>
+				<Wall height="4">
 					
 					
 					<Point x="154.0" y="154.0"/>
@@ -395,7 +395,7 @@
 				
 					
 				
-				<Wall>
+				<Wall height="4">
 					
 					
 					<Point x="112.0" y="210.0"/>
@@ -411,7 +411,7 @@
 				
 					
 				
-				<Wall>
+				<Wall height="4">
 					
 					
 					<Point x="70.0" y="147.0"/>
@@ -427,7 +427,7 @@
 				
 					
 				
-				<Wall>
+				<Wall height="4">
 					
 					
 					<Point x="56.0" y="189.0"/>
@@ -440,7 +440,7 @@
 				
 					
 				
-				<Wall>
+				<Wall height="4">
 					
 					
 					<Point x="63.0" y="196.0"/>
@@ -456,7 +456,7 @@
 				
 					
 				
-				<Wall>
+				<Wall height="4">
 					
 					
 					<Point x="105.0" y="231.0"/>
@@ -475,7 +475,7 @@
 				
 					
 				
-				<Wall>
+				<Wall height="4">
 					
 					
 					<Point x="154.0" y="196.0"/>
@@ -503,7 +503,7 @@
 				
 					
 				
-				<Wall>
+				<Wall height="4">
 					
 					
 					<Point x="175.0" y="196.0"/>
@@ -516,7 +516,7 @@
 				
 					
 				
-				<Wall>
+				<Wall height="4">
 					
 					
 					<Point x="161.0" y="189.0"/>
@@ -529,7 +529,7 @@
 				
 					
 				
-				<Wall>
+				<Wall height="4">
 					
 					
 					<Point x="182.0" y="189.0"/>
@@ -542,7 +542,7 @@
 				
 					
 				
-				<Wall>
+				<Wall height="4">
 					
 					
 					<Point x="189.0" y="196.0"/>
@@ -555,7 +555,7 @@
 				
 					
 				
-				<Wall>
+				<Wall height="4">
 					
 					
 					<Point x="175.0" y="182.0"/>
