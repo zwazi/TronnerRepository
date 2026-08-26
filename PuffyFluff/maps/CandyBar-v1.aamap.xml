@@ -67,7 +67,7 @@
 <Zone effect="rubber" rubberVal="3"><ShapeCircle radius="40"><Point x="416" y="192"/></ShapeCircle></Zone>
 <Zone effect="rubber" rubberVal="3"><ShapeCircle radius="56"><Point x="416" y="192"/></ShapeCircle></Zone>
 <Zone effect="rubber" rubberVal="3"><ShapeCircle radius="72"><Point x="416" y="192"/></ShapeCircle></Zone>
-<Wall height="5">
+<Wall height="4">
 <Point x="0" y="352"/>
 <Point x="832" y="352"/>
 <Point x="800" y="320"/>
@@ -91,52 +91,52 @@
 <Point x="32" y="288"/>
 <Point x="64" y="320"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="768" y="32"/>
 <Point x="768" y="96"/>
 <Point x="800" y="96"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="768" y="352"/>
 <Point x="768" y="288"/>
 <Point x="800" y="288"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="64" y="96"/>
 <Point x="96" y="96"/>
 <Point x="96" y="32"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="64" y="288"/>
 <Point x="96" y="288"/>
 <Point x="96" y="320"/>
 <Point x="64" y="320"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="64" y="192"/>
 <Point x="96" y="192"/>
 <Point x="96" y="224"/>
 <Point x="64" y="224"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="64" y="160"/>
 <Point x="96" y="160"/>
 <Point x="96" y="128"/>
 <Point x="64" y="128"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="800" y="192"/>
 <Point x="768" y="192"/>
 <Point x="768" y="224"/>
 <Point x="800" y="224"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="800" y="128"/>
 <Point x="768" y="128"/>
 <Point x="768" y="160"/>
 <Point x="800" y="160"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="32" y="320"/>
 <Point x="0" y="288"/>
 <Point x="32" y="256"/>
@@ -164,7 +164,7 @@
 <Point x="0" y="384"/>
 <Point x="0" y="352"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="32" y="320"/>
 <Point x="0" y="352"/>
 </Wall>

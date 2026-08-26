@@ -6,7 +6,7 @@
 <Field>
 <Axes number="8"/>
 <Spawn x="48" y="112" xdir="1" ydir="0"/>
-<Wall>
+<Wall height="4">
 <Point x="96" y="128"/>
 <Point x="32" y="128"/>
 <Point x="32" y="80"/>
@@ -18,7 +18,7 @@
 <Point x="32" y="176"/>
 <Point x="96" y="176"/>
 </Wall>
-<Wall>
+<Wall height="4">
 <Point x="192" y="176"/>
 <Point x="180" y="176"/>
 <Point x="128" y="228"/>
@@ -34,45 +34,45 @@
 <Point x="180" y="128"/>
 <Point x="192" y="128"/>
 </Wall>
-<Wall>
+<Wall height="4">
 <Point x="192" y="176"/>
 <Point x="208" y="160"/>
 <Point x="288" y="160"/>
 <Point x="352" y="224"/>
 <Point x="416" y="224"/>
 </Wall>
-<Wall>
+<Wall height="4">
 <Point x="192" y="128"/>
 <Point x="208" y="144"/>
 <Point x="288" y="144"/>
 <Point x="352" y="80"/>
 <Point x="416" y="80"/>
 </Wall>
-<Wall>
+<Wall height="4">
 <Point x="32" y="228"/>
 <Point x="96" y="292"/>
 <Point x="352" y="292"/>
 <Point x="352" y="256"/>
 <Point x="336" y="240"/>
 </Wall>
-<Wall>
+<Wall height="4">
 <Point x="32" y="76"/>
 <Point x="96" y="12"/>
 <Point x="352" y="12"/>
 <Point x="352" y="48"/>
 <Point x="336" y="64"/>
 </Wall>
-<Wall>
+<Wall height="4">
 <Point x="336" y="240"/>
 <Point x="240" y="240"/>
 <Point x="240" y="192"/>
 </Wall>
-<Wall>
+<Wall height="4">
 <Point x="336" y="64"/>
 <Point x="240" y="64"/>
 <Point x="240" y="112"/>
 </Wall>
-<Wall>
+<Wall height="4">
 <Point x="328" y="256"/>
 <Point x="224" y="256"/>
 <Point x="192" y="224"/>
@@ -81,7 +81,7 @@
 <Point x="272" y="176"/>
 <Point x="320" y="224"/>
 </Wall>
-<Wall>
+<Wall height="4">
 <Point x="328" y="48"/>
 <Point x="224" y="48"/>
 <Point x="192" y="80"/>
@@ -90,7 +90,7 @@
 <Point x="272" y="128"/>
 <Point x="320" y="80"/>
 </Wall>
-<Wall>
+<Wall height="4">
 <Point x="320" y="80"/>
 <Point x="336" y="80"/>
 <Point x="352" y="64"/>
@@ -106,7 +106,7 @@
 <Point x="336" y="224"/>
 <Point x="320" y="224"/>
 </Wall>
-<Wall>
+<Wall height="4">
 <Point x="352" y="256"/>
 <Point x="448" y="256"/>
 <Point x="512" y="192"/>
@@ -116,7 +116,7 @@
 <Point x="544" y="192"/>
 <Point x="528" y="176"/>
 </Wall>
-<Wall>
+<Wall height="4">
 <Point x="352" y="48"/>
 <Point x="448" y="48"/>
 <Point x="512" y="112"/>
@@ -126,23 +126,23 @@
 <Point x="544" y="112"/>
 <Point x="528" y="128"/>
 </Wall>
-<Wall>
+<Wall height="4">
 <Point x="432" y="80"/>
 <Point x="480" y="96"/>
 </Wall>
-<Wall>
+<Wall height="4">
 <Point x="432" y="224"/>
 <Point x="480" y="208"/>
 </Wall>
-<Wall>
+<Wall height="4">
 <Point x="480" y="192"/>
 <Point x="448" y="176"/>
 </Wall>
-<Wall>
+<Wall height="4">
 <Point x="480" y="112"/>
 <Point x="448" y="128"/>
 </Wall>
-<Wall height="20">
+<Wall height="4">
 <Point x="0" y="208"/>
 <Point x="96" y="304"/>
 <Point x="352" y="304"/>

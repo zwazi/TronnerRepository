@@ -322,7 +322,7 @@
 <Point x="512" y="16"/>
 <Point x="624" y="128"/>
 </Wall>
-<Wall height="50">
+<Wall height="4">
 <Point x="0" y="160"/>
 <Point x="0" y="320"/>
 <Point x="32" y="352"/>

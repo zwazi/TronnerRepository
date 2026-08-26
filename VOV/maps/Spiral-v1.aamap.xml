@@ -321,7 +321,7 @@
     </ShapeCircle>
    </Zone>
 
-   <Wall>
+   <Wall height="4">
     <Point x="116" y="-132"/>
     <Point x="118" y="-128"/>
     <Point x="124" y="-127"/>

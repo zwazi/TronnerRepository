@@ -5,7 +5,7 @@
     <World>
       <Field>
         <Spawn x="150" y="20" xdir="0" ydir="1"/>
-        <Wall height="5">
+        <Wall height="4">
           <Point x="0" y="0"/>
           <Point x="0" y="200"/>
           <Point x="300" y="200"/>

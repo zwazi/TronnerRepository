@@ -149,44 +149,44 @@
 <Zone effect="death"><ShapeCircle radius="17"><Point x="424" y="402"/></ShapeCircle></Zone>
 <Zone effect="death"><ShapeCircle radius="14"><Point x="392" y="450"/></ShapeCircle></Zone>
 <Zone effect="win"><ShapeCircle radius="14"><Point x="344" y="466"/></ShapeCircle></Zone>
-<Wall height="3">
+<Wall height="4">
 <Point x="200" y="82"/>
 <Point x="232" y="114"/>
 </Wall>
-<Wall height="3">
+<Wall height="4">
 <Point x="328" y="146"/>
 <Point x="296" y="178"/>
 </Wall>
-<Wall height="3">
+<Wall height="4">
 <Point x="280" y="210"/>
 <Point x="248" y="210"/>
 </Wall>
-<Wall height="3">
+<Wall height="4">
 <Point x="392" y="114"/>
 <Point x="424" y="146"/>
 <Point x="424" y="242"/>
 </Wall>
-<Wall height="3">
+<Wall height="4">
 <Point x="408" y="50"/>
 <Point x="424" y="50"/>
 </Wall>
-<Wall height="3">
+<Wall height="4">
 <Point x="440" y="82"/>
 <Point x="424" y="82"/>
 </Wall>
-<Wall height="3">
+<Wall height="4">
 <Point x="408" y="114"/>
 <Point x="424" y="114"/>
 </Wall>
-<Wall height="3">
+<Wall height="4">
 <Point x="440" y="130"/>
 <Point x="424" y="130"/>
 </Wall>
-<Wall height="3">
+<Wall height="4">
 <Point x="456" y="194"/>
 <Point x="440" y="210"/>
 </Wall>
-<Wall>
+<Wall height="4">
 <Point x="0" y="0"/>
 <Point x="0" y="500"/>
 <Point x="530" y="500"/>

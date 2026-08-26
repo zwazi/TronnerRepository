@@ -6,7 +6,7 @@
       <Field>
         <Axes number="12"/>
         <Spawn x="290" y="20" xdir="-1" ydir="0"/>
-        <Wall height="50">
+        <Wall height="4">
           <Point x="0" y="0"/>
 		  <Point x="300" y="0"/>
 		  <Point x="300" y="300"/>

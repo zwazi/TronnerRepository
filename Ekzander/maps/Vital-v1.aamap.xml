@@ -50,7 +50,7 @@
 <Zone effect="death"><ShapeCircle radius="1"><Point x="8" y="20"/></ShapeCircle></Zone>
 <Zone effect="death"><ShapeCircle radius="1"><Point x="9" y="19.5"/></ShapeCircle></Zone>
 <Zone effect="death"><ShapeCircle radius="1"><Point x="7" y="19.5"/></ShapeCircle></Zone>
-<Wall height="5">
+<Wall height="4">
 <Point x="6" y="20"/>
 <Point x="10" y="20"/>
 <Point x="10" y="12"/>
@@ -61,57 +61,57 @@
 <Point x="6" y="12"/>
 <Point x="6" y="20"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="6" y="16"/>
 <Point x="7" y="15"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="10" y="16"/>
 <Point x="9" y="15"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="7" y="17"/>
 <Point x="9" y="17"/>
 <Point x="8" y="16"/>
 <Point x="7" y="17"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="6.5" y="13.5"/>
 <Point x="7" y="13"/>
 <Point x="7.5" y="13"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="8.5" y="13"/>
 <Point x="9" y="13"/>
 <Point x="9.5" y="13.5"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="7" y="14"/>
 <Point x="7.5" y="14.5"/>
 <Point x="8.5" y="14.5"/>
 <Point x="9" y="14"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="4" y="10"/>
 <Point x="6" y="8"/>
 <Point x="6" y="4"/>
 <Point x="7" y="3"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="12" y="10"/>
 <Point x="10" y="8"/>
 <Point x="10" y="4"/>
 <Point x="9" y="3"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="10" y="6"/>
 <Point x="12" y="6"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="6" y="6"/>
 <Point x="4" y="6"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="4" y="8"/>
 <Point x="2" y="6"/>
 <Point x="6" y="2"/>

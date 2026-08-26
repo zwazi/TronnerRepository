@@ -8,7 +8,7 @@
 <Spawn x="48" y="16" xdir="1" ydir="0"/>
 <Spawn x="176" y="16" xdir="-1" ydir="0"/>
 <Zone effect="win"><ShapeCircle radius="16"><Point x="112" y="368"/></ShapeCircle></Zone>
-<Wall>
+<Wall height="4">
 <Point x="0" y="0"/>
 <Point x="16" y="16"/>
 <Point x="48" y="32"/>

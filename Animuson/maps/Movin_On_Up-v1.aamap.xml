@@ -6,7 +6,7 @@
 <Field>
 <Spawn x="128" y="32" xdir="0" ydir="1"/>
 <Zone effect="win"><ShapeCircle radius="10"><Point x="128" y="480"/></ShapeCircle></Zone>
-<Wall>
+<Wall height="4">
 <Point x="96" y="0"/>
 <Point x="160" y="0"/>
 <Point x="160" y="128"/>
@@ -24,19 +24,19 @@
 <Point x="96" y="128"/>
 <Point x="96" y="0"/>
 </Wall>
-<Wall>
+<Wall height="4">
 <Point x="96" y="144"/>
 <Point x="112" y="160"/>
 <Point x="144" y="160"/>
 <Point x="160" y="144"/>
 </Wall>
-<Wall>
+<Wall height="4">
 <Point x="96" y="272"/>
 <Point x="112" y="288"/>
 <Point x="144" y="288"/>
 <Point x="160" y="272"/>
 </Wall>
-<Wall>
+<Wall height="4">
 <Point x="96" y="400"/>
 <Point x="112" y="416"/>
 <Point x="144" y="416"/>
