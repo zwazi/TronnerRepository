@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE Resource SYSTEM "AATeam/cockpit-0.3.1-c.dtd">
+
+
+
+<Resource type="aacockpit" name="smarts_essential" version="1.0.3" author="Smart" category="cockpits">
+<Cockpit version="0.3.0">
+
+<!-- toggle key 1 = toggle between ping, the time, and FPS; and Current player, and the time. tubber -->
+<!-- toggle key 2 = Toggle large/small minimap (default: small) -->
+<!-- toggle key 3 = cycle through various minimap settings -->
+<!-- toggle key 4 = none -->
+<!-- toggle key 5 = none -->
+
+<!-- rubber meter -->
+<BarGauge camera="all">
+	<Position x="0" y="-1" />
+	<Size height="0.03" width="0.45" />
+	<ShowCurrent value="true" />
+	<ShowMaximum value="false" />
+	<ShowMinimum value="false" />
+	<DataSet>
+		<AtomicData field="source" source="player_rubber" />
+		<AtomicData field="maximum" source="cycle_rubber" />
+		<AtomicData field="minimum" source="0" />
+	</DataSet>
+	<Background>
+		<Gradient orientation="value">
+			<Color r="1." g="1." b="1." alpha=".2" at="0." />
+			<Color r="1." g="1." b="1." alpha=".2" at="1." />
+		</Gradient>
+	</Background>
+	<Foreground>
+		<Gradient orientation="value">
+			<Color r="0." g="1." b="0." alpha=".7" at="0." />
+			<Color r="0." g="1." b="0." alpha=".7" at=".3" />
+			<Color r="1." g="1." b="0." alpha=".7" at=".6" />
+			<Color r="1." g="0." b="0." alpha=".7" at=".8" />
+			<Color r="1." g="0." b="0." alpha=".7" at="1." />
+		</Gradient>
+	</Foreground>
+</BarGauge>
+<!-- rubber meter -->
+
+<!-- speed meter -->
+<BarGauge camera="all">
+	<Position x="-0.70" y="-1" />
+	<Size height="0.02" width="0.15" />
+	<ShowCurrent value="true" />
+	<ShowMaximum value="false" />
+	<ShowMinimum value="false" />
+	<Reverse value="true"/>
+	<DataSet>
+		<AtomicData field="source" source="player_speed" />
+		<AtomicData field="maximum" source="max_speed" />
+		<AtomicData field="minimum" source="0" />
+	</DataSet>
+	<Background>
+		<Gradient orientation="value">
+			<Color r="0." g="0." b="1." alpha=".2" at="1." />
+			<Color r="0." g="0." b="1." alpha=".7" at="0." />
+		</Gradient>
+	</Background>
+	<Foreground>
+		<Solid>
+			<Color r="0." g="0." b="1." alpha=".7" at="1." />
+		</Solid>
+	</Foreground>
+</BarGauge>
+<!-- speed meter -->
+
+<!-- brake meter -->
+<BarGauge camera="all">
+	<Position x="0.70" y="-1" />
+	<Size height="0.02" width="0.15" />
+	<ShowCurrent value="true" />
+	<ShowMaximum value="false" />
+	<ShowMinimum value="false" />
+	<Reverse value="true"/>
+	<DataSet>
+		<AtomicData field="source" source="player_brakes" />
+   		<AtomicData field="minimum" source="0" />
+		<AtomicData field="maximum" source="1" />
+	</DataSet>
+	<Background>
+		<Gradient orientation="value">
+			<Color r="0." g="0." b="1." alpha=".7" at="0." />
+			<Color r="0." g="0." b="1." alpha=".7" at="1." />
+		</Gradient>
+	</Background>
+	<Foreground>
+		<Solid>
+			<Color r="0." g="0." b="1." alpha=".2" at="0." />
+		</Solid>
+	</Foreground>
+</BarGauge>
+<!-- brake meter -->
+
+<!-- label: time, fps, & ping -->
+<Label camera="all" viewport="all" toggle="1" toggleSticky="true" toggleDefault="on">
+	<Position x="0.80" y="0.46" />
+	<Size height="0.04" width="0.02" />
+	<DataSet id="ping">
+		<AtomicData source="current_ping" />
+	</DataSet>
+            <Caption location="off">
+                <Text value="Player Status" />
+            </Caption>
+	<DataSet id="hours">
+		<AtomicData source="current_hours12h" minwidth="2" fill="0" />
+	</DataSet>
+	<DataSet id="minutes">
+                <AtomicData source="current_minutes" minwidth="2" fill="0" />
+	</DataSet>
+	<DataSet id="seconds">
+		<AtomicData source="current_seconds" minwidth="2" fill="0" />
+	</DataSet>
+	<DataSet id="ampm">
+		<Conditional field="source" lvalue="current_hours" rvalue="12" operator="le">
+			<IfTrue>
+				<AtomicData source="AM"/>
+			</IfTrue>
+			<IfFalse>
+				<AtomicData source="PM"/>
+			</IfFalse>
+		</Conditional>
+	</DataSet>
+	<DataSet id="FPS">
+		<AtomicData source="current_framerate" />
+	</DataSet>
+	<Face>
+		<Table>
+			<Row>
+				<Cell>
+					<Text value="Ping: " />
+					<GameData data="ping" />
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<GameData data="hours" />
+					<Text value=":" />
+					<GameData data="minutes" />
+					<Text value="." />
+					<GameData data="seconds" />
+					<Text value=" " />
+					<GameData data="ampm" />
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<GameData data="FPS" />
+					<Text value=" FPS" />
+				</Cell>
+			</Row>
+		</Table>
+	</Face>
+</Label>
+<!-- label: time, fps, & ping-->
+
+<!-- label: name of player watched, time, & player speed -->
+<Label camera="all" viewport="all" toggle="1" toggleSticky="true" toggleDefault="off">
+	<Position x="0.80" y="0.46" />
+	<Size height="0.04" width="0.02" />
+	<DataSet id="hours">
+		<AtomicData source="current_hours12h" minwidth="2" fill="0" />
+	</DataSet>
+	<DataSet id="minutes">
+                <AtomicData source="current_minutes" minwidth="2" fill="0" />
+	</DataSet>
+	<DataSet id="seconds">
+		<AtomicData source="current_seconds" minwidth="1" fill="0" />
+	</DataSet>
+	<DataSet id="ampm">
+		<Conditional field="source" lvalue="current_hours" rvalue="12" operator="le">
+			<IfTrue>
+				<AtomicData source="AM"/>
+			</IfTrue>
+			<IfFalse>
+				<AtomicData source="PM"/>
+			</IfFalse>
+		</Conditional>
+	</DataSet>
+	<DataSet id="currentplayer">
+		<AtomicData source="current_colored_name" />
+	</DataSet>
+	<Face>
+		<Table>
+			<Row>
+				<Cell>
+					<GameData data="hours" />
+					<Text value=":" />
+					<GameData data="minutes" />
+					<Text value="."/>
+					<GameData data="seconds" />
+					<Text value=" " />
+					<GameData data="ampm" />
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Text value="Watching: " />
+					<GameData data="currentplayer" />
+				</Cell>
+			</Row>
+		</Table>
+	</Face>
+</Label>
+<!-- label: name of player watched, time, & player speed -->
+
+<!-- full map -->
+<Map camera="all" toggle="2" toggleSticky="true" toggleDefault="on">
+        <Position x="0.73" y="-0.72" />
+	<Size height="0.20" width="0.20" />
+	<Background>
+		<Solid>
+			<Color r="0" g="0" b="0" alpha=".5" />
+		</Solid>
+	</Background>
+	<MapModes toggleKey="3">
+		<MapMode mode="cycle" rotation="camera" zoomFactor="2" />
+		<MapMode mode="full" rotation="spawn" />
+	</MapModes>
+</Map>
+
+<Map camera="all" toggle="2" toggleSticky="true" toggleDefault="off">
+        <Position x="0" y="-.25" />
+	<Size height=".5" width=".5" />
+	<Background>
+		<Solid>
+			<Color r="1" g="1" b="1" alpha="0" />
+		</Solid>
+	</Background>
+	<MapModes toggleKey="3">
+		<MapMode mode="cycle" rotation="camera" zoomFactor="4" />
+		<MapMode mode="full" rotation="spawn" />
+	</MapModes>
+</Map>
+<!-- full map -->
+
+<Rectangle viewport="top" toggle="2" toggleDefault="off" toggleSticky="true">
+	<Position x="0" y="0"/>
+	<Size height="1" width="1"/>
+	<Background>
+		<Solid>
+			<Color r="0" g="0" b="0" alpha=".5"/>
+		</Solid>
+	</Background>
+</Rectangle>
+
+</Cockpit> 
+</Resource>

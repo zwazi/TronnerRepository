@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE Resource SYSTEM "sty.dtd">
+<Resource type="aamap" name="Axe" version="5.0.0" author="Tsugaru" category="maps">
+<Map version="0.2.8">
+<World>
+<Field>
+<Spawn x="71" y="8" xdir="1" ydir="0"/>
+<Zone effect="death"><ShapeCircle radius="24"><Point x="16" y="80"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="24"><Point x="160" y="80"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="40"><Point x="128" y="416"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="40"><Point x="128" y="448"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="40"><Point x="128" y="480"/></ShapeCircle></Zone>
+<Zone effect="target"><ShapeCircle radius="11"><Point x="96" y="224"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="19"><Point x="32" y="336"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="19"><Point x="32" y="304"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="19"><Point x="32" y="272"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="19"><Point x="32" y="240"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="19"><Point x="32" y="208"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="36"><Point x="128" y="144"/></ShapeCircle></Zone>
+<Zone effect="target"><ShapeCircle radius="14"><Point x="33" y="172"/></ShapeCircle></Zone>
+<Wall height="5">
+<Point x="0" y="0"/>
+<Point x="176" y="0"/>
+</Wall>
+<Wall height="5">
+<Point x="176" y="0"/>
+<Point x="176" y="384"/>
+</Wall>
+<Wall height="5">
+<Point x="0" y="0"/>
+<Point x="0" y="384"/>
+</Wall>
+<Wall height="5">
+<Point x="64" y="0"/>
+<Point x="64" y="64"/>
+<Point x="0" y="0"/>
+</Wall>
+<Wall height="5">
+<Point x="176" y="0"/>
+<Point x="112" y="64"/>
+<Point x="112" y="0"/>
+</Wall>
+<Wall height="5">
+<Point x="16" y="32"/>
+<Point x="64" y="80"/>
+<Point x="112" y="80"/>
+<Point x="160" y="32"/>
+</Wall>
+<Wall height="5">
+<Point x="0" y="96"/>
+<Point x="64" y="96"/>
+</Wall>
+<Wall height="5">
+<Point x="176" y="96"/>
+<Point x="112" y="96"/>
+</Wall>
+<Wall height="5">
+<Point x="0" y="96"/>
+<Point x="112" y="208"/>
+</Wall>
+<Wall height="5">
+<Point x="112" y="208"/>
+<Point x="128" y="208"/>
+</Wall>
+<Wall height="5">
+<Point x="128" y="208"/>
+<Point x="128" y="384"/>
+</Wall>
+<Wall height="5">
+<Point x="128" y="208"/>
+<Point x="160" y="256"/>
+<Point x="128" y="256"/>
+</Wall>
+<Wall height="5">
+<Point x="176" y="272"/>
+<Point x="144" y="320"/>
+<Point x="176" y="320"/>
+</Wall>
+<Wall height="5">
+<Point x="128" y="336"/>
+<Point x="160" y="384"/>
+<Point x="128" y="384"/>
+</Wall>
+<Wall height="5">
+<Point x="128" y="384"/>
+<Point x="112" y="384"/>
+<Point x="112" y="208"/>
+</Wall>
+<Wall height="5">
+<Point x="176" y="384"/>
+<Point x="176" y="544"/>
+<Point x="0" y="544"/>
+<Point x="0" y="384"/>
+</Wall>
+<Wall height="5">
+<Point x="80" y="544"/>
+<Point x="80" y="368"/>
+<Point x="48" y="368"/>
+<Point x="48" y="544"/>
+</Wall>
+<Wall height="5">
+<Point x="48" y="144"/>
+<Point x="80" y="176"/>
+<Point x="80" y="352"/>
+<Point x="48" y="352"/>
+<Point x="48" y="144"/>
+</Wall>
+<Wall height="5">
+<Point x="80" y="240"/>
+<Point x="112" y="240"/>
+</Wall>
+<Wall height="5">
+<Point x="16" y="208"/>
+<Point x="16" y="160"/>
+</Wall>
+<Wall height="5">
+<Point x="16" y="208"/>
+<Point x="16" y="384"/>
+</Wall>
+<Wall height="5">
+<Point x="48" y="432"/>
+<Point x="32" y="416"/>
+</Wall>
+<Wall height="5">
+<Point x="16" y="384"/>
+<Point x="32" y="400"/>
+</Wall>
+<Wall height="5">
+<Point x="16" y="384"/>
+<Point x="16" y="448"/>
+<Point x="32" y="448"/>
+</Wall>
+<Wall height="5">
+<Point x="48" y="512"/>
+<Point x="0" y="448"/>
+</Wall>
+<Wall height="5">
+<Point x="64" y="16"/>
+<Point x="96" y="16"/>
+</Wall>
+<Wall height="5">
+<Point x="112" y="32"/>
+<Point x="96" y="32"/>
+</Wall>
+<Wall height="5">
+<Point x="64" y="32"/>
+<Point x="80" y="32"/>
+</Wall>
+</Field>
+</World>
+</Map>
+</Resource>

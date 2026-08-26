@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE Resource SYSTEM "sty.dtd">
+<Resource type="aamap" name="Default" version="5.0.1" author="Smart" category="maps">
+ <Map version="0.2.8">
+  <World>
+   <Field>
+
+   <Spawn x="272" y="-272" xdir="1" ydir="0"/>
+   <Spawn x="272" y="-256" xdir="1" ydir="0"/>
+
+   <Zone effect="death">
+    <ShapeCircle radius="16">
+     <Point x="568" y="-240"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="16">
+     <Point x="568" y="-288"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="16">
+     <Point x="632" y="-264"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="win">
+    <ShapeCircle radius="54" growth="0">
+     <Point x="792" y="-264"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="target">
+    <ShapeCircle radius="54" growth="0">
+     <Point x="792" y="-264"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="4">
+     <Point x="664" y="-264"/>
+    </ShapeCircle>
+   </Zone>
+
+   <Wall height="5">
+    <Point x="256" y="-256"/>
+    <Point x="256" y="-288"/>
+    <Point x="544" y="-288"/>
+    <Point x="560" y="-304"/>
+    <Point x="576" y="-304"/>
+    <Point x="592" y="-288"/>
+    <Point x="640" y="-288"/>
+    <Point x="656" y="-272"/>
+    <Point x="672" y="-272"/>
+    <Point x="688" y="-288"/>
+    <Point x="736" y="-288"/>
+    <Point x="768" y="-320"/>
+    <Point x="816" y="-320"/>
+    <Point x="848" y="-288"/>
+    <Point x="848" y="-240"/>
+    <Point x="816" y="-208"/>
+    <Point x="768" y="-208"/>
+    <Point x="736" y="-240"/>
+    <Point x="688" y="-240"/>
+    <Point x="672" y="-256"/>
+    <Point x="656" y="-256"/>
+    <Point x="640" y="-240"/>
+    <Point x="592" y="-240"/>
+    <Point x="576" y="-224"/>
+    <Point x="560" y="-224"/>
+    <Point x="544" y="-240"/>
+    <Point x="256" y="-240"/>
+    <Point x="256" y="-256"/>
+   </Wall>
+
+   </Field>
+  </World>
+ </Map>
+</Resource>

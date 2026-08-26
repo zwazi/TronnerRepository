@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Resource SYSTEM "sty.dtd">
+<Resource type="aamap" name="Keyhole" category="Season1b" version="0.1" author="Tronner">
+  <Map version="0.2.8">
+    <World>
+      <Field>
+        <Axes number="4"/>
+        <Spawn x="1.5" y="1" angle="0"/>
+        <Zone effect="target">
+          <ShapeCircle radius=".25" growth="0">
+            <Point x="1.5" y="2"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius=".5">
+            <Point x="15" y="4"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius=".5">
+            <Point x="4" y="4"/>
+          </ShapeCircle>
+        </Zone>
+        <Wall height="2">
+<Point x="1" y=".75" /> 
+<Point x="1" y="1.25" /> 
+<Point x="17.75" y="1.25" /> 
+<Point x="17.75" y="6.75" /> 
+<Point x="12.25" y="6.75" /> 
+<Point x="12.25" y="5.75" /> 
+<Point x="6.75" y="5.75" /> 
+<Point x="6.75" y="6.75" /> 
+<Point x="1.25" y="6.75" /> 
+<Point x="1.25" y="3.25" /> 
+<Point x="15.75" y="3.25" /> 
+<Point x="15.75" y="4.75" /> 
+<Point x="14.25" y="4.75" /> 
+<Point x="14.25" y="3.75" /> 
+<Point x="4.75" y="3.75" /> 
+<Point x="4.75" y="4.75" /> 
+<Point x="3.25" y="4.75" /> 
+<Point x="3.25" y="3.75" /> 
+<Point x="1.75" y="3.75" /> 
+<Point x="1.75" y="6.25" /> 
+<Point x="6.25" y="6.25" /> 
+<Point x="6.25" y="5.25" /> 
+<Point x="12.75" y="5.25" /> 
+<Point x="12.75" y="6.25" /> 
+<Point x="17.25" y="6.25" /> 
+<Point x="17.25" y="1.75" /> 
+<Point x="1" y="1.75" /> 
+        </Wall>
+        <Wall height="2">
+<Point x="1" y="0.75" /> 
+<Point x="18.25" y="0.75" /> 
+<Point x="18.25" y="7.25" /> 
+<Point x="11.75" y="7.25" /> 
+<Point x="11.75" y="6.25" /> 
+<Point x="7.25" y="6.25" /> 
+<Point x="7.25" y="7.25" /> 
+<Point x="0.75" y="7.25" /> 
+<Point x="0.75" y="2.75" /> 
+<Point x="16.25" y="2.75" /> 
+<Point x="16.25" y="5.25" /> 
+<Point x="13.75" y="5.25" /> 
+<Point x="13.75" y="4.25" /> 
+<Point x="5.25" y="4.25" /> 
+<Point x="5.25" y="5.25" /> 
+<Point x="2.75" y="5.25" /> 
+<Point x="2.75" y="4.25" /> 
+<Point x="2.25" y="4.25" /> 
+<Point x="2.25" y="5.75" /> 
+<Point x="5.75" y="5.75" /> 
+<Point x="5.75" y="4.75" /> 
+<Point x="13.25" y="4.75" /> 
+<Point x="13.25" y="5.75" /> 
+<Point x="16.75" y="5.75" /> 
+<Point x="16.75" y="2.25" /> 
+<Point x="1" y="2.25" /> 
+<Point x="1" y="1.75" />  
+        </Wall>
+      </Field>
+    </World>
+  </Map>
+</Resource>

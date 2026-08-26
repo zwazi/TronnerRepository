@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Resource SYSTEM "sty.dtd">
+<Resource type="aamap" name="Boxception"  version="5.0.0" author="Smart" category="maps">
+  <Map version="0.2.8">
+    <World>
+      <Field>
+        <Axes number="8"/>
+        <Spawn x="140" y="15" angle="90"/>
+        <Spawn x="135" y="10" angle="180"/>
+        <!-- Outer box -->
+        <Wall>
+          <Point x="0" y="0"/>
+          <Point x="0" y="150"/>
+          <Point x="150" y="150"/>
+          <Point x="150" y="0"/>
+          <Point x="0" y="0"/>
+        </Wall>
+        <!-- First inner box -->
+        <Wall>
+          <Point x="15" y="130"/>
+          <Point x="15" y="15"/>
+          <Point x="135" y="15"/>
+          <Point x="135" y="135"/>
+          <Point x="20" y="135"/>
+        </Wall>
+        <!-- Top left arrow -->
+        <Wall>
+          <Point x="0" y="150"/>
+          <Point x="15" y="135"/>
+        </Wall>
+        <Wall>
+          <Point x="15" y="145"/>
+          <Point x="15" y="135"/>
+          <Point x="5" y="135"/>
+        </Wall>
+        <!-- Second inner box -->
+        <Wall>
+          <Point x="115" y="30"/>
+          <Point x="30" y="30"/>
+          <Point x="30" y="120"/>
+          <Point x="120" y="120"/>
+          <Point x="120" y="35"/>
+        </Wall>
+        <!-- Bottom Left arrow -->
+        <Wall>
+          <Point x="135" y="15"/>
+          <Point x="120" y="30"/>
+        </Wall>
+        <Wall>
+          <Point x="120" y="20"/>
+          <Point x="120" y="30"/>
+          <Point x="130" y="30"/>
+        </Wall>
+        <!-- Innermost box -->
+        <Wall>
+          <Point x="45" y="100"/>
+          <Point x="45" y="45"/>
+          <Point x="105" y="45"/>
+          <Point x="105" y="105"/>
+          <Point x="50" y="105"/>
+        </Wall>
+        <!-- Inner top right arrow -->
+        <Wall>
+          <Point x="30" y="120"/>
+          <Point x="45" y="105"/>
+        </Wall>
+        <Wall>
+          <Point x="35" y="105"/>
+          <Point x="45" y="105"/>
+          <Point x="45" y="115"/>
+        </Wall>
+        <Zone effect="target">
+          <ShapeCircle radius="30" growth="0">
+            <Point x="75" y="75"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="3" growth="0">
+            <Point x="20" y="130"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="4" growth="0">
+            <Point x="115" y="125"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="4" growth="0">
+            <Point x="125" y="125"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="4" growth="0">
+            <Point x="25" y="35"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="4" growth="0">
+            <Point x="25" y="25"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="3" growth="0">
+            <Point x="115" y="35"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="5" growth="0">
+            <Point x="10" y="140"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="5" growth="0">
+            <Point x="125" y="25"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="5" growth="0">
+            <Point x="40" y="110"/>
+          </ShapeCircle>
+        </Zone>
+      </Field>
+    </World>
+  </Map>
+</Resource>

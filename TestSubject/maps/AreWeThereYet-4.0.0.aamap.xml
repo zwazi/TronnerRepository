@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Resource SYSTEM 'sty.dtd'>
+<Resource type='aamap' name='AreWeThereYet' version='4.0.0' author='Durf' category='maps'>
+<Map version='0.2.8'>
+<Settings>
+<Setting name='DELAY_COMMAND' value='0 SPAWN_ZONE rubber L 5 -5 23 -23 29 -21 31 -17 35 -13 40 -12 47 -10 55 -10 64 -13 73 -18 75 -24 81 -31 86 -40 88 -52 88 -59 83 -71 73 -82 62 -88 49 -89 37 -87 26 -81 18 -75 12 -65 11 -57 11 -43 15 -32 24 -24 29 -26 37 -34 44 -43 48 -41 54 -41 58 -45 60 -50 57 -56 63 -63 73 -74 81 -64 83 -54 83 -44 79 -37 71 -25 62 -18 51 -16 40 -17 19 -33 17 -44 17 -61 23 -73 34 -80 45 -82 56 -81 68 -78 72 -74 56 -56 48 -57 42 -51 43 -43 29 -27 41 -19 57 -19 70 -29 79 -44 77 -62 66 -73 54 -76 41 -75 29 -70 23 -60 22 -48 24 -37 29 -29 42 -44 40 -51 48 -60 56 -58 66 -70 72 -59 73 -42 66 -32 61 -28 54 -23 43 -23 34 -28 44 -40 51 -38 59 -41 62 -49 60 -57 54 -62 46 -62 39 -58 36 -50 38 -43 45 -36 54 -36 62 -39 65 -46 64 -57 58 -65 45 -66 40 -64 34 -56 34 -45 38 -37 50 -34 60 -36 68 -43 68 -54 66 -63 55 -70 44 -70 33 -65 28 -54 29 -43 32 -36 42 -30 56 -31 50 -50 Z 5 0 10 0 10 false .7 .7 .0 5' />
+</Settings>
+<World>
+<Field logicalBox='true'>
+<Axes number='8'></Axes>
+<Spawn x='5' y='-5' angle='315'/>
+<Wall height='4'>
+<Point x="0.00" y="0" />
+<Point x="0.00" y="-0.07" />
+</Wall>
+<Wall height='4'>
+<Point x="100.00" y="-100" />
+<Point x="99.90" y="-100" />
+</Wall>
+<Zone effect='target'>
+<ShapeCircle radius='0.1' growth='0'  >
+<Point x='50.00' y='-50'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='rubber' rubberVal='-0.3' >
+<ShapeCircle radius='50'>
+<Point x='50' y='-50'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='rubber' rubberVal='-0.3' >
+<ShapeCircle radius='20'>
+<Point x='5' y='-5'/>
+</ShapeCircle>
+</Zone>
+</Field>
+</World>
+</Map>
+</Resource>
+
+
+<!-- Created using Durf's Map Editor :] enjoy! -->

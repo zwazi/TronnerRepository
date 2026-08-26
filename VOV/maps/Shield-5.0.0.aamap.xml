@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE Resource SYSTEM "sty.dtd">
+<Resource type="aamap" name="Shield" version="5.0.0" author="VOV" category="maps">
+ <Map version="2">
+
+
+  <World>
+   <Field>
+
+   <Spawn x="714" y="-484" xdir="1" ydir="1"/>
+
+   <Zone effect="target">
+    <ShapeCircle radius="35">
+     <Point x="704" y="-672"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="30">
+     <Point x="704" y="-400"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="10">
+     <Point x="752" y="-448"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="10">
+     <Point x="656" y="-448"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="17">
+     <Point x="704" y="-560"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="17">
+     <Point x="704" y="-592"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="12">
+     <Point x="704" y="-624"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="10">
+     <Point x="640" y="-416"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="10">
+     <Point x="768" y="-416"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="10">
+     <Point x="704" y="-336"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="10">
+     <Point x="704" y="-352"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="10">
+     <Point x="704" y="-368"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="10">
+     <Point x="704" y="-448"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="10">
+     <Point x="704" y="-432"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="10">
+     <Point x="704" y="-464"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="9">
+     <Point x="800" y="-368"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="9">
+     <Point x="608" y="-368"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="9">
+     <Point x="848" y="-416"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="9">
+     <Point x="560" y="-416"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="17">
+     <Point x="560" y="-576"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="17">
+     <Point x="848" y="-576"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="10">
+     <Point x="768" y="-560"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="10">
+     <Point x="640" y="-560"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="15">
+     <Point x="624" y="-544"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="15">
+     <Point x="784" y="-544"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="10">
+     <Point x="800" y="-528"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="10">
+     <Point x="608" y="-528"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="10">
+     <Point x="816" y="-496"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="10">
+     <Point x="592" y="-496"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="16">
+     <Point x="784" y="-464"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="16">
+     <Point x="624" y="-464"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="25">
+     <Point x="512" y="-432"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="25">
+     <Point x="896" y="-432"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="10">
+     <Point x="704" y="-672"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="10">
+     <Point x="704" y="-656"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="10">
+     <Point x="704" y="-688"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="10">
+     <Point x="720" y="-672"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="10">
+     <Point x="688" y="-672"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="10">
+     <Point x="704" y="-704"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="14">
+     <Point x="656" y="-368"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="14">
+     <Point x="752" y="-368"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="14">
+     <Point x="800" y="-416"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="14">
+     <Point x="608" y="-416"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="10">
+     <Point x="624" y="-384"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="10">
+     <Point x="784" y="-384"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="10">
+     <Point x="832" y="-432"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="10">
+     <Point x="576" y="-432"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="10">
+     <Point x="832" y="-464"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="10">
+     <Point x="576" y="-464"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="20">
+     <Point x="672" y="-528"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="20">
+     <Point x="736" y="-528"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="10">
+     <Point x="560" y="-512"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="10">
+     <Point x="848" y="-512"/>
+    </ShapeCircle>
+   </Zone>
+
+   <Wall>
+    <Point x="704" y="-528"/>
+    <Point x="656" y="-480"/>
+    <Point x="656" y="-544"/>
+    <Point x="752" y="-544"/>
+    <Point x="752" y="-480"/>
+    <Point x="704" y="-528"/>
+   </Wall>
+   <Wall>
+    <Point x="704" y="-528"/>
+    <Point x="704" y="-464"/>
+   </Wall>
+   <Wall>
+    <Point x="704" y="-464"/>
+    <Point x="768" y="-464"/>
+    <Point x="768" y="-560"/>
+    <Point x="720" y="-608"/>
+    <Point x="768" y="-608"/>
+    <Point x="768" y="-560"/>
+   </Wall>
+   <Wall>
+    <Point x="704" y="-464"/>
+    <Point x="640" y="-464"/>
+    <Point x="640" y="-560"/>
+    <Point x="688" y="-608"/>
+    <Point x="640" y="-608"/>
+    <Point x="640" y="-560"/>
+   </Wall>
+   <Wall>
+    <Point x="704" y="-608"/>
+    <Point x="688" y="-624"/>
+    <Point x="640" y="-624"/>
+    <Point x="592" y="-576"/>
+    <Point x="592" y="-448"/>
+    <Point x="640" y="-400"/>
+    <Point x="688" y="-448"/>
+   </Wall>
+   <Wall>
+    <Point x="640" y="-464"/>
+    <Point x="640" y="-416"/>
+   </Wall>
+   <Wall>
+    <Point x="768" y="-464"/>
+    <Point x="768" y="-416"/>
+   </Wall>
+   <Wall>
+    <Point x="720" y="-448"/>
+    <Point x="752" y="-448"/>
+   </Wall>
+   <Wall>
+    <Point x="688" y="-448"/>
+    <Point x="656" y="-448"/>
+   </Wall>
+   <Wall>
+    <Point x="640" y="-400"/>
+    <Point x="688" y="-352"/>
+   </Wall>
+   <Wall>
+    <Point x="688" y="-352"/>
+    <Point x="640" y="-352"/>
+    <Point x="640" y="-400"/>
+    <Point x="592" y="-400"/>
+    <Point x="592" y="-448"/>
+    <Point x="544" y="-448"/>
+    <Point x="592" y="-496"/>
+   </Wall>
+   <Wall>
+    <Point x="704" y="-336"/>
+    <Point x="800" y="-336"/>
+    <Point x="800" y="-368"/>
+    <Point x="832" y="-368"/>
+    <Point x="848" y="-416"/>
+    <Point x="896" y="-432"/>
+    <Point x="848" y="-576"/>
+    <Point x="704" y="-720"/>
+   </Wall>
+   <Wall>
+    <Point x="704" y="-336"/>
+    <Point x="608" y="-336"/>
+    <Point x="608" y="-368"/>
+    <Point x="576" y="-368"/>
+    <Point x="560" y="-416"/>
+    <Point x="512" y="-432"/>
+    <Point x="560" y="-576"/>
+    <Point x="704" y="-720"/>
+   </Wall>
+   <Wall>
+    <Point x="704" y="-608"/>
+    <Point x="720" y="-624"/>
+    <Point x="768" y="-624"/>
+    <Point x="816" y="-576"/>
+    <Point x="816" y="-448"/>
+    <Point x="768" y="-400"/>
+    <Point x="720" y="-448"/>
+   </Wall>
+   <Wall>
+    <Point x="768" y="-400"/>
+    <Point x="720" y="-352"/>
+    <Point x="768" y="-352"/>
+    <Point x="768" y="-400"/>
+    <Point x="816" y="-400"/>
+    <Point x="816" y="-448"/>
+    <Point x="864" y="-448"/>
+    <Point x="816" y="-496"/>
+   </Wall>
+
+   </Field>
+  </World>
+ </Map>
+</Resource>
