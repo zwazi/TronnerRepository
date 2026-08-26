@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Resource SYSTEM "AATeam/map-0.2.8.0_pig2.dtd">
+<Resource type="aamap" name="sample" version="1" author="smart" category="maps">
+<Map version="2">
+  <World>
+  <Settings>
+  <Setting name="spawn_wingmen_side" value="1"/>
+  </Settings>
+   <Field>
+   <Axes number="12"/>
+
+   <Spawn x="320" y="-384" xdir="0" ydir="1"/>
+
+   <Zone effect="win">
+    <ShapeCircle radius="38" growth="0">
+     <Point x="352" y="-464"/>
+    </ShapeCircle>
+   </Zone>
+
+   <Wall height="10">
+    <Point x="272" y="-400"/>
+    <Point x="280" y="-416"/>
+    <Point x="352" y="-416"/>
+    <Point x="360" y="-400"/>
+    <Point x="360" y="-176"/>
+    <Point x="328" y="-80"/>
+   </Wall>
+   <Wall height="10">
+    <Point x="272" y="-400"/>
+    <Point x="272" y="-176"/>
+    <Point x="200" y="40"/>
+    <Point x="80" y="96"/>
+   </Wall>
+   <Wall height="10">
+    <Point x="328" y="-80"/>
+    <Point x="264" y="80"/>
+    <Point x="-72" y="232"/>
+    <Point x="-272" y="248"/>
+    <Point x="-480" y="208"/>
+   </Wall>
+   <Wall height="10">
+    <Point x="80" y="96"/>
+    <Point x="-72" y="160"/>
+    <Point x="-264" y="184"/>
+    <Point x="-456" y="152"/>
+    <Point x="-456" y="112"/>
+   </Wall>
+   <Wall height="10">
+    <Point x="-480" y="208"/>
+    <Point x="-544" y="160"/>
+    <Point x="-544" y="96"/>
+    <Point x="-520" y="48"/>
+    <Point x="-416" y="48"/>
+    <Point x="-416" y="64"/>
+    <Point x="-504" y="64"/>
+   </Wall>
+   <Wall height="10">
+    <Point x="-456" y="112"/>
+    <Point x="-376" y="112"/>
+    <Point x="-376" y="96"/>
+    <Point x="-480" y="96"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="-488" y="80"/>
+    <Point x="-368" y="80"/>
+    <Point x="-328" y="72"/>
+    <Point x="-312" y="40"/>
+    <Point x="-304" y="24"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="-408" y="64"/>
+    <Point x="-416" y="40"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="-424" y="48"/>
+    <Point x="-416" y="32"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="-408" y="64"/>
+    <Point x="-416" y="24"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="-424" y="40"/>
+    <Point x="-416" y="16"/>
+   </Wall>
+   <Wall height="10">
+    <Point x="-432" y="48"/>
+    <Point x="-416" y="16"/>
+   </Wall>
+   <Wall height="10">
+    <Point x="-408" y="64"/>
+    <Point x="-368" y="64"/>
+    <Point x="-336" y="56"/>
+    <Point x="-320" y="24"/>
+    <Point x="-320" y="-24"/>
+   </Wall>
+   <Wall height="10">
+    <Point x="-376" y="96"/>
+    <Point x="-368" y="96"/>
+    <Point x="-328" y="88"/>
+    <Point x="-312" y="80"/>
+    <Point x="-288" y="40"/>
+    <Point x="-288" y="-24"/>
+   </Wall>
+   <Wall height="10">
+    <Point x="-416" y="16"/>
+    <Point x="-336" y="-24"/>
+    <Point x="-336" y="-112"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="-320" y="-24"/>
+    <Point x="-320" y="-112"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="-304" y="24"/>
+    <Point x="-304" y="-112"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="-288" y="-24"/>
+    <Point x="-288" y="-112"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="-304" y="-112"/>
+    <Point x="-304" y="-112"/>
+    <Point x="-304" y="-240"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="-288" y="-112"/>
+    <Point x="-288" y="-240"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="-320" y="-112"/>
+    <Point x="-320" y="-240"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="-336" y="-112"/>
+    <Point x="-336" y="-240"/>
+   </Wall>
+   <Wall height="10">
+    <Point x="-336" y="-240"/>
+    <Point x="-432" y="-352"/>
+    <Point x="-320" y="-464"/>
+   </Wall>
+   <Wall height="10">
+    <Point x="-288" y="-240"/>
+    <Point x="-192" y="-352"/>
+    <Point x="-288" y="-464"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="-336" y="-272"/>
+    <Point x="-288" y="-272"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="-384" y="-296"/>
+    <Point x="-328" y="-296"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="-296" y="-296"/>
+    <Point x="-240" y="-296"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="-360" y="-320"/>
+    <Point x="-272" y="-320"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="-424" y="-344"/>
+    <Point x="-328" y="-344"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="-296" y="-344"/>
+    <Point x="-200" y="-344"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="-360" y="-368"/>
+    <Point x="-272" y="-368"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="-408" y="-344"/>
+    <Point x="-328" y="-416"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="-288" y="-416"/>
+    <Point x="-224" y="-344"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="-360" y="-408"/>
+    <Point x="-304" y="-456"/>
+    <Point x="-256" y="-408"/>
+   </Wall>
+   <Wall height="10">
+    <Point x="-320" y="-464"/>
+    <Point x="-320" y="-512"/>
+    <Point x="-224" y="-512"/>
+    <Point x="-96" y="-336"/>
+    <Point x="-96" y="-184"/>
+   </Wall>
+   <Wall height="10">
+    <Point x="-192" y="-352"/>
+    <Point x="-192" y="-192"/>
+   </Wall>
+   <Wall height="50">
+    <Point x="-152" y="-128"/>
+    <Point x="-40" y="-248"/>
+    <Point x="80" y="-120"/>
+    <Point x="-32" y="-16"/>
+    <Point x="-152" y="-120"/>
+    <Point x="-152" y="-128"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="-192" y="-192"/>
+    <Point x="-280" y="-72"/>
+   </Wall>
+   <Wall height="10">
+    <Point x="-280" y="-72"/>
+    <Point x="-280" y="56"/>
+    <Point x="-224" y="136"/>
+    <Point x="-120" y="160"/>
+    <Point x="32" y="104"/>
+    <Point x="192" y="24"/>
+   </Wall>
+   <Wall height="50">
+    <Point x="-288" y="136"/>
+    <Point x="-288" y="72"/>
+    <Point x="-208" y="72"/>
+    <Point x="-208" y="152"/>
+    <Point x="-288" y="152"/>
+    <Point x="-288" y="136"/>
+   </Wall>
+   <Wall height="50">
+    <Point x="-168" y="152"/>
+    <Point x="-168" y="72"/>
+    <Point x="-88" y="72"/>
+    <Point x="-88" y="152"/>
+    <Point x="-168" y="152"/>
+   </Wall>
+   <Wall height="50">
+    <Point x="-152" y="-80"/>
+    <Point x="-192" y="-32"/>
+    <Point x="-32" y="-8"/>
+    <Point x="-152" y="-80"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="-32" y="-8"/>
+    <Point x="-24" y="-16"/>
+   </Wall>
+   <Wall height="50">
+    <Point x="-48" y="152"/>
+    <Point x="-48" y="72"/>
+    <Point x="40" y="72"/>
+    <Point x="40" y="152"/>
+    <Point x="-48" y="152"/>
+   </Wall>
+   <Wall height="50">
+    <Point x="-80" y="32"/>
+    <Point x="-80" y="16"/>
+    <Point x="-40" y="16"/>
+    <Point x="-40" y="32"/>
+   </Wall>
+   <Wall height="50">
+    <Point x="-40" y="40"/>
+    <Point x="-40" y="56"/>
+    <Point x="-80" y="56"/>
+    <Point x="-80" y="40"/>
+   </Wall>
+   <Wall height="50">
+    <Point x="-200" y="56"/>
+    <Point x="-160" y="56"/>
+    <Point x="-160" y="40"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="-200" y="56"/>
+    <Point x="-200" y="40"/>
+   </Wall>
+   <Wall height="50">
+    <Point x="-200" y="32"/>
+    <Point x="-200" y="16"/>
+    <Point x="-160" y="16"/>
+    <Point x="-160" y="32"/>
+   </Wall>
+   <Wall height="50">
+    <Point x="-320" y="152"/>
+    <Point x="-320" y="88"/>
+    <Point x="-328" y="96"/>
+    <Point x="-368" y="104"/>
+    <Point x="-368" y="120"/>
+    <Point x="-392" y="120"/>
+    <Point x="-392" y="152"/>
+    <Point x="-320" y="152"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="80" y="-120"/>
+    <Point x="208" y="-144"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="232" y="-56"/>
+    <Point x="224" y="-160"/>
+    <Point x="160" y="-160"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="128" y="-128"/>
+    <Point x="128" y="-176"/>
+    <Point x="208" y="-176"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="224" y="-160"/>
+    <Point x="224" y="-192"/>
+    <Point x="160" y="-192"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="128" y="-176"/>
+    <Point x="128" y="-208"/>
+    <Point x="200" y="-208"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="224" y="-192"/>
+    <Point x="224" y="-224"/>
+    <Point x="160" y="-224"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="128" y="-208"/>
+    <Point x="128" y="-240"/>
+    <Point x="184" y="-240"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="224" y="-224"/>
+    <Point x="224" y="-256"/>
+    <Point x="160" y="-256"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="128" y="-240"/>
+    <Point x="128" y="-272"/>
+    <Point x="168" y="-272"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="224" y="-256"/>
+    <Point x="224" y="-288"/>
+    <Point x="160" y="-288"/>
+   </Wall>
+   <Wall height="10">
+    <Point x="128" y="-272"/>
+    <Point x="128" y="-304"/>
+    <Point x="152" y="-304"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="152" y="-304"/>
+    <Point x="152" y="-336"/>
+    <Point x="240" y="-336"/>
+    <Point x="248" y="-168"/>
+    <Point x="256" y="-336"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="256" y="-336"/>
+    <Point x="240" y="-336"/>
+   </Wall>
+   <Wall height="20">
+    <Point x="232" y="-344"/>
+    <Point x="247" y="-348"/>
+    <Point x="259" y="-360"/>
+    <Point x="264" y="-376"/>
+    <Point x="259" y="-391"/>
+    <Point x="247" y="-403"/>
+    <Point x="232" y="-408"/>
+    <Point x="216" y="-403"/>
+    <Point x="204" y="-392"/>
+    <Point x="200" y="-376"/>
+    <Point x="204" y="-360"/>
+    <Point x="216" y="-348"/>
+    <Point x="232" y="-344"/>
+   </Wall>
+   <Wall height="20">
+    <Point x="144" y="-344"/>
+    <Point x="159" y="-348"/>
+    <Point x="171" y="-360"/>
+    <Point x="176" y="-376"/>
+    <Point x="171" y="-391"/>
+    <Point x="159" y="-403"/>
+    <Point x="144" y="-408"/>
+    <Point x="128" y="-403"/>
+    <Point x="116" y="-392"/>
+    <Point x="112" y="-376"/>
+    <Point x="116" y="-360"/>
+    <Point x="128" y="-348"/>
+    <Point x="144" y="-344"/>
+   </Wall>
+   <Wall height="20">
+    <Point x="88" y="-400"/>
+    <Point x="103" y="-404"/>
+    <Point x="115" y="-416"/>
+    <Point x="120" y="-432"/>
+    <Point x="115" y="-447"/>
+    <Point x="103" y="-459"/>
+    <Point x="88" y="-464"/>
+    <Point x="72" y="-459"/>
+    <Point x="60" y="-448"/>
+    <Point x="56" y="-432"/>
+    <Point x="60" y="-416"/>
+    <Point x="72" y="-404"/>
+    <Point x="88" y="-400"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="56" y="-384"/>
+    <Point x="40" y="-472"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="272" y="-400"/>
+    <Point x="216" y="-424"/>
+    <Point x="136" y="-424"/>
+    <Point x="104" y="-472"/>
+    <Point x="48" y="-496"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="152" y="-328"/>
+    <Point x="56" y="-384"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="64" y="-416"/>
+    <Point x="56" y="-384"/>
+   </Wall>
+   <Wall height="20">
+    <Point x="184" y="-396"/>
+    <Point x="186" y="-397"/>
+    <Point x="188" y="-400"/>
+    <Point x="186" y="-402"/>
+    <Point x="184" y="-404"/>
+    <Point x="181" y="-402"/>
+    <Point x="180" y="-400"/>
+    <Point x="181" y="-397"/>
+    <Point x="184" y="-396"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="152" y="-304"/>
+    <Point x="160" y="-304"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="168" y="-312"/>
+    <Point x="192" y="-312"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="48" y="-496"/>
+    <Point x="0" y="-496"/>
+    <Point x="0" y="-280"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="96" y="-360"/>
+    <Point x="88" y="-224"/>
+    <Point x="-72" y="-224"/>
+    <Point x="-24" y="-336"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="0" y="-352"/>
+    <Point x="-32" y="-400"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="-24" y="-336"/>
+    <Point x="-56" y="-384"/>
+    <Point x="-64" y="-408"/>
+    <Point x="-48" y="-432"/>
+    <Point x="-32" y="-440"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="-32" y="-400"/>
+    <Point x="-40" y="-416"/>
+    <Point x="-24" y="-424"/>
+    <Point x="-8" y="-440"/>
+    <Point x="-8" y="-456"/>
+    <Point x="-24" y="-472"/>
+    <Point x="-56" y="-472"/>
+    <Point x="-72" y="-464"/>
+    <Point x="-80" y="-440"/>
+    <Point x="-80" y="-424"/>
+    <Point x="-80" y="-408"/>
+    <Point x="-64" y="-352"/>
+    <Point x="-56" y="-336"/>
+    <Point x="-56" y="-328"/>
+    <Point x="-56" y="-320"/>
+    <Point x="-72" y="-320"/>
+    <Point x="-80" y="-344"/>
+    <Point x="-104" y="-432"/>
+    <Point x="-96" y="-472"/>
+    <Point x="-72" y="-488"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="-32" y="-440"/>
+    <Point x="-48" y="-448"/>
+    <Point x="-64" y="-408"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="-40" y="-288"/>
+    <Point x="-88" y="-304"/>
+    <Point x="-96" y="-336"/>
+    <Point x="-120" y="-424"/>
+    <Point x="-120" y="-456"/>
+    <Point x="-112" y="-472"/>
+    <Point x="-96" y="-488"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="-72" y="-488"/>
+    <Point x="-24" y="-472"/>
+   </Wall>
+   <Wall height="10">
+    <Point x="-96" y="-488"/>
+    <Point x="0" y="-512"/>
+    <Point x="360" y="-512"/>
+    <Point x="360" y="-400"/>
+   </Wall>
+   <Wall height="20">
+    <Point x="100" y="-380"/>
+    <Point x="103" y="-382"/>
+    <Point x="103" y="-385"/>
+    <Point x="100" y="-388"/>
+    <Point x="96" y="-386"/>
+    <Point x="96" y="-382"/>
+    <Point x="100" y="-380"/>
+   </Wall>
+   <Wall height="10">
+    <Point x="192" y="24"/>
+    <Point x="232" y="-56"/>
+   </Wall>
+
+   </Field>
+  </World>
+ </Map>
+</Resource>

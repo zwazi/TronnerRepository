@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Resource SYSTEM "sty.dtd">
+<Resource type="aamap" name="ApplePie" category="maps" version="5.0.0" author="Eggs">
+<Map version="0.2.8">
+<World>
+<Field>
+<Axes number="12"/>
+<Spawn x="160" y="128" xdir="0" ydir="1"/>
+<Wall>
+<Point x="0" y="0"/>
+<Point x="352" y="0"/>
+<Point x="352" y="320"/>
+<Point x="0" y="320"/>
+<Point x="0" y="0"/>
+</Wall>
+<Wall>
+<Point x="48" y="64"/>
+<Point x="48" y="272"/>
+<Point x="304" y="272"/>
+<Point x="304" y="64"/>
+</Wall>
+<Wall>
+<Point x="48" y="48"/>
+<Point x="304" y="48"/>
+</Wall>
+<Wall>
+<Point x="176" y="240"/>
+<Point x="206.4" y="256"/>
+</Wall>
+<Wall>
+<Point x="209.6" y="256"/>
+<Point x="240" y="240"/>
+<Point x="256" y="208"/>
+<Point x="240" y="176"/>
+<Point x="256" y="144"/>
+<Point x="240" y="112"/>
+<Point x="208" y="96"/>
+<Point x="176" y="112"/>
+<Point x="144" y="96"/>
+<Point x="112" y="112"/>
+<Point x="96" y="144"/>
+<Point x="112" y="176"/>
+<Point x="96" y="208"/>
+<Point x="112" y="240"/>
+<Point x="142.4" y="256"/>
+</Wall>
+<Wall>
+<Point x="145.6" y="256"/>
+<Point x="176" y="240"/>
+</Wall>
+<Zone effect="death"><ShapeCircle radius="30"><Point x="96" y="208"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="14"><Point x="144" y="176"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="14"><Point x="144" y="192"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="30"><Point x="176" y="208"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="14"><Point x="208" y="176"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="14"><Point x="208" y="192"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="30"><Point x="256" y="208"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="20.4"><Point x="304" y="176"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="20.4"><Point x="48" y="176"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="14"><Point x="272" y="144"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="14"><Point x="80" y="144"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="30"><Point x="32" y="128"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="30"><Point x="320" y="128"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="14"><Point x="272" y="112"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="14"><Point x="80" y="112"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="14"><Point x="64" y="80"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="14"><Point x="272" y="80"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="30"><Point x="112" y="48"/></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="30"><Point x="240" y="48"/></ShapeCircle></Zone>
+<Zone effect="target"><ShapeCircle radius="14"><Point x="96" y="16"/></ShapeCircle></Zone>
+<Zone effect="target"><ShapeCircle radius="14"><Point x="256" y="16"/></ShapeCircle></Zone>
+</Field>
+</World>
+</Map>
+</Resource>

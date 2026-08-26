@@ -1,0 +1,2095 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Resource SYSTEM 'sty.dtd'>
+<Resource type='aamap' name='Warp' version='5.0.2' author='Ekzander' category='maps'>
+<Map version='0.2.8'>
+<Settings>
+</Settings>
+<World>
+<Field logicalBox='true'>
+<Axes number='8'></Axes>
+<Spawn x='438' y='-312' angle='270'/>
+<Wall height='4'>
+<Point x="306" y="-198" />
+<Point x="576" y="-198" />
+<Point x="576" y="-468" />
+<Point x="306" y="-198" />
+</Wall>
+<Wall height='4'>
+<Point x="432" y="-324" />
+<Point x="432" y="-306" />
+<Point x="444" y="-306" />
+<Point x="444" y="-330" />
+<Point x="450" y="-324" />
+<Point x="444" y="-324" />
+</Wall>
+<Wall height='4'>
+<Point x="444" y="-336" />
+<Point x="456" y="-336" />
+<Point x="456" y="-315" />
+<Point x="450" y="-309" />
+<Point x="450" y="-300" />
+<Point x="426" y="-300" />
+<Point x="420" y="-306" />
+<Point x="420" y="-300" />
+<Point x="426" y="-300" />
+</Wall>
+<Wall height='4'>
+<Point x="414" y="-306" />
+<Point x="414" y="-300" />
+<Point x="420" y="-294" />
+<Point x="426" y="-294" />
+<Point x="432" y="-288" />
+<Point x="438" y="-294" />
+<Point x="444" y="-294" />
+<Point x="450" y="-288" />
+<Point x="462" y="-288" />
+<Point x="462" y="-300" />
+<Point x="456" y="-306" />
+<Point x="462" y="-312" />
+<Point x="462" y="-336" />
+<Point x="456" y="-342" />
+<Point x="462" y="-348" />
+<Point x="462" y="-336" />
+</Wall>
+<Wall height='4'>
+<Point x="456" y="-336" />
+<Point x="450" y="-342" />
+</Wall>
+<Wall height='4'>
+<Point x="444" y="-288" />
+<Point x="438" y="-288" />
+</Wall>
+<Wall height='4'>
+<Point x="441" y="-288" />
+<Point x="441" y="-279" />
+</Wall>
+<Wall height='4'>
+<Point x="462" y="-354" />
+<Point x="468" y="-348" />
+<Point x="468" y="-312" />
+<Point x="465" y="-309" />
+<Point x="465" y="-303" />
+<Point x="468" y="-300" />
+<Point x="468" y="-288" />
+<Point x="462" y="-282" />
+<Point x="456" y="-276" />
+<Point x="441" y="-276" />
+<Point x="441" y="-279" />
+</Wall>
+<Wall height='4'>
+<Point x="441" y="-276" />
+<Point x="426" y="-276" />
+<Point x="426" y="-288" />
+<Point x="414" y="-288" />
+<Point x="426" y="-276" />
+</Wall>
+<Wall height='4'>
+<Point x="444" y="-291" />
+<Point x="438" y="-291" />
+</Wall>
+<Wall height='4'>
+<Point x="441" y="-294" />
+<Point x="441" y="-291" />
+</Wall>
+<Wall height='4'>
+<Point x="414" y="-300" />
+<Point x="408" y="-300" />
+</Wall>
+<Wall height='4'>
+<Point x="402" y="-294" />
+<Point x="408" y="-288" />
+<Point x="408" y="-270" />
+<Point x="426" y="-270" />
+<Point x="432" y="-264" />
+<Point x="438" y="-270" />
+<Point x="462" y="-270" />
+<Point x="468" y="-276" />
+<Point x="474" y="-282" />
+<Point x="474" y="-300" />
+<Point x="468" y="-306" />
+<Point x="474" y="-312" />
+<Point x="474" y="-348" />
+<Point x="468" y="-354" />
+<Point x="486" y="-354" />
+<Point x="480" y="-348" />
+<Point x="474" y="-348" />
+</Wall>
+<Wall height='4'>
+<Point x="474" y="-294" />
+<Point x="480" y="-288" />
+<Point x="486" y="-294" />
+<Point x="486" y="-300" />
+<Point x="492" y="-306" />
+<Point x="486" y="-312" />
+<Point x="486" y="-342" />
+<Point x="510" y="-366" />
+<Point x="510" y="-360" />
+<Point x="504" y="-360" />
+<Point x="504" y="-354" />
+<Point x="498" y="-354" />
+<Point x="498" y="-348" />
+<Point x="492" y="-348" />
+<Point x="492" y="-342" />
+<Point x="486" y="-342" />
+</Wall>
+<Wall height='4'>
+<Point x="480" y="-372" />
+<Point x="495" y="-357" />
+<Point x="483" y="-345" />
+<Point x="483" y="-297" />
+<Point x="477" y="-297" />
+<Point x="483" y="-303" />
+<Point x="477" y="-309" />
+<Point x="483" y="-309" />
+</Wall>
+<Wall height='4'>
+<Point x="492" y="-384" />
+<Point x="507" y="-369" />
+<Point x="513" y="-369" />
+<Point x="513" y="-357" />
+<Point x="495" y="-339" />
+<Point x="495" y="-291" />
+<Point x="489" y="-285" />
+<Point x="480" y="-285" />
+<Point x="462" y="-267" />
+<Point x="444" y="-267" />
+<Point x="444" y="-258" />
+<Point x="438" y="-252" />
+<Point x="426" y="-252" />
+<Point x="420" y="-258" />
+<Point x="420" y="-264" />
+<Point x="420" y="-267" />
+<Point x="408" y="-267" />
+<Point x="405" y="-270" />
+<Point x="405" y="-285" />
+<Point x="399" y="-285" />
+<Point x="405" y="-279" />
+</Wall>
+<Wall height='4'>
+<Point x="396" y="-288" />
+<Point x="396" y="-273" />
+<Point x="420" y="-249" />
+<Point x="432" y="-237" />
+<Point x="456" y="-261" />
+</Wall>
+<Wall height='4'>
+<Point x="462" y="-267" />
+<Point x="462" y="-252" />
+<Point x="456" y="-252" />
+<Point x="450" y="-246" />
+<Point x="450" y="-240" />
+<Point x="444" y="-240" />
+<Point x="438" y="-234" />
+<Point x="450" y="-234" />
+<Point x="450" y="-240" />
+</Wall>
+<Wall height='4'>
+<Point x="462" y="-252" />
+</Wall>
+<Wall height='4'>
+<Point x="462" y="-258" />
+<Point x="468" y="-264" />
+<Point x="468" y="-252" />
+<Point x="462" y="-252" />
+</Wall>
+<Wall height='4'>
+<Point x="432" y="-237" />
+<Point x="432" y="-234" />
+<Point x="438" y="-228" />
+<Point x="450" y="-228" />
+<Point x="456" y="-234" />
+<Point x="468" y="-234" />
+<Point x="468" y="-246" />
+<Point x="474" y="-252" />
+<Point x="474" y="-264" />
+<Point x="471" y="-267" />
+<Point x="468" y="-267" />
+<Point x="465" y="-264" />
+</Wall>
+<Wall height='4'>
+<Point x="468" y="-273" />
+<Point x="492" y="-273" />
+<Point x="492" y="-258" />
+<Point x="480" y="-246" />
+<Point x="480" y="-234" />
+<Point x="474" y="-228" />
+<Point x="462" y="-228" />
+<Point x="456" y="-222" />
+<Point x="438" y="-222" />
+<Point x="390" y="-270" />
+<Point x="390" y="-276" />
+<Point x="384" y="-270" />
+<Point x="390" y="-270" />
+</Wall>
+<Wall height='4'>
+<Point x="372" y="-264" />
+<Point x="384" y="-264" />
+<Point x="387" y="-264" />
+<Point x="381" y="-258" />
+<Point x="366" y="-258" />
+</Wall>
+<Wall height='4'>
+<Point x="396" y="-264" />
+<Point x="384" y="-252" />
+<Point x="372" y="-252" />
+<Point x="366" y="-246" />
+<Point x="366" y="-240" />
+<Point x="378" y="-252" />
+</Wall>
+<Wall height='4'>
+<Point x="360" y="-252" />
+<Point x="360" y="-240" />
+<Point x="366" y="-234" />
+<Point x="378" y="-234" />
+<Point x="378" y="-246" />
+<Point x="366" y="-234" />
+</Wall>
+<Wall height='4'>
+<Point x="384" y="-252" />
+<Point x="384" y="-234" />
+<Point x="378" y="-228" />
+<Point x="360" y="-228" />
+<Point x="357" y="-231" />
+<Point x="357" y="-243" />
+<Point x="351" y="-237" />
+<Point x="357" y="-231" />
+</Wall>
+<Wall height='4'>
+<Point x="351" y="-237" />
+<Point x="351" y="-228" />
+<Point x="345" y="-222" />
+<Point x="336" y="-222" />
+<Point x="342" y="-216" />
+<Point x="348" y="-216" />
+<Point x="357" y="-216" />
+<Point x="357" y="-231" />
+</Wall>
+<Wall height='4'>
+<Point x="318" y="-210" />
+<Point x="564" y="-210" />
+<Point x="570" y="-204" />
+</Wall>
+<Wall height='4'>
+<Point x="564" y="-210" />
+<Point x="564" y="-444" />
+<Point x="570" y="-450" />
+</Wall>
+<Wall height='4'>
+<Point x="330" y="-222" />
+<Point x="330" y="-210" />
+</Wall>
+<Wall height='4'>
+<Point x="366" y="-210" />
+<Point x="366" y="-222" />
+<Point x="378" y="-222" />
+<Point x="390" y="-234" />
+<Point x="390" y="-252" />
+<Point x="402" y="-252" />
+<Point x="390" y="-240" />
+</Wall>
+<Wall height='4'>
+<Point x="408" y="-252" />
+<Point x="408" y="-246" />
+<Point x="378" y="-216" />
+<Point x="372" y="-216" />
+</Wall>
+<Wall height='4'>
+<Point x="384" y="-210" />
+<Point x="414" y="-240" />
+<Point x="414" y="-228" />
+<Point x="402" y="-228" />
+<Point x="402" y="-216" />
+<Point x="408" y="-210" />
+</Wall>
+<Wall height='4'>
+<Point x="420" y="-240" />
+<Point x="420" y="-222" />
+<Point x="408" y="-222" />
+<Point x="417" y="-213" />
+<Point x="420" y="-216" />
+<Point x="420" y="-222" />
+</Wall>
+<Wall height='4'>
+<Point x="426" y="-210" />
+<Point x="426" y="-228" />
+<Point x="444" y="-210" />
+</Wall>
+<Wall height='4'>
+<Point x="456" y="-210" />
+<Point x="462" y="-216" />
+<Point x="462" y="-222" />
+<Point x="468" y="-222" />
+<Point x="480" y="-210" />
+</Wall>
+<Wall height='4'>
+<Point x="543" y="-219" />
+<Point x="555" y="-231" />
+<Point x="543" y="-231" />
+<Point x="543" y="-219" />
+<Point x="519" y="-219" />
+<Point x="510" y="-228" />
+<Point x="492" y="-228" />
+<Point x="486" y="-222" />
+<Point x="477" y="-231" />
+</Wall>
+<Wall height='4'>
+<Point x="546" y="-216" />
+<Point x="558" y="-228" />
+</Wall>
+<Wall height='4'>
+<Point x="564" y="-228" />
+<Point x="558" y="-234" />
+<Point x="552" y="-240" />
+<Point x="546" y="-240" />
+<Point x="540" y="-234" />
+<Point x="540" y="-222" />
+<Point x="528" y="-234" />
+<Point x="540" y="-234" />
+</Wall>
+<Wall height='4'>
+<Point x="528" y="-234" />
+<Point x="489" y="-234" />
+<Point x="486" y="-231" />
+</Wall>
+<Wall height='4'>
+<Point x="489" y="-234" />
+<Point x="489" y="-246" />
+<Point x="498" y="-255" />
+<Point x="498" y="-279" />
+<Point x="480" y="-279" />
+<Point x="477" y="-276" />
+</Wall>
+<Wall height='4'>
+<Point x="498" y="-279" />
+<Point x="501" y="-282" />
+<Point x="501" y="-336" />
+<Point x="516" y="-336" />
+<Point x="516" y="-372" />
+<Point x="504" y="-384" />
+<Point x="516" y="-384" />
+<Point x="510" y="-378" />
+<Point x="516" y="-378" />
+<Point x="516" y="-372" />
+</Wall>
+<Wall height='4'>
+<Point x="504" y="-396" />
+<Point x="510" y="-390" />
+<Point x="516" y="-390" />
+<Point x="522" y="-384" />
+<Point x="522" y="-336" />
+<Point x="510" y="-324" />
+<Point x="510" y="-282" />
+<Point x="504" y="-276" />
+<Point x="504" y="-252" />
+<Point x="498" y="-246" />
+<Point x="498" y="-240" />
+<Point x="492" y="-246" />
+<Point x="498" y="-246" />
+</Wall>
+<Wall height='4'>
+<Point x="522" y="-381" />
+<Point x="516" y="-381" />
+</Wall>
+<Wall height='4'>
+<Point x="504" y="-234" />
+<Point x="504" y="-246" />
+<Point x="510" y="-246" />
+<Point x="510" y="-276" />
+<Point x="516" y="-276" />
+<Point x="516" y="-324" />
+<Point x="528" y="-324" />
+<Point x="528" y="-396" />
+<Point x="510" y="-396" />
+</Wall>
+<Wall height='4'>
+<Point x="510" y="-396" />
+<Point x="522" y="-408" />
+<Point x="522" y="-396" />
+</Wall>
+<Wall height='4'>
+<Point x="522" y="-414" />
+<Point x="534" y="-402" />
+<Point x="534" y="-324" />
+<Point x="522" y="-312" />
+<Point x="522" y="-276" />
+<Point x="516" y="-270" />
+<Point x="516" y="-246" />
+<Point x="510" y="-240" />
+<Point x="516" y="-240" />
+<Point x="516" y="-246" />
+</Wall>
+<Wall height='4'>
+<Point x="516" y="-234" />
+<Point x="522" y="-240" />
+<Point x="522" y="-246" />
+<Point x="528" y="-240" />
+<Point x="534" y="-240" />
+<Point x="540" y="-234" />
+</Wall>
+<Wall height='4'>
+<Point x="516" y="-246" />
+<Point x="522" y="-252" />
+<Point x="528" y="-246" />
+<Point x="540" y="-246" />
+<Point x="552" y="-246" />
+<Point x="561" y="-237" />
+<Point x="561" y="-246" />
+<Point x="552" y="-246" />
+</Wall>
+<Wall height='4'>
+<Point x="564" y="-252" />
+<Point x="534" y="-252" />
+<Point x="528" y="-258" />
+<Point x="525" y="-258" />
+<Point x="519" y="-252" />
+<Point x="519" y="-258" />
+<Point x="525" y="-258" />
+</Wall>
+<Wall height='4'>
+<Point x="516" y="-264" />
+<Point x="534" y="-264" />
+<Point x="540" y="-258" />
+<Point x="552" y="-258" />
+<Point x="558" y="-264" />
+<Point x="534" y="-264" />
+</Wall>
+<Wall height='4'>
+<Point x="564" y="-270" />
+<Point x="522" y="-270" />
+<Point x="534" y="-282" />
+<Point x="534" y="-270" />
+</Wall>
+<Wall height='4'>
+<Point x="522" y="-282" />
+<Point x="525" y="-282" />
+<Point x="531" y="-288" />
+<Point x="537" y="-282" />
+<Point x="537" y="-276" />
+<Point x="558" y="-276" />
+<Point x="552" y="-282" />
+<Point x="537" y="-282" />
+</Wall>
+<Wall height='4'>
+<Point x="564" y="-288" />
+<Point x="540" y="-288" />
+<Point x="531" y="-297" />
+<Point x="525" y="-291" />
+<Point x="528" y="-291" />
+<Point x="531" y="-294" />
+<Point x="537" y="-288" />
+<Point x="540" y="-288" />
+</Wall>
+<Wall height='4'>
+<Point x="552" y="-339" />
+<Point x="552" y="-342" />
+<Point x="552" y="-345" />
+</Wall>
+<Wall height='4'>
+<Point x="552" y="-342" />
+<Point x="534" y="-342" />
+</Wall>
+<Wall height='4'>
+<Point x="558" y="-339" />
+<Point x="558" y="-345" />
+</Wall>
+<Wall height='4'>
+<Point x="543" y="-351" />
+<Point x="543" y="-357" />
+</Wall>
+<Wall height='4'>
+<Point x="534" y="-351" />
+<Point x="537" y="-351" />
+<Point x="537" y="-357" />
+<Point x="534" y="-357" />
+</Wall>
+<Wall height='4'>
+<Point x="543" y="-354" />
+<Point x="564" y="-354" />
+</Wall>
+<Wall height='4'>
+<Point x="534" y="-366" />
+<Point x="552" y="-366" />
+<Point x="558" y="-372" />
+<Point x="552" y="-372" />
+<Point x="546" y="-366" />
+</Wall>
+<Wall height='4'>
+<Point x="564" y="-366" />
+<Point x="558" y="-366" />
+<Point x="564" y="-372" />
+</Wall>
+<Wall height='4'>
+<Point x="522" y="-300" />
+<Point x="540" y="-300" />
+<Point x="540" y="-294" />
+<Point x="558" y="-294" />
+<Point x="552" y="-300" />
+<Point x="546" y="-294" />
+<Point x="540" y="-300" />
+</Wall>
+<Wall height='4'>
+<Point x="564" y="-306" />
+<Point x="552" y="-306" />
+<Point x="546" y="-300" />
+<Point x="540" y="-306" />
+<Point x="528" y="-306" />
+<Point x="528" y="-312" />
+<Point x="534" y="-312" />
+<Point x="534" y="-306" />
+</Wall>
+<Wall height='4'>
+<Point x="534" y="-324" />
+<Point x="540" y="-318" />
+<Point x="540" y="-312" />
+<Point x="546" y="-309" />
+<Point x="552" y="-312" />
+<Point x="546" y="-315" />
+<Point x="540" y="-312" />
+</Wall>
+<Wall height='4'>
+<Point x="552" y="-312" />
+<Point x="558" y="-312" />
+<Point x="558" y="-318" />
+<Point x="552" y="-312" />
+</Wall>
+<Wall height='4'>
+<Point x="564" y="-324" />
+<Point x="552" y="-324" />
+<Point x="546" y="-318" />
+<Point x="540" y="-324" />
+<Point x="552" y="-324" />
+</Wall>
+<Wall height='4'>
+<Point x="534" y="-330" />
+<Point x="558" y="-330" />
+<Point x="552" y="-336" />
+<Point x="552" y="-339" />
+</Wall>
+<Wall height='4'>
+<Point x="543" y="-351" />
+<Point x="555" y="-351" />
+<Point x="558" y="-348" />
+<Point x="558" y="-345" />
+</Wall>
+<Wall height='4'>
+<Point x="558" y="-339" />
+<Point x="564" y="-333" />
+</Wall>
+<Wall height='4'>
+<Point x="546" y="-378" />
+<Point x="540" y="-372" />
+<Point x="546" y="-372" />
+<Point x="552" y="-378" />
+<Point x="564" y="-378" />
+</Wall>
+<Wall height='4'>
+<Point x="546" y="-378" />
+<Point x="546" y="-390" />
+<Point x="540" y="-396" />
+<Point x="546" y="-396" />
+<Point x="552" y="-390" />
+<Point x="564" y="-390" />
+</Wall>
+<Wall height='4'>
+<Point x="534" y="-402" />
+<Point x="546" y="-402" />
+<Point x="552" y="-396" />
+<Point x="558" y="-396" />
+<Point x="552" y="-402" />
+<Point x="546" y="-402" />
+</Wall>
+<Wall height='4'>
+<Point x="564" y="-396" />
+<Point x="558" y="-402" />
+<Point x="564" y="-402" />
+</Wall>
+<Wall height='4'>
+<Point x="534" y="-402" />
+<Point x="540" y="-408" />
+<Point x="558" y="-408" />
+<Point x="552" y="-414" />
+<Point x="540" y="-414" />
+<Point x="531" y="-405" />
+</Wall>
+<Wall height='4'>
+<Point x="564" y="-408" />
+<Point x="552" y="-420" />
+<Point x="540" y="-420" />
+<Point x="531" y="-411" />
+<Point x="531" y="-417" />
+<Point x="537" y="-417" />
+</Wall>
+<Wall height='4'>
+<Point x="534" y="-426" />
+<Point x="558" y="-426" />
+<Point x="558" y="-438" />
+<Point x="546" y="-426" />
+</Wall>
+<Wall height='4'>
+<Point x="564" y="-438" />
+<Point x="558" y="-444" />
+<Point x="543" y="-429" />
+</Wall>
+<Wall height='4'>
+<Point x="558" y="-444" />
+<Point x="564" y="-444" />
+</Wall>
+<Wall height='4'>
+<Point x="570" y="-450" />
+<Point x="570" y="-444" />
+<Point x="564" y="-438" />
+</Wall>
+<Wall height='4'>
+<Point x="576" y="-444" />
+<Point x="570" y="-438" />
+<Point x="570" y="-426" />
+<Point x="576" y="-426" />
+</Wall>
+<Wall height='4'>
+<Point x="564" y="-426" />
+<Point x="573" y="-417" />
+<Point x="564" y="-408" />
+</Wall>
+<Wall height='4'>
+<Point x="576" y="-408" />
+<Point x="570" y="-408" />
+<Point x="570" y="-396" />
+<Point x="576" y="-390" />
+</Wall>
+<Wall height='4'>
+<Point x="576" y="-390" />
+<Point x="570" y="-384" />
+<Point x="570" y="-372" />
+<Point x="576" y="-366" />
+</Wall>
+<Wall height='4'>
+<Point x="570" y="-330" />
+<Point x="570" y="-336" />
+</Wall>
+<Wall height='4'>
+<Point x="570" y="-333" />
+<Point x="576" y="-333" />
+</Wall>
+<Wall height='4'>
+<Point x="564" y="-321" />
+<Point x="573" y="-321" />
+</Wall>
+<Wall height='4'>
+<Point x="573" y="-318" />
+<Point x="573" y="-324" />
+</Wall>
+<Wall height='4'>
+<Point x="576" y="-309" />
+<Point x="567" y="-309" />
+</Wall>
+<Wall height='4'>
+<Point x="567" y="-306" />
+<Point x="567" y="-312" />
+</Wall>
+<Wall height='4'>
+<Point x="564" y="-306" />
+<Point x="573" y="-297" />
+<Point x="573" y="-285" />
+<Point x="570" y="-282" />
+<Point x="570" y="-276" />
+<Point x="564" y="-270" />
+</Wall>
+<Wall height='4'>
+<Point x="576" y="-276" />
+<Point x="570" y="-270" />
+<Point x="570" y="-264" />
+<Point x="576" y="-258" />
+</Wall>
+<Wall height='4'>
+<Point x="432" y="-264" />
+<Point x="438" y="-258" />
+<Point x="426" y="-258" />
+<Point x="432" y="-264" />
+</Wall>
+<Wall height='4'>
+<Point x="573" y="-231" />
+<Point x="567" y="-231" />
+<Point x="570" y="-237" />
+<Point x="567" y="-243" />
+<Point x="573" y="-243" />
+<Point x="570" y="-237" />
+<Point x="573" y="-231" />
+</Wall>
+<Wall height='4'>
+<Point x="564" y="-201" />
+<Point x="573" y="-201" />
+<Point x="573" y="-210" />
+</Wall>
+<Wall height='4'>
+<Point x="546" y="-210" />
+<Point x="540" y="-204" />
+<Point x="528" y="-204" />
+<Point x="522" y="-210" />
+</Wall>
+<Wall height='4'>
+<Point x="522" y="-198" />
+<Point x="516" y="-204" />
+<Point x="504" y="-204" />
+<Point x="498" y="-198" />
+</Wall>
+<Wall height='4'>
+<Point x="495" y="-207" />
+<Point x="489" y="-201" />
+</Wall>
+<Wall height='4'>
+<Point x="480" y="-210" />
+<Point x="474" y="-204" />
+<Point x="468" y="-204" />
+<Point x="462" y="-210" />
+</Wall>
+<Wall height='4'>
+<Point x="453" y="-207" />
+<Point x="459" y="-201" />
+</Wall>
+<Wall height='4'>
+<Point x="474" y="-198" />
+<Point x="480" y="-204" />
+<Point x="486" y="-198" />
+</Wall>
+<Wall height='4'>
+<Point x="450" y="-210" />
+</Wall>
+<Wall height='4'>
+<Point x="456" y="-198" />
+<Point x="450" y="-204" />
+<Point x="444" y="-198" />
+</Wall>
+<Wall height='4'>
+<Point x="444" y="-210" />
+<Point x="438" y="-204" />
+<Point x="432" y="-210" />
+<Point x="426" y="-204" />
+<Point x="420" y="-204" />
+<Point x="417" y="-201" />
+<Point x="414" y="-204" />
+<Point x="408" y="-204" />
+<Point x="402" y="-210" />
+</Wall>
+<Wall height='4'>
+<Point x="402" y="-210" />
+<Point x="396" y="-204" />
+<Point x="390" y="-210" />
+</Wall>
+<Wall height='4'>
+<Point x="390" y="-198" />
+<Point x="384" y="-204" />
+<Point x="378" y="-198" />
+<Point x="372" y="-204" />
+<Point x="366" y="-204" />
+<Point x="363" y="-207" />
+<Point x="360" y="-204" />
+<Point x="354" y="-204" />
+<Point x="348" y="-198" />
+<Point x="342" y="-204" />
+<Point x="336" y="-198" />
+</Wall>
+<Wall height='4'>
+<Point x="312" y="-204" />
+<Point x="336" y="-204" />
+<Point x="336" y="-210" />
+</Wall>
+<Wall height='4'>
+<Point x="402" y="-198" />
+<Point x="402" y="-204" />
+</Wall>
+<Wall height='4'>
+<Point x="432" y="-198" />
+<Point x="432" y="-204" />
+</Wall>
+<Wall height='4'>
+<Point x="432" y="-297" />
+</Wall>
+<Wall height='4'>
+<Point x="450" y="-300" />
+</Wall>
+<Wall height='4'>
+<Point x="471" y="-306" />
+</Wall>
+<Wall height='4'>
+<Point x="426" y="-270" />
+</Wall>
+<Wall height='4'>
+<Point x="417" y="-279" />
+</Wall>
+<Wall height='4'>
+<Point x="504" y="-360" />
+</Wall>
+<Wall height='4'>
+<Point x="498" y="-363" />
+</Wall>
+<Wall height='4'>
+<Point x="492" y="-369" />
+</Wall>
+<Wall height='4'>
+<Point x="483" y="-255" />
+</Wall>
+<Wall height='4'>
+<Point x="324" y="-228" />
+</Wall>
+<Wall height='4'>
+<Point x="342" y="-231" />
+</Wall>
+<Wall height='4'>
+<Point x="345" y="-237" />
+</Wall>
+<Wall height='4'>
+<Point x="357" y="-222" />
+</Wall>
+<Wall height='4'>
+<Point x="384" y="-252" />
+</Wall>
+<Wall height='4'>
+<Point x="402" y="-246" />
+</Wall>
+<Wall height='4'>
+<Point x="396" y="-243" />
+</Wall>
+<Wall height='4'>
+<Point x="372" y="-222" />
+<Point x="372" y="-222" />
+</Wall>
+<Wall height='4'>
+<Point x="387" y="-225" />
+</Wall>
+<Wall height='4'>
+<Point x="396" y="-225" />
+</Wall>
+<Wall height='4'>
+<Point x="411" y="-213" />
+</Wall>
+<Wall height='4'>
+<Point x="450" y="-213" />
+</Wall>
+<Wall height='4'>
+<Point x="456" y="-222" />
+</Wall>
+<Wall height='4'>
+<Point x="507" y="-327" />
+</Wall>
+<Wall height='4'>
+<Point x="501" y="-309" />
+</Wall>
+<Wall height='4'>
+<Point x="510" y="-276" />
+</Wall>
+<Wall height='4'>
+<Point x="513" y="-405" />
+</Wall>
+<Wall height='4'>
+<Point x="522" y="-318" />
+</Wall>
+<Wall height='4'>
+<Point x="552" y="-402" />
+</Wall>
+<Wall height='4'>
+<Point x="552" y="-405" />
+</Wall>
+<Wall height='4'>
+<Point x="564" y="-438" />
+</Wall>
+<Wall height='4'>
+<Point x="570" y="-417" />
+</Wall>
+<Wall height='4'>
+<Point x="564" y="-390" />
+</Wall>
+<Wall height='4'>
+<Point x="426" y="-204" />
+</Wall>
+<Zone effect='target'>
+<ShapeCircle radius='3' growth='0'  >
+<Point x='312' y='-201'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='3' growth='0'  >
+<Point x='432' y='-300'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='3' growth='0'  >
+<Point x='432' y='-297'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='3' growth='0'  >
+<Point x='432' y='-288'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='3' growth='0'  >
+<Point x='450' y='-300'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='3' growth='0'  >
+<Point x='453' y='-297'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='3' growth='0'  >
+<Point x='459' y='-291'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='456' y='-306'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='456' y='-315'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='450' y='-330'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='450' y='-318'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='441' y='-306'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='462' y='-306'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='477' y='-303'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='474' y='-306'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='483' y='-306'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='486' y='-306'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='480' y='-342'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='483' y='-330'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='477' y='-333'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='432' y='-276'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='432' y='-273'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='438' y='-270'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='432' y='-267'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='426' y='-270'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='3' growth='0'  >
+<Point x='417' y='-279'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='417' y='-291'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='480' y='-294'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='444' y='-264'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='441' y='-264'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='438' y='-264'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='420' y='-264'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='423' y='-264'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='426' y='-264'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='432' y='-255'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='414' y='-294'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='411' y='-294'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='414' y='-291'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='465' y='-279'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='501' y='-357'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='501' y='-360'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='498' y='-363'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='495' y='-366'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='492' y='-369'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='489' y='-372'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='486' y='-378'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='489' y='-378'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='492' y='-378'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='495' y='-375'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='498' y='-372'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='501' y='-369'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='504' y='-369'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='510' y='-354'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='504' y='-348'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='3' growth='0'  >
+<Point x='498' y='-342'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='3' growth='0'  >
+<Point x='495' y='-333'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='3' growth='0'  >
+<Point x='489' y='-321'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.2000000000000002' growth='0'  >
+<Point x='486' y='-291'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='495' y='-300'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='489' y='-297'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='477' y='-288'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='486' y='-279'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='495' y='-285'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='3' growth='0'  >
+<Point x='510' y='-342'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='3' growth='0'  >
+<Point x='510' y='-378'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='501' y='-381'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='399' y='-279'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='396' y='-276'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='4.199999999999999' growth='0'  >
+<Point x='414' y='-258'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='429' y='-246'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='444' y='-252'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='435' y='-246'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='450' y='-261'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='456' y='-261'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='462' y='-261'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='456' y='-255'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.2000000000000002' growth='0'  >
+<Point x='444' y='-246'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='447' y='-243'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='441' y='-231'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='453' y='-237'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='3.5999999999999996' growth='0'  >
+<Point x='462' y='-240'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='456' y='-246'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='468' y='-252'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='477' y='-270'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='477' y='-261'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='483' y='-255'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.2000000000000002' growth='0'  >
+<Point x='474' y='-240'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='468' y='-234'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='459' y='-231'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='444' y='-225'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='423' y='-237'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='420' y='-249'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='420' y='-246'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='426' y='-237'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='384' y='-276'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='387' y='-267'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='387' y='-258'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='366' y='-252'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.2000000000000002' growth='0'  >
+<Point x='378' y='-246'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.2000000000000002' growth='0'  >
+<Point x='366' y='-240'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.2000000000000002' growth='0'  >
+<Point x='396' y='-255'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.2000000000000002' growth='0'  >
+<Point x='396' y='-261'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.2000000000000002' growth='0'  >
+<Point x='402' y='-252'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.2000000000000002' growth='0'  >
+<Point x='381' y='-231'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.2000000000000002' growth='0'  >
+<Point x='363' y='-234'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.2000000000000002' growth='0'  >
+<Point x='357' y='-243'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='369' y='-228'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.2000000000000002' growth='0'  >
+<Point x='342' y='-234'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='3' growth='0'  >
+<Point x='348' y='-225'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='345' y='-237'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='339' y='-225'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='336' y='-216'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='363' y='-216'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='357' y='-222'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='390' y='-246'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='384' y='-252'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='402' y='-246'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='396' y='-243'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='402' y='-240'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='372' y='-216'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.2000000000000002' growth='0'  >
+<Point x='372' y='-222'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='372' y='-210'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='384' y='-216'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='387' y='-225'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='396' y='-225'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.2000000000000002' growth='0'  >
+<Point x='408' y='-240'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='414' y='-228'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.2000000000000002' growth='0'  >
+<Point x='408' y='-222'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.2000000000000002' growth='0'  >
+<Point x='411' y='-213'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='3' growth='0'  >
+<Point x='552' y='-222'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='3' growth='0'  >
+<Point x='558' y='-216'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='3' growth='0'  >
+<Point x='519' y='-219'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='6' growth='0'  >
+<Point x='498' y='-219'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='4.199999999999999' growth='0'  >
+<Point x='510' y='-210'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='4.199999999999999' growth='0'  >
+<Point x='450' y='-213'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='456' y='-222'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='480' y='-219'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='549' y='-237'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='531' y='-225'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='519' y='-231'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='486' y='-231'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='3' growth='0'  >
+<Point x='483' y='-240'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='3' growth='0'  >
+<Point x='492' y='-258'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='510' y='-228'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='504' y='-387'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='516' y='-375'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='522' y='-336'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='516' y='-330'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='507' y='-327'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='501' y='-309'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='504' y='-276'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='510' y='-282'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='510' y='-276'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='501' y='-249'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='498' y='-267'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.2000000000000002' growth='0'  >
+<Point x='495' y='-240'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='510' y='-261'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.2000000000000002' growth='0'  >
+<Point x='516' y='-309'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='525' y='-327'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='522' y='-330'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='528' y='-360'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='522' y='-384'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='513' y='-405'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='4.199999999999999' growth='0'  >
+<Point x='528' y='-402'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='3' growth='0'  >
+<Point x='534' y='-384'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='3' growth='0'  >
+<Point x='534' y='-324'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='3' growth='0'  >
+<Point x='522' y='-318'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='522' y='-294'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='3' growth='0'  >
+<Point x='516' y='-267'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='510' y='-246'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='513' y='-237'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='540' y='-246'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='540' y='-243'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='540' y='-240'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='528' y='-246'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='3' growth='0'  >
+<Point x='534' y='-252'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.2000000000000002' growth='0'  >
+<Point x='561' y='-246'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='546' y='-258'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='558' y='-258'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='546' y='-270'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.2000000000000002' growth='0'  >
+<Point x='528' y='-276'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.2000000000000002' growth='0'  >
+<Point x='522' y='-261'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.2000000000000002' growth='0'  >
+<Point x='558' y='-282'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.2000000000000002' growth='0'  >
+<Point x='531' y='-288'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='537' y='-297'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='558' y='-300'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='546' y='-300'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.2000000000000002' growth='0'  >
+<Point x='531' y='-303'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.2000000000000002' growth='0'  >
+<Point x='525' y='-309'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.2000000000000002' growth='0'  >
+<Point x='531' y='-315'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.2000000000000002' growth='0'  >
+<Point x='537' y='-309'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='546' y='-309'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='3.5999999999999996' growth='0'  >
+<Point x='546' y='-312'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='561' y='-315'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='552' y='-345'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='558' y='-330'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='543' y='-357'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='543' y='-366'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='4.199999999999999' growth='0'  >
+<Point x='480' y='-360'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='558' y='-372'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='540' y='-384'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.2000000000000002' growth='0'  >
+<Point x='537' y='-384'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.2000000000000002' growth='0'  >
+<Point x='540' y='-378'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.2000000000000002' growth='0'  >
+<Point x='540' y='-390'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.2000000000000002' growth='0'  >
+<Point x='543' y='-375'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.2000000000000002' growth='0'  >
+<Point x='543' y='-393'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='558' y='-396'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='558' y='-402'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='558' y='-366'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='552' y='-405'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.7999999999999998' growth='0'  >
+<Point x='558' y='-414'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.2000000000000002' growth='0'  >
+<Point x='534' y='-420'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.2000000000000002' growth='0'  >
+<Point x='528' y='-414'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='3' growth='0'  >
+<Point x='558' y='-426'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.2000000000000002' growth='0'  >
+<Point x='564' y='-438'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.2000000000000002' growth='0'  >
+<Point x='543' y='-429'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='3' growth='0'  >
+<Point x='558' y='-450'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='3' growth='0'  >
+<Point x='570' y='-450'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='3' growth='0'  >
+<Point x='570' y='-432'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='3' growth='0'  >
+<Point x='570' y='-417'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='4.199999999999999' growth='0'  >
+<Point x='567' y='-390'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='4.199999999999999' growth='0'  >
+<Point x='567' y='-354'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='2.4000000000000004' growth='0'  >
+<Point x='564' y='-333'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.2000000000000002' growth='0'  >
+<Point x='576' y='-321'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.2000000000000002' growth='0'  >
+<Point x='564' y='-309'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.2000000000000002' growth='0'  >
+<Point x='573' y='-279'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.2000000000000002' growth='0'  >
+<Point x='567' y='-237'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.2000000000000002' growth='0'  >
+<Point x='573' y='-237'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.2000000000000002' growth='0'  >
+<Point x='570' y='-204'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='3' growth='0'  >
+<Point x='471' y='-204'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='3' growth='0'  >
+<Point x='438' y='-204'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='3' growth='0'  >
+<Point x='426' y='-204'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='3' growth='0'  >
+<Point x='402' y='-204'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='3' growth='0'  >
+<Point x='384' y='-204'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='3' growth='0'  >
+<Point x='348' y='-207'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='3' growth='0'  >
+<Point x='552' y='-201'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='3' growth='0'  >
+<Point x='573' y='-219'/>
+</ShapeCircle>
+</Zone>
+</Field>
+</World>
+</Map>
+</Resource>
+
+
+<!-- Created using Durf's Map Editor :] enjoy! -->

@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Resource SYSTEM 'sty.dtd'>
+<Resource type='aamap' name='Fluid' version='4.0.0' author='Ekzander' category='maps'>
+<Map version='0.2.8'>
+<Settings>
+</Settings>
+<World>
+<Field logicalBox='true'>
+<Axes number='8'/>
+<Spawn x='108' y='-50' angle='270'/>
+<Wall height='4'>
+<Point x="96" y="-56" />
+<Point x="104" y="-64" />
+</Wall>
+<Wall height='4'>
+<Point x="112" y="-64" />
+<Point x="120" y="-56" />
+<Point x="120" y="-48" />
+</Wall>
+<Wall height='4'>
+<Point x="108" y="-68" />
+<Point x="104" y="-68" />
+<Point x="92" y="-56" />
+<Point x="92" y="-48" />
+<Point x="104" y="-36" />
+<Point x="112" y="-36" />
+<Point x="124" y="-48" />
+<Point x="124" y="-56" />
+<Point x="112" y="-68" />
+<Point x="108" y="-68" />
+</Wall>
+<Wall height='4'>
+<Point x="120" y="-48" />
+<Point x="112" y="-40" />
+<Point x="104" y="-40" />
+<Point x="96" y="-48" />
+<Point x="96" y="-56" />
+</Wall>
+<Wall height='4'>
+<Point x="108" y="-68" />
+<Point x="108" y="-60" />
+<Point x="100" y="-52" />
+<Point x="106" y="-46" />
+</Wall>
+<Wall height='4'>
+<Point x="108" y="-60" />
+<Point x="116" y="-52" />
+<Point x="110" y="-46" />
+</Wall>
+<Wall height='4'>
+<Point x="106" y="-54" />
+<Point x="106" y="-50" />
+<Point x="108" y="-48" />
+<Point x="110" y="-50" />
+<Point x="110" y="-54" />
+</Wall>
+<Wall height='4'>
+<Point x="112" y="-52" />
+</Wall>
+<Wall height='4'>
+<Point x="104" y="-52" />
+</Wall>
+<Wall height='4'>
+<Point x="110" y="-46" />
+<Point x="110" y="-46" />
+</Wall>
+<Wall height='4'>
+<Point x="117" y="-50" />
+</Wall>
+<Wall height='4'>
+<Point x="105.5" y="-65.5" />
+</Wall>
+<Wall height='4'>
+<Point x="96.5" y="-44.5" />
+</Wall>
+<Zone effect='death'>
+<ShapeCircle radius='1' growth='0'  >
+<Point x='106' y='-54'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1' growth='0'  >
+<Point x='110' y='-54'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.5' growth='0'  >
+<Point x='112' y='-52'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.5' growth='0'  >
+<Point x='104' y='-52'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.3' growth='0'  >
+<Point x='106' y='-46'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.3' growth='0'  >
+<Point x='110' y='-46'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.3' growth='0'  >
+<Point x='104' y='-44'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.3' growth='0'  >
+<Point x='105' y='-45'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.3' growth='0'  >
+<Point x='111' y='-45'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.3' growth='0'  >
+<Point x='112' y='-44'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.3' growth='0'  >
+<Point x='108' y='-43'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.3' growth='0'  >
+<Point x='108' y='-41'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.3' growth='0'  >
+<Point x='106.5' y='-42'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.3' growth='0'  >
+<Point x='109.5' y='-42'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.3' growth='0'  >
+<Point x='105' y='-41'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.3' growth='0'  >
+<Point x='111' y='-41'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1' growth='0'  >
+<Point x='100' y='-44'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1' growth='0'  >
+<Point x='101' y='-45'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1' growth='0'  >
+<Point x='102' y='-46'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1' growth='0'  >
+<Point x='116' y='-44'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1' growth='0'  >
+<Point x='115' y='-45'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1' growth='0'  >
+<Point x='114' y='-46'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='.7' growth='0'  >
+<Point x='116' y='-48'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='.7' growth='0'  >
+<Point x='100' y='-48'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='.7' growth='0'  >
+<Point x='101' y='-48.5'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='.7' growth='0'  >
+<Point x='115' y='-48.5'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='.7' growth='0'  >
+<Point x='114' y='-48.5'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='.7' growth='0'  >
+<Point x='113' y='-48.5'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='.7' growth='0'  >
+<Point x='102' y='-48.5'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='.7' growth='0'  >
+<Point x='103' y='-48.5'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1' growth='0'  >
+<Point x='96' y='-48'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1' growth='0'  >
+<Point x='98' y='-50'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1' growth='0'  >
+<Point x='99' y='-50'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1' growth='0'  >
+<Point x='120' y='-48'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1' growth='0'  >
+<Point x='118' y='-50'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1' growth='0'  >
+<Point x='117' y='-50'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1' growth='0'  >
+<Point x='116' y='-54'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1' growth='0'  >
+<Point x='100' y='-54'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='.5' growth='0'  >
+<Point x='96' y='-56'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.5' growth='0'  >
+<Point x='108' y='-60'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1' growth='0'  >
+<Point x='104.5' y='-61.5'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1' growth='0'  >
+<Point x='111.5' y='-61.5'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='.5' growth='0'  >
+<Point x='120' y='-56'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='.8' growth='0'  >
+<Point x='104' y='-64'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='.8' growth='0'  >
+<Point x='112' y='-64'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='.8' growth='0'  >
+<Point x='105.5' y='-65.5'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='.8' growth='0'  >
+<Point x='110.5' y='-65.5'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.5' growth='0'  >
+<Point x='98' y='-62'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.5' growth='0'  >
+<Point x='118' y='-62'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.5' growth='0'  >
+<Point x='94' y='-52'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1.5' growth='0'  >
+<Point x='122' y='-52'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='target'>
+<ShapeCircle radius='1.5' growth='0'  >
+<Point x='108' y='-36'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1' growth='0'  >
+<Point x='96.5' y='-44.5'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1' growth='0'  >
+<Point x='119.5' y='-44.5'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1' growth='0'  >
+<Point x='106' y='-36'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1' growth='0'  >
+<Point x='106' y='-37'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1' growth='0'  >
+<Point x='108' y='-39'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1' growth='0'  >
+<Point x='110' y='-36'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1' growth='0'  >
+<Point x='110' y='-37'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1' growth='0'  >
+<Point x='104.5' y='-39'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1' growth='0'  >
+<Point x='111.5' y='-39'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1' growth='0'  >
+<Point x='100.5' y='-40.5'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='1' growth='0'  >
+<Point x='115.5' y='-40.5'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='.5' growth='0'  >
+<Point x='113.5' y='-39'/>
+</ShapeCircle>
+</Zone>
+<Zone effect='death'>
+<ShapeCircle radius='.5' growth='0'  >
+<Point x='102.5' y='-39'/>
+</ShapeCircle>
+</Zone>
+</Field>
+</World>
+</Map>
+</Resource>
+
+
+<!-- Created using Durf's Map Editor :] enjoy! -->

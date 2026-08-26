@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Resource SYSTEM "sty.dtd">
+<Resource type="aamap" name="Retro_16" category="SubMaps" version="0.0.1" author="Wrtlprnft">
+  <Map version="0.2.8">
+    <World>
+      <Field>
+        <Axes number="8"/>
+        <Spawn x="45" y="-50" angle="90"/>
+        <Spawn x="35" y="-50" angle="90"/>
+        <Spawn x="55" y="-50" angle="90"/>
+        <Spawn x="25" y="-50" angle="90"/>
+        <Spawn x="65" y="-50" angle="90"/>
+        <Spawn x="15" y="-50" angle="90"/>
+        <Spawn x="75" y="-50" angle="90"/>
+        <Spawn x="5" y="-50" angle="90"/>
+        <Spawn x="85" y="-50" angle="90"/>
+        <Zone effect="target">
+          <ShapeCircle radius="100" growth="0">
+            <Point x="50" y="2700"/>
+          </ShapeCircle>
+        </Zone>
+        <Wall height="5">
+          <Point x="10" y="-120"/>
+          <Point x="10" y="-60"/>
+          <Point x="15" y="-60"/>
+          <Point x="20" y="-65"/>
+          <Point x="20" y="-80"/>
+          <Point x="15" y="-85"/>
+          <Point x="10" y="-85"/>
+          <Point x="20" y="-120"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="25" y="-120"/>
+          <Point x="40" y="-60"/>
+          <Point x="55" y="-120"/>
+          <Point x="47.5" y="-90"/>
+          <Point x="32.5" y="-90"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="75" y="-65"/>
+          <Point x="70" y="-60"/>
+          <Point x="65" y="-60"/>
+          <Point x="60" y="-65"/>
+          <Point x="60" y="-115"/>
+          <Point x="65" y="-120"/>
+          <Point x="70" y="-120"/>
+          <Point x="75" y="-115"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="95" y="-60"/>
+          <Point x="80" y="-60"/>
+          <Point x="80" y="-90"/>
+          <Point x="90" y="-90"/>
+          <Point x="80" y="-90"/>
+          <Point x="80" y="-120"/>
+          <Point x="95" y="-120"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="50" y="1125"/>
+          <Point x="55" y="1120"/>
+          <Point x="55" y="980"/>
+          <Point x="50" y="975"/>
+          <Point x="45" y="980"/>
+          <Point x="45" y="1120"/>
+          <Point x="50" y="1125"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="0" y="-200"/>
+          <Point x="100" y="-200"/>
+          <Point x="100" y="950"/>
+          <Point x="125" y="975"/>
+          <Point x="125" y="1125"/>
+          <Point x="75" y="1175"/>
+          <Point x="75" y="1325"/>
+          <Point x="100" y="1350"/>
+          <Point x="100" y="2800"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="0" y="2800"/>
+          <Point x="0" y="1350"/>
+          <Point x="25" y="1325"/>
+          <Point x="25" y="1175"/>
+          <Point x="-25" y="1125"/>
+          <Point x="-25" y="975"/>
+          <Point x="0" y="950"/>
+          <Point x="0" y="-200"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="17" y="586"/>
+          <Point x="16" y="587"/>
+          <Point x="16" y="595"/>
+          <Point x="17" y="596"/>
+          <Point x="20" y="596"/>
+          <Point x="21" y="595"/>
+          <Point x="21" y="587"/>
+          <Point x="22" y="586"/>
+          <Point x="25" y="586"/>
+          <Point x="26" y="587"/>
+          <Point x="26" y="595"/>
+          <Point x="25" y="596"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="30" y="2253"/>
+          <Point x="30" y="2293"/>
+          <Point x="20" y="2283"/>
+          <Point x="40" y="2283"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="21" y="799"/>
+          <Point x="11" y="819"/>
+          <Point x="1" y="799"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="39" y="685"/>
+          <Point x="37" y="695"/>
+          <Point x="57" y="695"/>
+          <Point x="55" y="685"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="3" y="872"/>
+          <Point x="0" y="875"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="8" y="375"/>
+          <Point x="28" y="395"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="86" y="2244"/>
+          <Point x="86" y="2284"/>
+          <Point x="76" y="2274"/>
+          <Point x="96" y="2274"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="45" y="1811"/>
+          <Point x="50" y="1821"/>
+          <Point x="55" y="1811"/>
+          <Point x="60" y="1821"/>
+          <Point x="65" y="1811"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="98" y="1542"/>
+          <Point x="100" y="1540"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="10" y="1285"/>
+          <Point x="0" y="1275"/>
+          <Point x="-10" y="1285"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="37" y="266"/>
+          <Point x="37" y="286"/>
+          <Point x="27" y="286"/>
+          <Point x="47" y="286"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="39" y="1577"/>
+          <Point x="59" y="1577"/>
+          <Point x="49" y="1577"/>
+          <Point x="39" y="1567"/>
+          <Point x="49" y="1577"/>
+          <Point x="59" y="1567"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="72" y="516"/>
+          <Point x="92" y="516"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="98" y="819"/>
+          <Point x="100" y="817"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="23" y="1508"/>
+          <Point x="43" y="1528"/>
+          <Point x="33" y="1518"/>
+          <Point x="43" y="1508"/>
+          <Point x="23" y="1528"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="14" y="2100"/>
+          <Point x="13" y="2101"/>
+          <Point x="13" y="2109"/>
+          <Point x="14" y="2110"/>
+          <Point x="17" y="2110"/>
+          <Point x="18" y="2109"/>
+          <Point x="18" y="2101"/>
+          <Point x="19" y="2100"/>
+          <Point x="22" y="2100"/>
+          <Point x="23" y="2101"/>
+          <Point x="23" y="2109"/>
+          <Point x="22" y="2110"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="93" y="2380"/>
+          <Point x="73" y="2400"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="46" y="135"/>
+          <Point x="26" y="155"/>
+        </Wall>
+        <Zone effect="death">
+          <ShapeCircle radius="20" growth="0">
+            <Point x="62" y="1646"/>
+          </ShapeCircle>
+        </Zone>
+        <Wall height="5">
+          <Point x="3" y="2023"/>
+          <Point x="0" y="2026"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="71" y="443"/>
+          <Point x="76" y="453"/>
+          <Point x="81" y="443"/>
+          <Point x="86" y="453"/>
+          <Point x="91" y="443"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="31" y="2316"/>
+          <Point x="51" y="2316"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="37" y="1694"/>
+          <Point x="57" y="1714"/>
+          <Point x="47" y="1704"/>
+          <Point x="57" y="1694"/>
+          <Point x="37" y="1714"/>
+        </Wall>
+        <Zone effect="death">
+          <ShapeCircle radius="20" growth="0">
+            <Point x="71" y="1077"/>
+          </ShapeCircle>
+        </Zone>
+        <Wall height="5">
+          <Point x="2" y="659"/>
+          <Point x="4" y="669"/>
+          <Point x="20" y="669"/>
+          <Point x="22" y="659"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="64" y="725"/>
+          <Point x="63" y="726"/>
+          <Point x="63" y="734"/>
+          <Point x="64" y="735"/>
+          <Point x="67" y="735"/>
+          <Point x="68" y="734"/>
+          <Point x="68" y="726"/>
+          <Point x="69" y="725"/>
+          <Point x="72" y="725"/>
+          <Point x="73" y="726"/>
+          <Point x="73" y="734"/>
+          <Point x="72" y="735"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="88" y="276"/>
+          <Point x="78" y="296"/>
+          <Point x="68" y="276"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="80" y="992"/>
+          <Point x="90" y="1002"/>
+          <Point x="100" y="992"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="98" y="1460"/>
+          <Point x="100" y="1462"/>
+        </Wall>
+        <Zone effect="death">
+          <ShapeCircle radius="20" growth="0">
+            <Point x="75" y="2463"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="20" growth="0">
+            <Point x="44" y="1420"/>
+          </ShapeCircle>
+        </Zone>
+        <Wall height="5">
+          <Point x="25" y="2202"/>
+          <Point x="23" y="2204"/>
+          <Point x="21" y="2202"/>
+          <Point x="23" y="2200"/>
+          <Point x="25" y="2202"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="72" y="398"/>
+          <Point x="72" y="418"/>
+          <Point x="62" y="418"/>
+          <Point x="82" y="418"/>
+        </Wall>
+        <Zone effect="death">
+          <ShapeCircle radius="5" growth="0">
+            <Point x="3" y="849"/>
+          </ShapeCircle>
+        </Zone>
+        <Wall height="5">
+          <Point x="39" y="761"/>
+          <Point x="37" y="763"/>
+          <Point x="35" y="761"/>
+          <Point x="37" y="759"/>
+          <Point x="39" y="761"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="66" y="245"/>
+          <Point x="56" y="225"/>
+          <Point x="66" y="225"/>
+          <Point x="56" y="245"/>
+          <Point x="66" y="245"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="37" y="2235"/>
+          <Point x="35" y="2237"/>
+          <Point x="33" y="2235"/>
+          <Point x="35" y="2233"/>
+          <Point x="37" y="2235"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="7" y="1080"/>
+          <Point x="27" y="1100"/>
+          <Point x="17" y="1090"/>
+          <Point x="27" y="1080"/>
+          <Point x="7" y="1100"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="29" y="2069"/>
+          <Point x="9" y="2089"/>
+        </Wall>
+        <Zone effect="death">
+          <ShapeCircle radius="20" growth="0">
+            <Point x="-1" y="1168"/>
+          </ShapeCircle>
+        </Zone>
+        <Wall height="5">
+          <Point x="109" y="1030"/>
+          <Point x="129" y="1030"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="82" y="861"/>
+          <Point x="92" y="871"/>
+          <Point x="102" y="861"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="29" y="506"/>
+          <Point x="49" y="526"/>
+          <Point x="39" y="516"/>
+          <Point x="49" y="506"/>
+          <Point x="29" y="526"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="35" y="308"/>
+          <Point x="36" y="307"/>
+          <Point x="44" y="307"/>
+          <Point x="45" y="308"/>
+          <Point x="45" y="311"/>
+          <Point x="44" y="312"/>
+          <Point x="36" y="312"/>
+          <Point x="35" y="313"/>
+          <Point x="35" y="316"/>
+          <Point x="36" y="317"/>
+          <Point x="44" y="317"/>
+          <Point x="45" y="316"/>
+        </Wall>
+        <Zone effect="death">
+          <ShapeCircle radius="20" growth="0">
+            <Point x="77" y="1881"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="10" growth="0">
+            <Point x="-25" y="1332"/>
+          </ShapeCircle>
+        </Zone>
+        <Wall height="5">
+          <Point x="4" y="2113"/>
+          <Point x="24" y="2133"/>
+          <Point x="14" y="2123"/>
+          <Point x="24" y="2113"/>
+          <Point x="4" y="2133"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="48" y="2004"/>
+          <Point x="68" y="2024"/>
+          <Point x="58" y="2014"/>
+          <Point x="68" y="2004"/>
+          <Point x="48" y="2024"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="63" y="2070"/>
+          <Point x="64" y="2069"/>
+          <Point x="72" y="2069"/>
+          <Point x="73" y="2070"/>
+          <Point x="73" y="2073"/>
+          <Point x="72" y="2074"/>
+          <Point x="64" y="2074"/>
+          <Point x="63" y="2075"/>
+          <Point x="63" y="2078"/>
+          <Point x="64" y="2079"/>
+          <Point x="72" y="2079"/>
+          <Point x="73" y="2078"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="101" y="959"/>
+          <Point x="91" y="939"/>
+          <Point x="101" y="939"/>
+          <Point x="91" y="959"/>
+          <Point x="101" y="959"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="22" y="2166"/>
+          <Point x="32" y="2156"/>
+          <Point x="42" y="2166"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="17" y="2000"/>
+          <Point x="27" y="1990"/>
+          <Point x="37" y="2000"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="51" y="550"/>
+          <Point x="49" y="560"/>
+          <Point x="69" y="560"/>
+          <Point x="67" y="550"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="3" y="105"/>
+          <Point x="0" y="102"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="31" y="1009"/>
+          <Point x="36" y="1019"/>
+          <Point x="41" y="1009"/>
+          <Point x="46" y="1019"/>
+          <Point x="51" y="1009"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="-22" y="1010"/>
+          <Point x="-20" y="1020"/>
+          <Point x="-4" y="1020"/>
+          <Point x="-2" y="1010"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="27" y="929"/>
+          <Point x="32" y="939"/>
+          <Point x="37" y="929"/>
+          <Point x="42" y="939"/>
+          <Point x="47" y="929"/>
+        </Wall>
+        <Zone effect="death">
+          <ShapeCircle radius="5" growth="0">
+            <Point x="2" y="1904"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="7" growth="0">
+            <Point x="74" y="812"/>
+          </ShapeCircle>
+        </Zone>
+        <Wall height="5">
+          <Point x="68" y="1729"/>
+          <Point x="58" y="1749"/>
+          <Point x="48" y="1729"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="98" y="466"/>
+          <Point x="100" y="464"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="115" y="1193"/>
+          <Point x="105" y="1173"/>
+          <Point x="115" y="1173"/>
+          <Point x="105" y="1193"/>
+          <Point x="115" y="1193"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="-1" y="402"/>
+          <Point x="0" y="401"/>
+          <Point x="8" y="401"/>
+          <Point x="9" y="402"/>
+          <Point x="9" y="405"/>
+          <Point x="8" y="406"/>
+          <Point x="0" y="406"/>
+          <Point x="-1" y="407"/>
+          <Point x="-1" y="410"/>
+          <Point x="0" y="411"/>
+          <Point x="8" y="411"/>
+          <Point x="9" y="410"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="37" y="615"/>
+          <Point x="37" y="595"/>
+        </Wall>
+        <Zone effect="death">
+          <ShapeCircle radius="20" growth="0">
+            <Point x="27" y="2391"/>
+          </ShapeCircle>
+        </Zone>
+        <Wall height="5">
+          <Point x="3" y="1600"/>
+          <Point x="0" y="1597"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="21" y="640"/>
+          <Point x="19" y="642"/>
+          <Point x="17" y="640"/>
+          <Point x="19" y="638"/>
+          <Point x="21" y="640"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="71" y="1979"/>
+          <Point x="76" y="1989"/>
+          <Point x="81" y="1979"/>
+          <Point x="86" y="1989"/>
+          <Point x="91" y="1979"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="69" y="834"/>
+          <Point x="49" y="854"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="59" y="372"/>
+          <Point x="57" y="374"/>
+          <Point x="55" y="372"/>
+          <Point x="57" y="370"/>
+          <Point x="59" y="372"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="-1" y="910"/>
+          <Point x="-2" y="911"/>
+          <Point x="-2" y="919"/>
+          <Point x="-1" y="920"/>
+          <Point x="2" y="920"/>
+          <Point x="3" y="919"/>
+          <Point x="3" y="911"/>
+          <Point x="4" y="910"/>
+          <Point x="7" y="910"/>
+          <Point x="8" y="911"/>
+          <Point x="8" y="919"/>
+          <Point x="7" y="920"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="31" y="1283"/>
+          <Point x="41" y="1273"/>
+          <Point x="51" y="1283"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="101" y="1285"/>
+          <Point x="105" y="1285"/>
+          <Point x="99" y="1287"/>
+          <Point x="107" y="1287"/>
+          <Point x="97" y="1289"/>
+          <Point x="109" y="1289"/>
+          <Point x="95" y="1291"/>
+          <Point x="95" y="1291"/>
+          <Point x="111" y="1291"/>
+          <Point x="93" y="1293"/>
+          <Point x="113" y="1293"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="65" y="611"/>
+          <Point x="65" y="651"/>
+          <Point x="55" y="641"/>
+          <Point x="75" y="641"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="38" y="1955"/>
+          <Point x="39" y="1954"/>
+          <Point x="47" y="1954"/>
+          <Point x="48" y="1955"/>
+          <Point x="48" y="1958"/>
+          <Point x="47" y="1959"/>
+          <Point x="39" y="1959"/>
+          <Point x="38" y="1960"/>
+          <Point x="38" y="1963"/>
+          <Point x="39" y="1964"/>
+          <Point x="47" y="1964"/>
+          <Point x="48" y="1963"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="86" y="121"/>
+          <Point x="106" y="121"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="100" y="675"/>
+          <Point x="90" y="665"/>
+          <Point x="80" y="675"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="81" y="2318"/>
+          <Point x="91" y="2328"/>
+          <Point x="101" y="2318"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="53" y="2128"/>
+          <Point x="58" y="2138"/>
+          <Point x="63" y="2128"/>
+          <Point x="68" y="2138"/>
+          <Point x="73" y="2128"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="98" y="1804"/>
+          <Point x="100" y="1806"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="79" y="174"/>
+          <Point x="77" y="176"/>
+          <Point x="75" y="174"/>
+          <Point x="77" y="172"/>
+          <Point x="79" y="174"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="9" y="329"/>
+          <Point x="19" y="319"/>
+          <Point x="29" y="329"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="66" y="739"/>
+          <Point x="66" y="759"/>
+          <Point x="56" y="759"/>
+          <Point x="76" y="759"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="3" y="438"/>
+          <Point x="0" y="441"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="3" y="1683"/>
+          <Point x="0" y="1680"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="81" y="2215"/>
+          <Point x="91" y="2205"/>
+          <Point x="101" y="2215"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="53" y="2207"/>
+          <Point x="57" y="2207"/>
+          <Point x="51" y="2209"/>
+          <Point x="59" y="2209"/>
+          <Point x="49" y="2211"/>
+          <Point x="61" y="2211"/>
+          <Point x="47" y="2213"/>
+          <Point x="47" y="2213"/>
+          <Point x="63" y="2213"/>
+          <Point x="45" y="2215"/>
+          <Point x="65" y="2215"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="108" y="966"/>
+          <Point x="110" y="976"/>
+          <Point x="126" y="976"/>
+          <Point x="128" y="966"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="80" y="352"/>
+          <Point x="90" y="362"/>
+          <Point x="100" y="352"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="3" y="746"/>
+          <Point x="0" y="743"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="3" y="313"/>
+          <Point x="0" y="316"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="55" y="2179"/>
+          <Point x="65" y="2169"/>
+          <Point x="75" y="2179"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="28" y="1838"/>
+          <Point x="18" y="1818"/>
+          <Point x="28" y="1818"/>
+          <Point x="18" y="1838"/>
+          <Point x="28" y="1838"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="94" y="1500"/>
+          <Point x="94" y="1480"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="29" y="725"/>
+          <Point x="28" y="726"/>
+          <Point x="28" y="734"/>
+          <Point x="29" y="735"/>
+          <Point x="32" y="735"/>
+          <Point x="33" y="734"/>
+          <Point x="33" y="726"/>
+          <Point x="34" y="725"/>
+          <Point x="37" y="725"/>
+          <Point x="38" y="726"/>
+          <Point x="38" y="734"/>
+          <Point x="37" y="735"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="98" y="738"/>
+          <Point x="100" y="736"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="18" y="1750"/>
+          <Point x="-2" y="1770"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="37" y="460"/>
+          <Point x="27" y="480"/>
+          <Point x="17" y="460"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="-3" y="2348"/>
+          <Point x="-4" y="2349"/>
+          <Point x="-4" y="2357"/>
+          <Point x="-3" y="2358"/>
+          <Point x="0" y="2358"/>
+          <Point x="1" y="2357"/>
+          <Point x="1" y="2349"/>
+          <Point x="2" y="2348"/>
+          <Point x="5" y="2348"/>
+          <Point x="6" y="2349"/>
+          <Point x="6" y="2357"/>
+          <Point x="5" y="2358"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="35" y="171"/>
+          <Point x="55" y="191"/>
+          <Point x="45" y="181"/>
+          <Point x="55" y="171"/>
+          <Point x="35" y="191"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="2" y="2491"/>
+          <Point x="12" y="2481"/>
+          <Point x="22" y="2491"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="74" y="1356"/>
+          <Point x="54" y="1376"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="-23" y="1067"/>
+          <Point x="-3" y="1087"/>
+          <Point x="-13" y="1077"/>
+          <Point x="-3" y="1067"/>
+          <Point x="-23" y="1087"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="3" y="380"/>
+          <Point x="0" y="377"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="36" y="1217"/>
+          <Point x="56" y="1237"/>
+          <Point x="46" y="1227"/>
+          <Point x="56" y="1217"/>
+          <Point x="36" y="1237"/>
+        </Wall>
+        <Wall height="5">
+          <Point x="82" y="581"/>
+          <Point x="80" y="591"/>
+          <Point x="100" y="591"/>
+          <Point x="98" y="581"/>
+        </Wall>
+      </Field>
+    </World>
+  </Map>
+</Resource>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE Resource SYSTEM "AATeam/map-0.2.8.0.dtd">
+<Resource type="aamap" name="Rat_Tunnels" version="4.0.0" author="Blaze" category="maps">
+ <Map version="0.2.8">
+
+
+  <World>
+   <Field>
+
+   <Spawn x="288" y="-328" xdir="1" ydir="0"/>
+   <Spawn x="288" y="-328" xdir="1" ydir="0"/>
+   <Spawn x="288" y="-328" xdir="1" ydir="0"/>
+   <Spawn x="288" y="-328" xdir="1" ydir="0"/>
+   <Spawn x="288" y="-328" xdir="1" ydir="0"/>
+   <Spawn x="288" y="-328" xdir="1" ydir="0"/>
+   <Spawn x="288" y="-328" xdir="1" ydir="0"/>
+   <Spawn x="288" y="-328" xdir="1" ydir="0"/>
+   <Spawn x="288" y="-328" xdir="1" ydir="0"/>
+
+   <Zone effect="death">
+    <ShapeCircle radius="21">
+     <Point x="224" y="-800"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="29">
+     <Point x="224" y="-464"/>
+    </ShapeCircle>
+   </Zone>
+
+   <Wall height="3">
+    <Point x="304" y="-304"/>
+    <Point x="272" y="-336"/>
+    <Point x="336" y="-336"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="304" y="-304"/>
+    <Point x="320" y="-320"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="336" y="-336"/>
+    <Point x="416" y="-336"/>
+    <Point x="464" y="-384"/>
+    <Point x="464" y="-416"/>
+    <Point x="432" y="-448"/>
+    <Point x="400" y="-448"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="400" y="-448"/>
+    <Point x="320" y="-368"/>
+    <Point x="272" y="-368"/>
+    <Point x="224" y="-416"/>
+    <Point x="192" y="-448"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="320" y="-320"/>
+    <Point x="335" y="-335"/>
+    <Point x="417" y="-335"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="417" y="-335"/>
+    <Point x="465" y="-383"/>
+    <Point x="465" y="-417"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="465" y="-417"/>
+    <Point x="433" y="-449"/>
+    <Point x="399" y="-449"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="399" y="-449"/>
+    <Point x="320" y="-370"/>
+    <Point x="274" y="-370"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="274" y="-370"/>
+    <Point x="228" y="-416"/>
+    <Point x="256" y="-448"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="256" y="-448"/>
+    <Point x="256" y="-480"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="192" y="-448"/>
+    <Point x="192" y="-480"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="208" y="-496"/>
+    <Point x="224" y="-512"/>
+    <Point x="240" y="-496"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="256" y="-480"/>
+    <Point x="336" y="-560"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="192" y="-480"/>
+    <Point x="112" y="-560"/>
+    <Point x="176" y="-624"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="336" y="-560"/>
+    <Point x="272" y="-624"/>
+    <Point x="272" y="-656"/>
+    <Point x="304" y="-688"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="176" y="-624"/>
+    <Point x="176" y="-656"/>
+    <Point x="144" y="-688"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="144" y="-688"/>
+    <Point x="208" y="-752"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="304" y="-688"/>
+    <Point x="240" y="-752"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="240" y="-752"/>
+    <Point x="240" y="-784"/>
+    <Point x="224" y="-800"/>
+    <Point x="208" y="-784"/>
+    <Point x="208" y="-752"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="240" y="-496"/>
+    <Point x="255" y="-481"/>
+    <Point x="334" y="-560"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="208" y="-496"/>
+    <Point x="193" y="-481"/>
+    <Point x="114" y="-560"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="114" y="-560"/>
+    <Point x="178" y="-624"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="334" y="-560"/>
+    <Point x="270" y="-624"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="270" y="-624"/>
+    <Point x="270" y="-657"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="178" y="-624"/>
+    <Point x="178" y="-657"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="270" y="-657"/>
+    <Point x="301" y="-688"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="178" y="-657"/>
+    <Point x="147" y="-688"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="147" y="-688"/>
+    <Point x="211" y="-752"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="301" y="-688"/>
+    <Point x="237" y="-752"/>
+   </Wall>
+   <Wall height="3">
+    <Point x="211" y="-752"/>
+    <Point x="237" y="-752"/>
+   </Wall>
+
+   </Field>
+  </World>
+ </Map>
+</Resource>
