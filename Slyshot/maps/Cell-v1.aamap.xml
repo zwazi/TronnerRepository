@@ -672,6 +672,16 @@
      <Point x="464" y="-408"/>
     </ShapeCircle>
    </Zone>
+   <Zone effect="win">
+    <ShapeCircle radius="28" growth="0">
+     <Point x="408" y="-744"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="win">
+    <ShapeCircle radius="28" growth="0">
+     <Point x="488" y="-408"/>
+    </ShapeCircle>
+   </Zone>
    <Zone effect="death">
     <ShapeCircle radius="28">
      <Point x="272" y="-632"/>
