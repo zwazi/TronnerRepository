@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE Resource SYSTEM "sty.dtd">
+<Resource type="aamap" name="Broken" version="5.0.0" author="Smart" category="maps">
+ <Map version="0.2.8">
+  <World>
+   <Field>
+
+   <Spawn x="976" y="-640" xdir="0" ydir="1"/>
+
+   <Zone effect="target">
+    <ShapeCircle radius="13">
+     <Point x="816" y="-608"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="22">
+     <Point x="976" y="-672"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="22">
+     <Point x="992" y="-720"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="22">
+     <Point x="1008" y="-704"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="22">
+     <Point x="1072" y="-784"/>
+    </ShapeCircle>
+   </Zone>
+   <Zone effect="death">
+    <ShapeCircle radius="22">
+     <Point x="1040" y="-752"/>
+    </ShapeCircle>
+   </Zone>
+
+   <Wall height="5">
+    <Point x="768" y="-656"/>
+    <Point x="768" y="-432"/>
+    <Point x="880" y="-320"/>
+    <Point x="992" y="-432"/>
+   </Wall>
+   <Wall height="5">
+    <Point x="992" y="-432"/>
+    <Point x="992" y="-656"/>
+    <Point x="960" y="-656"/>
+    <Point x="960" y="-432"/>
+    <Point x="880" y="-352"/>
+    <Point x="800" y="-432"/>
+    <Point x="800" y="-624"/>
+    <Point x="832" y="-624"/>
+    <Point x="832" y="-432"/>
+    <Point x="880" y="-384"/>
+    <Point x="928" y="-432"/>
+    <Point x="928" y="-688"/>
+    <Point x="960" y="-720"/>
+    <Point x="928" y="-752"/>
+    <Point x="960" y="-784"/>
+    <Point x="992" y="-752"/>
+    <Point x="1040" y="-800"/>
+    <Point x="1088" y="-752"/>
+    <Point x="1040" y="-704"/>
+    <Point x="1072" y="-672"/>
+    <Point x="1040" y="-640"/>
+    <Point x="1008" y="-672"/>
+   </Wall>
+   <Wall height="5">
+    <Point x="960" y="-656"/>
+    <Point x="960" y="-688"/>
+    <Point x="1040" y="-768"/>
+    <Point x="1056" y="-752"/>
+    <Point x="960" y="-656"/>
+   </Wall>
+   <Wall height="5">
+    <Point x="976" y="-736"/>
+    <Point x="960" y="-752"/>
+   </Wall>
+   <Wall height="5">
+    <Point x="1024" y="-688"/>
+    <Point x="1040" y="-672"/>
+   </Wall>
+   <Wall height="5">
+    <Point x="1040" y="-784"/>
+    <Point x="1024" y="-800"/>
+   </Wall>
+   <Wall height="5">
+    <Point x="1072" y="-752"/>
+    <Point x="1088" y="-736"/>
+   </Wall>
+   <Wall height="5">
+    <Point x="768" y="-656"/>
+    <Point x="864" y="-656"/>
+    <Point x="864" y="-432"/>
+    <Point x="880" y="-416"/>
+    <Point x="896" y="-432"/>
+    <Point x="896" y="-688"/>
+    <Point x="928" y="-720"/>
+    <Point x="896" y="-752"/>
+    <Point x="960" y="-816"/>
+    <Point x="992" y="-784"/>
+    <Point x="1056" y="-848"/>
+    <Point x="1136" y="-768"/>
+    <Point x="1072" y="-704"/>
+    <Point x="1104" y="-672"/>
+    <Point x="1040" y="-608"/>
+    <Point x="992" y="-656"/>
+   </Wall>
+   <Wall height="5">
+    <Point x="816" y="-576"/>
+    <Point x="832" y="-592"/>
+   </Wall>
+   <Wall height="5">
+    <Point x="800" y="-560"/>
+    <Point x="816" y="-544"/>
+   </Wall>
+   <Wall height="5">
+    <Point x="832" y="-544"/>
+    <Point x="816" y="-512"/>
+   </Wall>
+   <Wall height="5">
+    <Point x="800" y="-528"/>
+    <Point x="816" y="-496"/>
+   </Wall>
+   <Wall height="5">
+    <Point x="816" y="-464"/>
+    <Point x="832" y="-464"/>
+    <Point x="816" y="-480"/>
+   </Wall>
+   <Wall height="5">
+    <Point x="816" y="-432"/>
+    <Point x="816" y="-448"/>
+   </Wall>
+
+   </Field>
+  </World>
+ </Map>
+</Resource>

@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Resource SYSTEM "sty.dtd"> 
+<Resource type="aamap" name="Fingerprint" version="5.0.0" author="Durf" category="maps">
+<Map version="0.2.8">
+<World>
+<Field logicalBox="true">
+<Axes number="12"/>
+<Spawn x="25" y="22" angle="90"/>
+<Wall height="4">
+<Point x="26.86" y="19.79"/>
+<Point x="25.71" y="21.21"/>
+<Point x="25.29" y="23.14"/>
+<Point x="24.57" y="23.43"/>
+<Point x="24.29" y="22.71"/>
+<Point x="24.64" y="20.79"/>
+<Point x="25.86" y="19.07"/>
+<Point x="26.93" y="18.5"/>
+<Point x="27.5" y="19.14"/>
+<Point x="27.79" y="20.57"/>
+<Point x="27.07" y="22.36"/>
+<Point x="26.21" y="23.64"/>
+</Wall>
+<Wall height="4">
+<Point x="25.14" y="24.64"/>
+<Point x="24" y="24.71"/>
+<Point x="22.86" y="23.21"/>
+<Point x="22.5" y="21.57"/>
+<Point x="22.86" y="19.36"/>
+<Point x="23.79" y="17.36"/>
+<Point x="25" y="16.29"/>
+<Point x="26.21" y="15.93"/>
+<Point x="28.5" y="16.93"/>
+<Point x="30" y="17.5"/>
+<Point x="30.29" y="19.64"/>
+<Point x="29.86" y="22.43"/>
+<Point x="28.93" y="24.71"/>
+<Point x="27.71" y="26.21"/>
+<Point x="25.71" y="27.36"/>
+<Point x="23.57" y="27.79"/>
+<Point x="21.57" y="27.71"/>
+<Point x="19.5" y="26.57"/>
+<Point x="17.93" y="25.07"/>
+<Point x="16.86" y="23"/>
+<Point x="16.14" y="20.64"/>
+<Point x="16.07" y="17.5"/>
+<Point x="16.57" y="15.5"/>
+<Point x="17.43" y="13.71"/>
+<Point x="18.43" y="12"/>
+<Point x="19.64" y="10.43"/>
+<Point x="21.07" y="9.21"/>
+<Point x="24" y="8.5"/>
+<Point x="26.43" y="8.5"/>
+<Point x="29.36" y="9.14"/>
+<Point x="31.43" y="10.43"/>
+<Point x="33" y="12.21"/>
+<Point x="34.07" y="14.64"/>
+<Point x="34.64" y="17.29"/>
+<Point x="34.36" y="20.86"/>
+<Point x="33.5" y="24.43"/>
+<Point x="32.36" y="26.64"/>
+<Point x="30.86" y="28.57"/>
+<Point x="28.86" y="30.5"/>
+<Point x="26.86" y="31.71"/>
+<Point x="24.71" y="32.57"/>
+<Point x="22.43" y="32.93"/>
+<Point x="20.21" y="32.79"/>
+<Point x="17.93" y="32.07"/>
+<Point x="14.57" y="30.57"/>
+<Point x="12.71" y="29.86"/>
+<Point x="11.07" y="28.57"/>
+<Point x="9.79" y="26.79"/>
+<Point x="8.43" y="24.57"/>
+<Point x="7.36" y="22.36"/>
+<Point x="7.21" y="21.36"/>
+</Wall>
+<Wall height="4">
+<Point x="30" y="17.5"/>
+<Point x="29.29" y="16.07"/>
+<Point x="27.07" y="15.14"/>
+</Wall>
+<Wall height="4">
+<Point x="23.71" y="21"/>
+<Point x="24.07" y="19.43"/>
+<Point x="25.14" y="18"/>
+<Point x="26.36" y="17.36"/>
+<Point x="27.57" y="17.57"/>
+<Point x="28.57" y="18.86"/>
+<Point x="28.71" y="21"/>
+<Point x="28.07" y="23.36"/>
+<Point x="26.93" y="25"/>
+<Point x="25.36" y="25.93"/>
+<Point x="24" y="26"/>
+<Point x="22.93" y="26.43"/>
+<Point x="21.36" y="25.93"/>
+<Point x="20.36" y="24.43"/>
+<Point x="19.64" y="22"/>
+<Point x="19.5" y="19"/>
+<Point x="20.57" y="18.07"/>
+<Point x="21.36" y="16.07"/>
+<Point x="22" y="14.14"/>
+<Point x="21.07" y="15.79"/>
+<Point x="19.57" y="18.07"/>
+<Point x="19.5" y="19"/>
+</Wall>
+<Wall height="4">
+<Point x="24" y="26"/>
+<Point x="22" y="24.86"/>
+<Point x="21.14" y="22.21"/>
+<Point x="21.71" y="19.07"/>
+<Point x="23" y="15.5"/>
+<Point x="24.64" y="15.14"/>
+<Point x="26.71" y="13.79"/>
+<Point x="28.43" y="14.29"/>
+<Point x="30.79" y="16.14"/>
+<Point x="31.79" y="17"/>
+<Point x="31.86" y="20.71"/>
+<Point x="30.64" y="24.07"/>
+<Point x="29.29" y="26.43"/>
+<Point x="27.5" y="27.93"/>
+<Point x="25.29" y="28.79"/>
+<Point x="22.36" y="29.14"/>
+<Point x="19.5" y="28.29"/>
+<Point x="17.14" y="26.21"/>
+<Point x="15.07" y="23.07"/>
+<Point x="14.64" y="19.36"/>
+<Point x="14.79" y="16.21"/>
+<Point x="15.64" y="13.21"/>
+<Point x="17" y="11.07"/>
+<Point x="18.5" y="9.07"/>
+<Point x="20.64" y="7"/>
+<Point x="23.07" y="6.14"/>
+<Point x="26.43" y="5.57"/>
+<Point x="30.5" y="6.14"/>
+<Point x="32.93" y="6.57"/>
+<Point x="35.43" y="8.86"/>
+<Point x="37.64" y="11.93"/>
+<Point x="38.21" y="16.43"/>
+<Point x="38.21" y="22.07"/>
+<Point x="37.57" y="24.5"/>
+<Point x="34" y="31.57"/>
+<Point x="29.93" y="33.43"/>
+<Point x="27" y="35.43"/>
+<Point x="22.36" y="36.71"/>
+<Point x="19.43" y="37.07"/>
+<Point x="16.43" y="36.43"/>
+<Point x="12.43" y="35"/>
+<Point x="9.86" y="33.43"/>
+</Wall>
+<Wall height="4">
+<Point x="38.21" y="22.07"/>
+<Point x="39.21" y="19.07"/>
+<Point x="39.5" y="15.93"/>
+<Point x="39.21" y="13.64"/>
+</Wall>
+<Wall height="4">
+<Point x="33.86" y="5.64"/>
+<Point x="35.21" y="6.5"/>
+<Point x="35.93" y="7.71"/>
+</Wall>
+<Wall height="4">
+<Point x="23" y="15.5"/>
+<Point x="23.79" y="13.86"/>
+<Point x="25.07" y="13.14"/>
+<Point x="26.21" y="13.36"/>
+<Point x="26.71" y="13.79"/>
+</Wall>
+<Wall height="4">
+<Point x="31.71" y="17"/>
+<Point x="31.57" y="15.36"/>
+<Point x="30.43" y="13.43"/>
+<Point x="28.36" y="12"/>
+<Point x="26.43" y="11.36"/>
+<Point x="24.5" y="11.43"/>
+<Point x="22.5" y="12.57"/>
+</Wall>
+<Wall height="4">
+<Point x="19.43" y="15.86"/>
+<Point x="20.5" y="13.36"/>
+<Point x="21.93" y="11.36"/>
+<Point x="24.14" y="10.21"/>
+<Point x="26.36" y="9.79"/>
+<Point x="28.93" y="10.36"/>
+<Point x="30.43" y="11.5"/>
+</Wall>
+<Wall height="4">
+<Point x="24" y="8.5"/>
+<Point x="21.86" y="9.86"/>
+<Point x="19.71" y="11.93"/>
+<Point x="17.93" y="16.5"/>
+<Point x="18.14" y="17.07"/>
+<Point x="17.64" y="17.64"/>
+<Point x="17.79" y="20.5"/>
+<Point x="18.64" y="23.64"/>
+<Point x="19.29" y="24.71"/>
+</Wall>
+<Wall height="4">
+<Point x="31.29" y="12.57"/>
+<Point x="32.64" y="14.07"/>
+<Point x="33.29" y="16.43"/>
+<Point x="33" y="21"/>
+<Point x="31.79" y="24.86"/>
+<Point x="30.29" y="27.29"/>
+<Point x="28" y="29.5"/>
+<Point x="24.64" y="30.21"/>
+<Point x="21.71" y="30.29"/>
+<Point x="19.29" y="29.71"/>
+<Point x="17.14" y="28.29"/>
+<Point x="15.29" y="26.29"/>
+<Point x="14" y="24.29"/>
+<Point x="13.21" y="21.93"/>
+<Point x="12.79" y="19.29"/>
+<Point x="12.57" y="16.71"/>
+<Point x="13.14" y="14.57"/>
+<Point x="14.36" y="11.5"/>
+<Point x="16" y="9.07"/>
+<Point x="18.07" y="7.14"/>
+<Point x="20.29" y="5.64"/>
+<Point x="22.57" y="4.71"/>
+<Point x="24.57" y="4.64"/>
+<Point x="26.29" y="4.29"/>
+<Point x="29.29" y="4.43"/>
+<Point x="31.79" y="5.21"/>
+<Point x="33" y="6.5"/>
+<Point x="32.93" y="6.57"/>
+</Wall>
+<Wall height="4">
+<Point x="13.14" y="14.43"/>
+<Point x="13.86" y="15.5"/>
+<Point x="13.64" y="17.14"/>
+</Wall>
+<Wall height="4">
+<Point x="28" y="29.5"/>
+<Point x="25.5" y="31.14"/>
+<Point x="23" y="31.64"/>
+<Point x="21" y="31.57"/>
+<Point x="18.07" y="30.64"/>
+<Point x="15.64" y="28.93"/>
+<Point x="13" y="26.5"/>
+<Point x="12.71" y="24.21"/>
+<Point x="11.86" y="22.36"/>
+<Point x="11" y="18.14"/>
+<Point x="10.93" y="16.57"/>
+<Point x="11.29" y="14.64"/>
+<Point x="12.71" y="11.07"/>
+<Point x="15.07" y="7.5"/>
+<Point x="20" y="4.07"/>
+<Point x="26.93" y="2.79"/>
+<Point x="28.93" y="3.07"/>
+</Wall>
+<Wall height="4">
+<Point x="13" y="26.5"/>
+<Point x="11.21" y="24.43"/>
+<Point x="10.36" y="22.21"/>
+<Point x="9.71" y="19.86"/>
+<Point x="8.93" y="17.57"/>
+<Point x="8.79" y="16.29"/>
+<Point x="10.07" y="13.71"/>
+<Point x="11.79" y="9.5"/>
+<Point x="13.71" y="6.79"/>
+<Point x="17.71" y="3.57"/>
+<Point x="19.07" y="2.86"/>
+</Wall>
+<Wall height="4">
+<Point x="10.07" y="17.5"/>
+<Point x="9.86" y="16.64"/>
+<Point x="10.21" y="16"/>
+</Wall>
+<Wall height="4">
+<Point x="14.57" y="29.36"/>
+<Point x="12.14" y="27.5"/>
+<Point x="10.86" y="26.36"/>
+<Point x="9.86" y="24.43"/>
+<Point x="8.29" y="20.79"/>
+<Point x="7.79" y="19.07"/>
+<Point x="7.64" y="16.93"/>
+<Point x="7.86" y="15.07"/>
+<Point x="8.93" y="12.86"/>
+<Point x="10.5" y="9.07"/>
+<Point x="11.36" y="8.14"/>
+</Wall>
+<Wall height="4">
+<Point x="21.5" y="8"/>
+<Point x="25.5" y="6.86"/>
+<Point x="28.14" y="6.64"/>
+<Point x="31.71" y="7.71"/>
+<Point x="34.21" y="9.43"/>
+<Point x="36.14" y="11.79"/>
+<Point x="37" y="14.43"/>
+<Point x="37.21" y="18.21"/>
+<Point x="36.57" y="23.21"/>
+<Point x="35.86" y="25.5"/>
+<Point x="34.07" y="28"/>
+<Point x="33.07" y="30.5"/>
+<Point x="31.43" y="31.86"/>
+<Point x="29.86" y="33.14"/>
+<Point x="25.86" y="34.57"/>
+<Point x="22.07" y="35.64"/>
+<Point x="20" y="35.5"/>
+<Point x="17.79" y="35.71"/>
+<Point x="15.5" y="35.14"/>
+<Point x="12.86" y="33.93"/>
+<Point x="10.64" y="32.43"/>
+<Point x="9.14" y="31.43"/>
+</Wall>
+<Wall height="4">
+<Point x="20" y="35.5"/>
+<Point x="17.64" y="34.64"/>
+<Point x="14.5" y="33.57"/>
+<Point x="12.29" y="32.29"/>
+<Point x="8.57" y="29.21"/>
+</Wall>
+<Wall height="4">
+<Point x="27.21" y="7.64"/>
+<Point x="29" y="7.79"/>
+<Point x="31.21" y="8.64"/>
+<Point x="33.36" y="10.5"/>
+<Point x="35.21" y="12.79"/>
+<Point x="36" y="15.93"/>
+<Point x="35.79" y="21.21"/>
+<Point x="34.29" y="25.86"/>
+<Point x="32.5" y="28.64"/>
+<Point x="30.07" y="31.21"/>
+<Point x="27.07" y="33"/>
+<Point x="24.5" y="33.79"/>
+<Point x="21.5" y="34"/>
+<Point x="18.29" y="33.57"/>
+<Point x="15.64" y="32.71"/>
+<Point x="13" y="31.5"/>
+<Point x="10.93" y="29.86"/>
+<Point x="8" y="26.5"/>
+</Wall>
+<Wall height="4">
+<Point x="40.14" y="18.79"/>
+<Point x="40" y="20.29"/>
+<Point x="39.07" y="23.57"/>
+<Point x="37.79" y="26.57"/>
+<Point x="36.79" y="29.43"/>
+<Point x="35.79" y="31.29"/>
+<Point x="34" y="32.93"/>
+<Point x="28.5" y="36.5"/>
+<Point x="25.21" y="38.21"/>
+<Point x="21.57" y="39.36"/>
+<Point x="19.21" y="39.64"/>
+<Point x="17" y="39.36"/>
+<Point x="14.29" y="39.14"/>
+<Point x="12.43" y="38.43"/>
+</Wall>
+<Wall height="4">
+<Point x="28.5" y="36.5"/>
+<Point x="25.93" y="37.07"/>
+<Point x="22.36" y="38.07"/>
+<Point x="19.43" y="38.43"/>
+<Point x="16.57" y="38.14"/>
+<Point x="13.29" y="37.36"/>
+<Point x="11.79" y="36.71"/>
+<Point x="10.93" y="35.79"/>
+</Wall>
+<Wall height="4">
+<Point x="40.21" y="23.57"/>
+<Point x="39.93" y="25.86"/>
+<Point x="38.64" y="29.5"/>
+<Point x="36.86" y="32.21"/>
+<Point x="34.93" y="34.29"/>
+<Point x="32.29" y="36.21"/>
+<Point x="28.71" y="38.14"/>
+<Point x="25.71" y="39.57"/>
+<Point x="23" y="40.5"/>
+<Point x="21.29" y="41.5"/>
+<Point x="18.93" y="41.93"/>
+<Point x="15.71" y="41.93"/>
+<Point x="14.29" y="41.57"/>
+</Wall>
+<Wall height="4">
+<Point x="23" y="40.5"/>
+<Point x="20.07" y="40.79"/>
+<Point x="16.07" y="40.57"/>
+<Point x="13.43" y="40"/>
+</Wall>
+<Wall height="4">
+<Point x="39.14" y="30.71"/>
+<Point x="38.57" y="32.14"/>
+<Point x="36.64" y="34.57"/>
+<Point x="33.21" y="37.43"/>
+<Point x="30" y="39.14"/>
+<Point x="24.86" y="41.14"/>
+<Point x="21.5" y="42.5"/>
+<Point x="18.14" y="43.21"/>
+<Point x="16.07" y="43.07"/>
+</Wall>
+<Wall height="4">
+<Point x="38.57" y="34"/>
+<Point x="37.36" y="36.21"/>
+<Point x="36" y="37.5"/>
+<Point x="34.93" y="39.71"/>
+<Point x="32.64" y="41.79"/>
+<Point x="29.86" y="43.14"/>
+<Point x="26.5" y="44.71"/>
+<Point x="22.43" y="46.43"/>
+<Point x="21.14" y="46.64"/>
+</Wall>
+<Wall height="4">
+<Point x="36" y="37.5"/>
+<Point x="33" y="39.5"/>
+<Point x="31.64" y="40.86"/>
+<Point x="28.64" y="42.29"/>
+<Point x="24.43" y="44.21"/>
+<Point x="20.86" y="45.43"/>
+<Point x="19.29" y="45.64"/>
+<Point x="18.36" y="45.5"/>
+</Wall>
+<Wall height="4">
+<Point x="33" y="39.5"/>
+<Point x="31.43" y="39.79"/>
+<Point x="28.29" y="41.07"/>
+<Point x="22.86" y="43.29"/>
+<Point x="20.43" y="44.07"/>
+<Point x="18.79" y="44.43"/>
+<Point x="17.57" y="44.36"/>
+<Point x="17" y="44.14"/>
+</Wall>
+<Wall height="4">
+<Point x="36.21" y="39.64"/>
+<Point x="33.64" y="42.79"/>
+<Point x="31.93" y="43.71"/>
+<Point x="25.64" y="46.64"/>
+<Point x="23.86" y="47.21"/>
+</Wall>
+<Wall height="4">
+<Point x="27.86" y="47"/>
+<Point x="29.21" y="46.79"/>
+<Point x="31.57" y="45.21"/>
+</Wall>
+<Wall height="4">
+<Point x="0" y="50"/>
+<Point x="50" y="50"/>
+<Point x="50" y="0"/>
+<Point x="0" y="0"/>
+<Point x="0" y="50"/>
+</Wall>
+<Zone effect="target"><ShapeCircle radius="5" ><Point x="44" y="44"/></ShapeCircle></Zone>
+</Field>
+</World>
+</Map>
+</Resource>

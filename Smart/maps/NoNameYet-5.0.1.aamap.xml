@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Resource SYSTEM "sty.dtd">
+<Resource type="aamap" name="NoNameYet" category="maps" version="5.0.0" author="Zwazi">
+  <Map version="0.2.8">
+    <World>
+      <Field>
+        <Axes number="3"/>
+        <Spawn x="8" y="9" angle="0"/>
+        <Wall height="5">
+          <Point x="1" y="10"/>
+          <Point x="15" y="10"/>
+          <Point x="15" y="7"/>
+          <Point x="5" y="1"/>
+        </Wall>
+		<Wall height="5">
+          <Point x="11" y="1"/>
+          <Point x="1" y="7"/>
+          <Point x="1" y="10"/>
+		</Wall>
+		<Wall height="5">
+          <Point x="3" y="8"/>
+          <Point x="13" y="8"/>
+          <Point x="8" y="5"/>
+          <Point x="3" y="8"/>
+		</Wall>
+      </Field>
+    </World>
+  </Map>
+</Resource>
