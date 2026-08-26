@@ -6,28 +6,28 @@
 <Field>
 <Axes number="12"/>
 <Spawn x="160" y="128" xdir="0" ydir="1"/>
-<Wall>
+<Wall height="4">
 <Point x="0" y="0"/>
 <Point x="352" y="0"/>
 <Point x="352" y="320"/>
 <Point x="0" y="320"/>
 <Point x="0" y="0"/>
 </Wall>
-<Wall>
+<Wall height="4">
 <Point x="48" y="64"/>
 <Point x="48" y="272"/>
 <Point x="304" y="272"/>
 <Point x="304" y="64"/>
 </Wall>
-<Wall>
+<Wall height="4">
 <Point x="48" y="48"/>
 <Point x="304" y="48"/>
 </Wall>
-<Wall>
+<Wall height="4">
 <Point x="176" y="240"/>
 <Point x="206.4" y="256"/>
 </Wall>
-<Wall>
+<Wall height="4">
 <Point x="209.6" y="256"/>
 <Point x="240" y="240"/>
 <Point x="256" y="208"/>
@@ -44,7 +44,7 @@
 <Point x="112" y="240"/>
 <Point x="142.4" y="256"/>
 </Wall>
-<Wall>
+<Wall height="4">
 <Point x="145.6" y="256"/>
 <Point x="176" y="240"/>
 </Wall>

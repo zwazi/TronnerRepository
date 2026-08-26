@@ -255,7 +255,7 @@
 <Point x="144" y="432"/>
 <Point x="224" y="432"/>
 </Wall>
-<Wall height="50">
+<Wall height="4">
 <Point x="0" y="928"/>
 <Point x="640" y="928"/>
 <Point x="640" y="0"/>

@@ -36,13 +36,13 @@
 <Zone effect="death"><ShapeCircle radius="32"><Point x="240" y="352"/></ShapeCircle></Zone>
 <Zone effect="death"><ShapeCircle radius="30"><Point x="160" y="288"/></ShapeCircle></Zone>
 <Zone effect="death"><ShapeCircle radius="30"><Point x="112" y="352"/></ShapeCircle></Zone>
-<Wall height="3">
+<Wall height="4">
 <Point x="0" y="384"/>
 <Point x="0" y="352"/>
 <Point x="304" y="352"/>
 <Point x="304" y="656"/>
 </Wall>
-<Wall height="3">
+<Wall height="4">
 <Point x="0" y="384"/>
 <Point x="0" y="400"/>
 <Point x="256" y="400"/>
@@ -50,15 +50,15 @@
 <Point x="352" y="704"/>
 <Point x="352" y="400"/>
 </Wall>
-<Wall height="3">
+<Wall height="4">
 <Point x="304" y="352"/>
 <Point x="608" y="352"/>
 </Wall>
-<Wall height="3">
+<Wall height="4">
 <Point x="304" y="352"/>
 <Point x="304" y="48"/>
 </Wall>
-<Wall height="3">
+<Wall height="4">
 <Point x="352" y="400"/>
 <Point x="656" y="400"/>
 <Point x="656" y="304"/>
@@ -69,7 +69,7 @@
 <Point x="0" y="304"/>
 <Point x="0" y="352"/>
 </Wall>
-<Wall height="3">
+<Wall height="4">
 <Point x="64" y="352"/>
 <Point x="96" y="384"/>
 <Point x="304" y="384"/>

@@ -412,7 +412,7 @@
     <Point x="944" y="-176"/>
     <Point x="880" y="-112"/>
    </Wall>
-   <Wall height="50">
+   <Wall height="4">
     <Point x="576" y="-80"/>
     <Point x="960" y="-80"/>
     <Point x="960" y="-688"/>

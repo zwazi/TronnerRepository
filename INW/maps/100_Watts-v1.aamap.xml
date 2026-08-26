@@ -189,7 +189,7 @@
     </ShapeCircle>
    </Zone>
 
-   <Wall height="5">
+   <Wall height="4">
     <Point x="368" y="-352"/>
     <Point x="368" y="-608"/>
     <Point x="208" y="-768"/>
@@ -201,37 +201,37 @@
     <Point x="720" y="-608"/>
     <Point x="720" y="-352"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="720" y="-352"/>
     <Point x="624" y="-256"/>
     <Point x="464" y="-256"/>
     <Point x="368" y="-352"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="416" y="-320"/>
     <Point x="688" y="-320"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="368" y="-384"/>
     <Point x="704" y="-384"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="720" y="-448"/>
     <Point x="384" y="-448"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="368" y="-512"/>
     <Point x="704" y="-512"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="720" y="-576"/>
     <Point x="384" y="-576"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="368" y="-608"/>
     <Point x="704" y="-608"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="720" y="-608"/>
     <Point x="576" y="-752"/>
     <Point x="464" y="-640"/>

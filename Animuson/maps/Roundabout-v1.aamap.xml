@@ -7,7 +7,7 @@
 <Spawn x="160" y="168" xdir="-1" ydir="0"/>
 <Zone effect="win"><ShapeCircle radius="10"><Point x="48" y="80"/></ShapeCircle></Zone>
 <Zone effect="win"><ShapeCircle radius="10"><Point x="80" y="48"/></ShapeCircle></Zone>
-<Wall>
+<Wall height="4">
 <Point x="160" y="128"/>
 <Point x="176" y="144"/>
 <Point x="176" y="192"/>
@@ -36,17 +36,17 @@
 <Point x="112" y="96"/>
 <Point x="112" y="80"/>
 </Wall>
-<Wall>
+<Wall height="4">
 <Point x="112" y="144"/>
 <Point x="112" y="128"/>
 <Point x="96" y="112"/>
 <Point x="80" y="112"/>
 </Wall>
-<Wall>
+<Wall height="4">
 <Point x="112" y="128"/>
 <Point x="128" y="128"/>
 </Wall>
-<Wall>
+<Wall height="4">
 <Point x="96" y="128"/>
 <Point x="80" y="144"/>
 <Point x="32" y="96"/>
@@ -56,7 +56,7 @@
 <Point x="64" y="96"/>
 <Point x="48" y="96"/>
 </Wall>
-<Wall>
+<Wall height="4">
 <Point x="128" y="96"/>
 <Point x="144" y="80"/>
 <Point x="96" y="32"/>
@@ -66,7 +66,7 @@
 <Point x="96" y="64"/>
 <Point x="96" y="48"/>
 </Wall>
-<Wall>
+<Wall height="4">
 <Point x="64" y="128"/>
 <Point x="64" y="112"/>
 <Point x="80" y="96"/>

@@ -143,13 +143,13 @@
 <Zone effect="death"><ShapeCircle radius="12"><Point x="216" y="136"/></ShapeCircle></Zone>
 <Zone effect="death"><ShapeCircle radius="5"><Point x="280" y="32"/></ShapeCircle></Zone>
 <Zone effect="death"><ShapeCircle radius="5"><Point x="303" y="172"/></ShapeCircle></Zone>
-<Wall height="3">
+<Wall height="4">
 <Point x="216" y="136"/>
 <Point x="216" y="0"/>
 <Point x="280" y="0"/>
 <Point x="280" y="136"/>
 </Wall>
-<Wall height="3">
+<Wall height="4">
 <Point x="280" y="136"/>
 <Point x="424" y="136"/>
 <Point x="424" y="440"/>
