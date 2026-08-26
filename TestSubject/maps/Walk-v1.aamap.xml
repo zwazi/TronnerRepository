@@ -549,13 +549,13 @@
     </ShapeCircle>
    </Zone>
 
-   <Wall height="50">
+   <Wall height="4">
     <Point x="3840" y="-2048"/>
     <Point x="3840" y="-3008"/>
     <Point x="4672" y="-3008"/>
     <Point x="4672" y="-2048"/>
    </Wall>
-   <Wall height="50">
+   <Wall height="4">
     <Point x="3840" y="-2048"/>
     <Point x="4672" y="-2048"/>
    </Wall>

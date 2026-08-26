@@ -75,7 +75,7 @@
 <Zone effect="death"><ShapeCircle radius="82"><Point x="527" y="350"/></ShapeCircle></Zone>
 <Zone effect="death"><ShapeCircle radius="82"><Point x="1039" y="302"/></ShapeCircle></Zone>
 <Zone effect="death"><ShapeCircle radius="82"><Point x="623" y="1070"/></ShapeCircle></Zone>
-<Wall height="5">
+<Wall height="4">
 <Point x="502" y="626"/>
 <Point x="503" y="627"/>
 <Point x="505" y="631"/>
@@ -364,7 +364,7 @@
 <Point x="676" y="13"/>
 <Point x="634" y="0"/>
 </Wall>
-<Wall height="5">
+<Wall height="4">
 <Point x="634" y="0"/>
 <Point x="565" y="169"/>
 </Wall>

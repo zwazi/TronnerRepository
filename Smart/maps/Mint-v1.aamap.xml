@@ -158,7 +158,7 @@
     </ShapeCircle>
    </Zone>
 
-   <Wall height="5">
+   <Wall height="4">
     <Point x="392" y="-320"/>
     <Point x="392" y="-152"/>
     <Point x="416" y="-128"/>
@@ -168,7 +168,7 @@
     <Point x="512" y="-128"/>
     <Point x="488" y="-104"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="488" y="-104"/>
     <Point x="464" y="-128"/>
     <Point x="440" y="-104"/>
@@ -204,7 +204,7 @@
     <Point x="440" y="-336"/>
     <Point x="440" y="-344"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="392" y="-320"/>
     <Point x="416" y="-320"/>
     <Point x="416" y="-152"/>
@@ -217,7 +217,7 @@
     <Point x="440" y="-80"/>
     <Point x="416" y="-104"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="528" y="-192"/>
     <Point x="448" y="-192"/>
     <Point x="448" y="-200"/>
@@ -225,39 +225,39 @@
     <Point x="520" y="-208"/>
     <Point x="528" y="-208"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="416" y="-224"/>
     <Point x="496" y="-224"/>
     <Point x="496" y="-240"/>
     <Point x="416" y="-240"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="528" y="-256"/>
     <Point x="448" y="-256"/>
     <Point x="448" y="-272"/>
     <Point x="528" y="-272"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="416" y="-288"/>
     <Point x="472" y="-288"/>
     <Point x="472" y="-304"/>
     <Point x="416" y="-304"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="496" y="-288"/>
     <Point x="528" y="-288"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="496" y="-288"/>
     <Point x="496" y="-304"/>
     <Point x="528" y="-304"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="520" y="-112"/>
     <Point x="568" y="-112"/>
     <Point x="568" y="-144"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="456" y="-336"/>
     <Point x="448" y="-344"/>
    </Wall>

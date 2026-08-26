@@ -14,7 +14,12 @@ from pathlib import Path
 
 
 TARGET_VERSION = "v1"
+TARGET_WALL_HEIGHT = "4"
 RESOURCE_RE = re.compile(br"<Resource\b[^>]*>", re.IGNORECASE | re.DOTALL)
+WALL_TAG_RE = re.compile(br"<Wall\b[^>]*>", re.IGNORECASE | re.DOTALL)
+WALL_LINE_TRAILING_RE = re.compile(
+    br"(<Wall\b[^>\r\n]*>)[ \t]+$", re.IGNORECASE | re.MULTILINE
+)
 ATTRIBUTE_RE = re.compile(
     br"([A-Za-z_:][A-Za-z0-9_:.-]*)\s*=\s*([\"'])(.*?)\2", re.DOTALL
 )
@@ -226,7 +231,35 @@ def update_map(record: MapRecord) -> tuple[bytes, int]:
         lambda match: match.group(1) + match.group(2) + b"win" + match.group(2),
         updated_data,
     )
+    updated_data = WALL_TAG_RE.sub(normalize_wall_tag, updated_data)
+    updated_data = WALL_LINE_TRAILING_RE.sub(br"\1", updated_data)
     return updated_data, target_count
+
+
+def normalize_wall_tag(match: re.Match[bytes]) -> bytes:
+    tag = match.group(0)
+    height_matches = [
+        attribute
+        for attribute in ATTRIBUTE_RE.finditer(tag)
+        if attribute.group(1).lower() == b"height"
+    ]
+    if height_matches:
+        for height in reversed(height_matches):
+            tag = (
+                tag[: height.start(3)]
+                + TARGET_WALL_HEIGHT.encode("ascii")
+                + tag[height.end(3) :]
+            )
+        return tag
+
+    closing = re.search(br"(\s*/?>)$", tag, re.DOTALL)
+    if closing is None:
+        raise ValueError("Wall tag has no closing bracket")
+    return (
+        tag[: closing.start(1)]
+        + b' height="4"'
+        + closing.group(1)
+    )
 
 
 def build_plan(root: Path) -> tuple[
@@ -308,6 +341,7 @@ def check_repository(root: Path) -> int:
     records = discover_maps(root)
     errors: list[str] = []
     identities: dict[tuple[str, str], list[Path]] = defaultdict(list)
+    cockpit_count = 0
 
     for record in records:
         identities[map_identity(record, root)].append(record.path)
@@ -321,10 +355,52 @@ def check_repository(root: Path) -> int:
         target_count = len(TARGET_EFFECT_RE.findall(record.data))
         if target_count:
             errors.append(f"{record.path}: still contains {target_count} target zone(s)")
+        incorrect_walls = sum(
+            parse_attributes(wall.group(0)).get("height") != TARGET_WALL_HEIGHT
+            for wall in WALL_TAG_RE.finditer(record.data)
+        )
+        if incorrect_walls:
+            errors.append(
+                f"{record.path}: contains {incorrect_walls} wall(s) without "
+                f"height={TARGET_WALL_HEIGHT!r}"
+            )
 
     for paths in identities.values():
         if len(paths) > 1:
             errors.append("duplicate map identity: " + ", ".join(str(path) for path in paths))
+
+    for path in sorted(root.rglob("*.xml")):
+        if ".git" in path.parts:
+            continue
+        data = path.read_bytes()
+        resource_match = RESOURCE_RE.search(data)
+        if resource_match is None:
+            continue
+        attributes = parse_attributes(resource_match.group(0))
+        resource_type = attributes.get("type", "").casefold()
+        filename = path.name.casefold()
+        map_suffix = bool(MAP_SUFFIX_RE.search(filename))
+        cockpit_suffix = filename.endswith(".aacockpit.xml")
+
+        if map_suffix and resource_type != "aamap":
+            errors.append(f"{path}: .aamap.xml file contains Resource type {resource_type!r}")
+        if resource_type == "aamap" and not map_suffix:
+            errors.append(f"{path}: aamap Resource does not use the .aamap.xml suffix")
+        if cockpit_suffix and resource_type != "aacockpit":
+            errors.append(f"{path}: .aacockpit.xml file contains Resource type {resource_type!r}")
+        if resource_type == "aacockpit":
+            cockpit_count += 1
+            if not cockpit_suffix:
+                errors.append(f"{path}: aacockpit Resource does not use the .aacockpit.xml suffix")
+                continue
+            name = attributes.get("name")
+            version = attributes.get("version")
+            if not name or not version:
+                errors.append(f"{path}: aacockpit Resource is missing its name or version")
+                continue
+            expected_name = f"{name}-{version}.aacockpit.xml"
+            if path.name != expected_name:
+                errors.append(f"{path}: expected cockpit filename {expected_name!r}")
 
     if errors:
         print("Map normalization check failed:", file=sys.stderr)
@@ -332,7 +408,10 @@ def check_repository(root: Path) -> int:
             print(f"- {error}", file=sys.stderr)
         return 1
 
-    print(f"Map normalization check passed for {len(records)} maps.")
+    print(
+        f"Resource normalization check passed for {len(records)} maps "
+        f"and {cockpit_count} cockpits."
+    )
     return 0
 
 

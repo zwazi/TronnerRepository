@@ -6,7 +6,7 @@
 <Field>
 <Spawn x="32" y="192" xdir="1" ydir="1"/>
 <Zone effect="win"><ShapeCircle radius="16"><Point x="944" y="16"/></ShapeCircle></Zone>
-<Wall>
+<Wall height="4">
 <Point x="0" y="208"/>
 <Point x="128" y="336"/>
 <Point x="416" y="48"/>

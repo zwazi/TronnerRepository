@@ -7,7 +7,7 @@
         <Axes number="8"/>
         <Spawn x="75" y="90" xdir="0" ydir="1"/>
         <!-- Outer rim -->
-        <Wall height="20">
+        <Wall height="4">
           <Point x="0" y="0"/>
           <Point x="0" y="150"/>
           <Point x="150" y="150"/>
@@ -15,7 +15,7 @@
           <Point x="0" y="0"/>
         </Wall>
         <!-- Jew Star -->
-        <Wall height="5">
+        <Wall height="4">
           <Point x="0" y="75"/>
           <Point x="25" y="100"/>
           <Point x="25" y="125"/>
@@ -35,7 +35,7 @@
           <Point x="0" y="75"/>
         </Wall>
         <!-- Spawn wall -->
-        <Wall>
+        <Wall height="4">
           <Point x="70" y="140"/>
           <Point x="70" y="105"/>
           <Point x="60" y="95"/>
@@ -64,17 +64,17 @@
           <Point x="50" y="110"/>
           <Point x="65" y="125"/>
         </Wall>
-        <Wall>
+        <Wall height="4">
           <Point x="65" y="140"/>
           <Point x="85" y="140"/>
         </Wall>
-        <Wall>
+        <Wall height="4">
           <Point x="70" y="100"/>
           <Point x="75" y="105"/>
           <Point x="80" y="100"/>
         </Wall>
         <!-- Inner Walls -->
-        <Wall>
+        <Wall height="4">
           <Point x="70" y="120"/>
           <Point x="25" y="75"/>
           <Point x="75" y="25"/>
@@ -82,7 +82,7 @@
           <Point x="85" y="115"/>
         </Wall>
         <!-- Top left box -->
-        <Wall>
+        <Wall height="4">
           <Point x="30" y="120"/>
           <Point x="30" y="105"/>
           <Point x="45" y="105"/>
@@ -90,7 +90,7 @@
           <Point x="30" y="120"/>
         </Wall>
         <!-- Top right box -->
-        <Wall>
+        <Wall height="4">
           <Point x="105" y="120"/>
           <Point x="105" y="105"/>
           <Point x="120" y="105"/>
@@ -98,7 +98,7 @@
           <Point x="105" y="120"/>
         </Wall>
         <!-- Bottom Left box -->
-        <Wall>
+        <Wall height="4">
           <Point x="30" y="45"/>
           <Point x="30" y="30"/>
           <Point x="45" y="30"/>
@@ -106,22 +106,22 @@
           <Point x="30" y="45"/>
         </Wall>
         <!-- Bottom Right box -->
-        <Wall>
+        <Wall height="4">
           <Point x="105" y="45"/>
           <Point x="105" y="30"/>
           <Point x="120" y="30"/>
           <Point x="120" y="45"/>
           <Point x="105" y="45"/>
         </Wall>
-        <Wall>
+        <Wall height="4">
           <Point x="90" y="95"/>
           <Point x="90" y="50"/>
         </Wall>
-        <Wall>
+        <Wall height="4">
           <Point x="60" y="95"/>
           <Point x="60" y="50"/>
         </Wall>
-        <Wall>
+        <Wall height="4">
           <Point x="75" y="25"/>
           <Point x="75" y="75"/>
         </Wall>

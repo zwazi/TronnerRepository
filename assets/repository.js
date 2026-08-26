@@ -15,9 +15,12 @@
     archive: '<svg viewBox="0 0 24 24" fill="none"><path d="M5 8h14v11H5V8Zm-1-4h16v4H4V4Z" stroke="currentColor" stroke-width="1.6"/><path d="M9 12h6" stroke="currentColor" stroke-width="1.6"/></svg>',
     image: '<svg viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="16" rx="2.5" stroke="currentColor" stroke-width="1.6"/><path d="m5 17 4.5-4 3 2.5 2.5-2 4 3.5" stroke="currentColor" stroke-width="1.6"/></svg>',
     code: '<svg viewBox="0 0 24 24" fill="none"><path d="m8.5 8-4 4 4 4M15.5 8l4 4-4 4M14 5l-4 14" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>',
+    cockpit: '<svg viewBox="0 0 24 24" fill="none"><path d="M4 18V6m16 12V6M7 15l3-4 3 2 4-6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M3 18h18" stroke="currentColor" stroke-width="1.6"/></svg>',
     file: '<svg viewBox="0 0 24 24" fill="none"><path d="M6 3h8l4 4v14H6V3Z" stroke="currentColor" stroke-width="1.6"/><path d="M14 3v5h4M9 12h6M9 16h5" stroke="currentColor" stroke-width="1.6"/></svg>',
     external: '<svg viewBox="0 0 24 24" fill="none"><path d="M14 5h5v5M19 5l-8 8M18 13v5a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>',
-    copy: '<svg viewBox="0 0 24 24" fill="none"><rect x="8" y="8" width="11" height="11" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2" stroke="currentColor" stroke-width="1.6"/></svg>'
+    copy: '<svg viewBox="0 0 24 24" fill="none"><rect x="8" y="8" width="11" height="11" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2" stroke="currentColor" stroke-width="1.6"/></svg>',
+    preview: '<svg viewBox="0 0 24 24" fill="none"><path d="M2.8 12s3.3-5 9.2-5 9.2 5 9.2 5-3.3 5-9.2 5-9.2-5-9.2-5Z" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="2.4" stroke="currentColor" stroke-width="1.6"/></svg>',
+    download: '<svg viewBox="0 0 24 24" fill="none"><path d="M12 4v10m0 0 3.5-3.5M12 14l-3.5-3.5M5 18v2h14v-2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>'
   };
 
   const state = {
@@ -32,7 +35,9 @@
     loading: true,
     lastSync: null,
     source: "network",
-    treeSha: ""
+    treeSha: "",
+    downloading: false,
+    previewCache: new Map()
   };
 
   const $ = selector => document.querySelector(selector);
@@ -57,16 +62,30 @@
     refreshButton: $("#refresh-button"),
     lastUpdated: $("#last-updated"),
     toast: $("#toast"),
-    githubLink: $("#github-link")
+    githubLink: $("#github-link"),
+    downloadAllLink: $("#download-all-link"),
+    directoryDownloadButton: $("#directory-download-button"),
+    directoryDownloadLabel: $("#directory-download-label"),
+    previewDialog: $("#preview-dialog"),
+    previewTitle: $("#preview-title"),
+    previewMeta: $("#preview-meta"),
+    previewStage: $("#preview-stage"),
+    previewSvg: $("#map-preview"),
+    previewLoading: $("#preview-loading"),
+    previewClose: $("#preview-close"),
+    previewRawLink: $("#preview-raw-link")
   };
 
   const repositoryUrl = `https://github.com/${CONFIG.owner}/${CONFIG.repository}`;
   const apiUrl = `https://api.github.com/repos/${CONFIG.owner}/${CONFIG.repository}/git/trees/${encodeURIComponent(CONFIG.branch)}?recursive=1`;
+  const archiveUrl = `${repositoryUrl}/archive/refs/heads/${encodeURIComponent(CONFIG.branch)}.zip`;
   elements.githubLink.href = repositoryUrl;
+  elements.downloadAllLink.href = archiveUrl;
 
   const basename = path => path.split("/").pop() || path;
   const parentPath = path => path.split("/").slice(0, -1).join("/");
   const encodePath = path => path.split("/").map(encodeURIComponent).join("/");
+  const rawFileUrl = path => `https://raw.githubusercontent.com/${CONFIG.owner}/${CONFIG.repository}/${encodeURIComponent(CONFIG.branch)}/${encodePath(path)}`;
 
   function formatSize(bytes) {
     if (!Number.isFinite(bytes) || bytes < 0) return "—";
@@ -90,7 +109,8 @@
   function fileKind(item) {
     if (item.type === "tree") return "folder";
     const path = item.path.toLowerCase();
-    if (path.endsWith(".aamap.xml") && !path.includes("/cockpits/")) return "map";
+    if (path.endsWith(".aacockpit.xml") || (path.includes("/cockpits/") && path.endsWith(".aamap.xml"))) return "cockpit";
+    if (path.endsWith(".aamap.xml")) return "map";
     if (/\.(zip|7z|tar|gz)$/.test(path)) return "archive";
     if (/\.(png|jpe?g|gif|webp|svg)$/.test(path)) return "image";
     if (/\.(html?|css|js|mjs|py|php|cfg|dtd|json|ya?ml|toml|sh)$/.test(path)) return "code";
@@ -101,6 +121,7 @@
     const kind = fileKind(item);
     if (kind === "folder") return "Folder";
     if (kind === "map") return "AAMap";
+    if (kind === "cockpit") return "Cockpit";
     if (kind === "archive") return "Archive";
     if (kind === "image") return "Image";
     const name = basename(item.path);
@@ -358,7 +379,7 @@
     if (state.filter === "assets") {
       return ["archive", "image", "file"].includes(kind) && item.type !== "tree";
     }
-    return state.filter === "code" ? kind === "code" : true;
+    return state.filter === "code" ? ["code", "cockpit"].includes(kind) : true;
   }
 
   function visibleItems() {
@@ -428,13 +449,18 @@
     icon.innerHTML = ICONS[kind] || ICONS.file;
     primary.append(icon);
 
-    const control = document.createElement(item.type === "tree" ? "button" : "a");
-    control.className = item.type === "tree" ? "file-name-button" : "file-name-link";
+    const previewsMap = kind === "map";
+    const control = document.createElement(item.type === "tree" || previewsMap ? "button" : "a");
+    control.className = item.type === "tree" || previewsMap ? "file-name-button" : "file-name-link";
     control.title = item.path;
     control.append(highlightedText(basename(item.path)));
     if (item.type === "tree") {
       control.type = "button";
       control.addEventListener("click", () => navigateTo(item.path));
+    } else if (previewsMap) {
+      control.type = "button";
+      control.title = `Preview ${item.path}`;
+      control.addEventListener("click", () => openMapPreview(item));
     } else {
       control.href = `${repositoryUrl}/blob/${encodeURIComponent(CONFIG.branch)}/${encodePath(item.path)}`;
       control.target = "_blank";
@@ -461,6 +487,16 @@
     const actionCell = document.createElement("td");
     const actions = document.createElement("div");
     actions.className = "row-actions";
+    if (previewsMap) {
+      const preview = document.createElement("button");
+      preview.type = "button";
+      preview.className = "icon-button preview-action";
+      preview.title = "Preview map";
+      preview.setAttribute("aria-label", `Preview map ${item.path}`);
+      preview.innerHTML = ICONS.preview;
+      preview.addEventListener("click", () => openMapPreview(item));
+      actions.append(preview);
+    }
     if (item.type === "blob") {
       const open = document.createElement("a");
       open.className = "icon-button";
@@ -471,6 +507,15 @@
       open.setAttribute("aria-label", `Open ${item.path} on GitHub`);
       open.innerHTML = ICONS.external;
       actions.append(open);
+    } else {
+      const download = document.createElement("button");
+      download.type = "button";
+      download.className = "icon-button download-action";
+      download.title = "Download directory";
+      download.setAttribute("aria-label", `Download directory ${item.path}`);
+      download.innerHTML = ICONS.download;
+      download.addEventListener("click", () => downloadDirectory(item.path));
+      actions.append(download);
     }
     const copy = document.createElement("button");
     copy.type = "button";
@@ -490,12 +535,24 @@
     renderDirectories();
     renderBreadcrumbs();
     renderRows();
+    updateDirectoryDownloadUi();
     document.querySelectorAll(".view-button").forEach(button => {
       button.classList.toggle("active", button.dataset.view === state.view && !state.query);
     });
     document.querySelectorAll(".filter-chip").forEach(button => {
       button.classList.toggle("active", button.dataset.filter === state.filter);
     });
+  }
+
+  function downloadScopePath() {
+    return state.query || state.view === "all" ? "" : state.currentPath;
+  }
+
+  function updateDirectoryDownloadUi() {
+    const path = downloadScopePath();
+    const name = path ? basename(path) : "root";
+    elements.directoryDownloadLabel.textContent = path ? `Download ${name}` : "Download all";
+    elements.directoryDownloadButton.setAttribute("aria-label", path ? `Download directory ${path}` : "Download entire repository");
   }
 
   function navigateTo(path) {
@@ -530,6 +587,354 @@
     if (focus) elements.searchInput.focus();
   }
 
+  const SVG_NAMESPACE = "http://www.w3.org/2000/svg";
+  let previewRequest = 0;
+
+  function svgElement(name, attributes = {}) {
+    const element = document.createElementNS(SVG_NAMESPACE, name);
+    for (const [key, value] of Object.entries(attributes)) element.setAttribute(key, value);
+    return element;
+  }
+
+  function numericAttribute(element, name) {
+    const value = element?.getAttribute(name);
+    if (value === null || !value.trim()) return null;
+    const number = Number(value);
+    return Number.isFinite(number) ? number : null;
+  }
+
+  function pointFromElement(element) {
+    const x = numericAttribute(element, "x");
+    const y = numericAttribute(element, "y");
+    return x === null || y === null ? null : { x, y };
+  }
+
+  function directChildren(element, name) {
+    return [...element.children].filter(child => child.localName === name);
+  }
+
+  async function fetchMapText(path) {
+    const response = await fetch(rawFileUrl(path), { cache: "no-store" });
+    if (!response.ok) throw new Error(`Map file returned ${response.status}.`);
+    const bytes = new Uint8Array(await response.arrayBuffer());
+    const declaration = new TextDecoder("ascii").decode(bytes.slice(0, 180));
+    const declaredEncoding = declaration.match(/encoding\s*=\s*["']([^"']+)/i)?.[1] || "utf-8";
+    try {
+      return new TextDecoder(declaredEncoding).decode(bytes);
+    } catch (error) {
+      return new TextDecoder("utf-8").decode(bytes);
+    }
+  }
+
+  function zoneEffect(zone) {
+    const direct = zone.getAttribute("effect");
+    if (direct) return direct.toLowerCase();
+    const nested = [...zone.getElementsByTagName("Effect")]
+      .map(effect => effect.getAttribute("effect"))
+      .find(Boolean);
+    return nested ? nested.toLowerCase() : "other";
+  }
+
+  function parseMapDocument(source) {
+    const mapDocument = new DOMParser().parseFromString(source, "application/xml");
+    if (mapDocument.querySelector("parsererror")) throw new Error("The map XML could not be parsed.");
+    const resource = mapDocument.documentElement;
+    if (resource?.getAttribute("type")?.toLowerCase() !== "aamap") {
+      throw new Error("This resource is not an Armagetron map.");
+    }
+
+    const walls = [...mapDocument.getElementsByTagName("Wall")]
+      .map(wall => directChildren(wall, "Point").map(pointFromElement).filter(Boolean))
+      .filter(points => points.length > 1);
+    const zones = [...mapDocument.getElementsByTagName("Zone")].flatMap(zone => {
+      const effect = zoneEffect(zone);
+      const circle = zone.getElementsByTagName("ShapeCircle")[0];
+      if (circle) {
+        const center = directChildren(circle, "Point").map(pointFromElement).find(Boolean);
+        const radius = numericAttribute(circle, "radius");
+        return center && radius !== null && radius >= 0 ? [{ type: "circle", effect, center, radius }] : [];
+      }
+      const polygon = zone.getElementsByTagName("ShapePolygon")[0];
+      if (!polygon) return [];
+      let pointElements = directChildren(polygon, "Point");
+      const colorIndex = [...polygon.children].findIndex(child => child.localName === "Color");
+      if (colorIndex > 0 && pointElements.length > 3) pointElements = pointElements.slice(1);
+      const points = pointElements.map(pointFromElement).filter(Boolean);
+      return points.length > 2 ? [{ type: "polygon", effect, points }] : [];
+    });
+    const spawns = [...mapDocument.getElementsByTagName("Spawn")].flatMap(spawn => {
+      const x = numericAttribute(spawn, "x");
+      const y = numericAttribute(spawn, "y");
+      if (x === null || y === null) return [];
+      let dx = numericAttribute(spawn, "xdir");
+      let dy = numericAttribute(spawn, "ydir");
+      if (dx === null || dy === null) {
+        const angle = numericAttribute(spawn, "angle") || 0;
+        const radians = angle * Math.PI / 180;
+        dx = Math.cos(radians);
+        dy = Math.sin(radians);
+      }
+      const magnitude = Math.hypot(dx, dy) || 1;
+      return [{ x, y, dx: dx / magnitude, dy: dy / magnitude }];
+    });
+
+    return {
+      name: resource.getAttribute("name") || "Untitled map",
+      author: resource.getAttribute("author") || "Unknown author",
+      version: resource.getAttribute("version") || "Unknown version",
+      walls,
+      zones,
+      spawns
+    };
+  }
+
+  function renderMapGeometry(map) {
+    elements.previewSvg.replaceChildren();
+    const bounds = { minX: Infinity, minY: Infinity, maxX: -Infinity, maxY: -Infinity };
+    const include = (x, y) => {
+      bounds.minX = Math.min(bounds.minX, x);
+      bounds.minY = Math.min(bounds.minY, y);
+      bounds.maxX = Math.max(bounds.maxX, x);
+      bounds.maxY = Math.max(bounds.maxY, y);
+    };
+    map.walls.flat().forEach(point => include(point.x, point.y));
+    map.zones.forEach(zone => {
+      if (zone.type === "circle") {
+        include(zone.center.x - zone.radius, zone.center.y - zone.radius);
+        include(zone.center.x + zone.radius, zone.center.y + zone.radius);
+      } else zone.points.forEach(point => include(point.x, point.y));
+    });
+    map.spawns.forEach(spawn => include(spawn.x, spawn.y));
+    if (!Number.isFinite(bounds.minX)) throw new Error("No drawable wall, zone, or spawn geometry was found.");
+
+    const width = Math.max(1, bounds.maxX - bounds.minX);
+    const height = Math.max(1, bounds.maxY - bounds.minY);
+    const padding = Math.max(width, height) * .045;
+    elements.previewSvg.setAttribute("viewBox", `${bounds.minX - padding} ${-(bounds.maxY + padding)} ${width + padding * 2} ${height + padding * 2}`);
+    elements.previewSvg.setAttribute("preserveAspectRatio", "xMidYMid meet");
+    const group = svgElement("g", { transform: "scale(1 -1)" });
+
+    for (const points of map.walls) {
+      group.append(svgElement("polyline", {
+        class: "map-wall",
+        points: points.map(point => `${point.x},${point.y}`).join(" ")
+      }));
+    }
+    for (const zone of map.zones) {
+      const effectClass = zone.effect === "win" ? "win" : zone.effect === "death" ? "death" : "other";
+      if (zone.type === "circle") {
+        group.append(svgElement("circle", {
+          class: `zone ${effectClass}`,
+          cx: zone.center.x,
+          cy: zone.center.y,
+          r: zone.radius
+        }));
+      } else {
+        group.append(svgElement("polygon", {
+          class: `zone ${effectClass}`,
+          points: zone.points.map(point => `${point.x},${point.y}`).join(" ")
+        }));
+      }
+    }
+
+    const arrowLength = Math.max(width, height) * .032;
+    const headLength = arrowLength * .42;
+    for (const spawn of map.spawns) {
+      const endX = spawn.x + spawn.dx * arrowLength;
+      const endY = spawn.y + spawn.dy * arrowLength;
+      const normalX = -spawn.dy * headLength * .5;
+      const normalY = spawn.dx * headLength * .5;
+      group.append(svgElement("line", { class: "spawn-line", x1: spawn.x, y1: spawn.y, x2: endX, y2: endY }));
+      group.append(svgElement("polygon", {
+        class: "spawn-head",
+        points: `${endX},${endY} ${endX - spawn.dx * headLength + normalX},${endY - spawn.dy * headLength + normalY} ${endX - spawn.dx * headLength - normalX},${endY - spawn.dy * headLength - normalY}`
+      }));
+    }
+    elements.previewSvg.append(group);
+  }
+
+  async function openMapPreview(item) {
+    const request = ++previewRequest;
+    elements.previewTitle.textContent = basename(item.path).replace(/-v1\.aamap\.xml$/i, "");
+    elements.previewMeta.textContent = item.path;
+    elements.previewRawLink.href = `${repositoryUrl}/blob/${encodeURIComponent(CONFIG.branch)}/${encodePath(item.path)}`;
+    elements.previewSvg.replaceChildren();
+    elements.previewLoading.className = "preview-loading";
+    elements.previewLoading.innerHTML = "<span></span>Reading map geometry…";
+    if (!elements.previewDialog.open) elements.previewDialog.showModal();
+
+    try {
+      let map = state.previewCache.get(item.path);
+      if (!map) {
+        map = parseMapDocument(await fetchMapText(item.path));
+        state.previewCache.set(item.path, map);
+      }
+      if (request !== previewRequest) return;
+      renderMapGeometry(map);
+      elements.previewTitle.textContent = map.name;
+      elements.previewMeta.textContent = `${map.author} · ${map.version} · ${map.walls.length.toLocaleString()} walls · ${map.zones.length.toLocaleString()} zones · ${map.spawns.length.toLocaleString()} spawns`;
+      elements.previewLoading.classList.add("hidden");
+    } catch (error) {
+      if (request !== previewRequest) return;
+      elements.previewLoading.classList.add("error");
+      elements.previewLoading.textContent = error.message;
+    }
+  }
+
+  const CRC_TABLE = (() => {
+    const table = new Uint32Array(256);
+    for (let index = 0; index < 256; index += 1) {
+      let value = index;
+      for (let bit = 0; bit < 8; bit += 1) value = (value & 1) ? 0xedb88320 ^ (value >>> 1) : value >>> 1;
+      table[index] = value >>> 0;
+    }
+    return table;
+  })();
+
+  function crc32(bytes) {
+    let crc = 0xffffffff;
+    for (const byte of bytes) crc = CRC_TABLE[(crc ^ byte) & 0xff] ^ (crc >>> 8);
+    return (crc ^ 0xffffffff) >>> 0;
+  }
+
+  function zipTimestamp(date = new Date()) {
+    const year = Math.max(1980, date.getFullYear());
+    return {
+      time: (date.getHours() << 11) | (date.getMinutes() << 5) | Math.floor(date.getSeconds() / 2),
+      date: ((year - 1980) << 9) | ((date.getMonth() + 1) << 5) | date.getDate()
+    };
+  }
+
+  function createZip(entries) {
+    const encoder = new TextEncoder();
+    const chunks = [];
+    const centralRecords = [];
+    const timestamp = zipTimestamp();
+    let offset = 0;
+
+    for (const entry of entries) {
+      const name = encoder.encode(entry.name);
+      const data = entry.data;
+      const crc = crc32(data);
+      const local = new Uint8Array(30 + name.length);
+      const localView = new DataView(local.buffer);
+      localView.setUint32(0, 0x04034b50, true);
+      localView.setUint16(4, 20, true);
+      localView.setUint16(6, 0x0800, true);
+      localView.setUint16(8, 0, true);
+      localView.setUint16(10, timestamp.time, true);
+      localView.setUint16(12, timestamp.date, true);
+      localView.setUint32(14, crc, true);
+      localView.setUint32(18, data.length, true);
+      localView.setUint32(22, data.length, true);
+      localView.setUint16(26, name.length, true);
+      local.set(name, 30);
+      chunks.push(local, data);
+
+      const central = new Uint8Array(46 + name.length);
+      const centralView = new DataView(central.buffer);
+      centralView.setUint32(0, 0x02014b50, true);
+      centralView.setUint16(4, 20, true);
+      centralView.setUint16(6, 20, true);
+      centralView.setUint16(8, 0x0800, true);
+      centralView.setUint16(10, 0, true);
+      centralView.setUint16(12, timestamp.time, true);
+      centralView.setUint16(14, timestamp.date, true);
+      centralView.setUint32(16, crc, true);
+      centralView.setUint32(20, data.length, true);
+      centralView.setUint32(24, data.length, true);
+      centralView.setUint16(28, name.length, true);
+      centralView.setUint32(42, offset, true);
+      central.set(name, 46);
+      centralRecords.push(central);
+      offset += local.length + data.length;
+    }
+
+    const centralSize = centralRecords.reduce((sum, record) => sum + record.length, 0);
+    chunks.push(...centralRecords);
+    const end = new Uint8Array(22);
+    const endView = new DataView(end.buffer);
+    endView.setUint32(0, 0x06054b50, true);
+    endView.setUint16(8, entries.length, true);
+    endView.setUint16(10, entries.length, true);
+    endView.setUint32(12, centralSize, true);
+    endView.setUint32(16, offset, true);
+    chunks.push(end);
+    return new Blob(chunks, { type: "application/zip" });
+  }
+
+  async function fetchDirectoryEntries(files, path) {
+    const entries = new Array(files.length);
+    const stripPrefix = parentPath(path);
+    let cursor = 0;
+    let completed = 0;
+    async function worker() {
+      while (cursor < files.length) {
+        const index = cursor;
+        cursor += 1;
+        const file = files[index];
+        const response = await fetch(rawFileUrl(file.path), { cache: "no-store" });
+        if (!response.ok) throw new Error(`${file.path} returned ${response.status}`);
+        const data = new Uint8Array(await response.arrayBuffer());
+        const name = stripPrefix ? file.path.slice(stripPrefix.length + 1) : file.path;
+        entries[index] = { name, data };
+        completed += 1;
+        showProgress(`Preparing ${basename(path)} · ${completed.toLocaleString()} / ${files.length.toLocaleString()} files`);
+      }
+    }
+    await Promise.all(Array.from({ length: Math.min(6, files.length) }, worker));
+    return entries;
+  }
+
+  function saveBlob(blob, filename) {
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = filename;
+    document.body.append(link);
+    link.click();
+    link.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+  }
+
+  function setDownloadControls(disabled) {
+    elements.directoryDownloadButton.disabled = disabled;
+    document.querySelectorAll(".download-action").forEach(button => { button.disabled = disabled; });
+  }
+
+  async function downloadDirectory(path) {
+    if (!path) {
+      window.location.assign(archiveUrl);
+      return;
+    }
+    if (state.downloading) {
+      showProgress("A directory download is already being prepared.");
+      return;
+    }
+    const prefix = `${path}/`;
+    const files = state.items.filter(item => item.type === "blob" && item.path.startsWith(prefix));
+    if (!files.length) {
+      showToast("This directory has no files to download.");
+      return;
+    }
+
+    state.downloading = true;
+    setDownloadControls(true);
+    showProgress(`Preparing ${basename(path)} · 0 / ${files.length.toLocaleString()} files`);
+    try {
+      const entries = await fetchDirectoryEntries(files, path);
+      const zip = createZip(entries);
+      const safeName = basename(path).replace(/[^A-Za-z0-9._-]+/g, "-") || "directory";
+      saveBlob(zip, `${safeName}-${CONFIG.branch}.zip`);
+      showToast(`${basename(path)} downloaded · ${formatSize(zip.size)}`);
+    } catch (error) {
+      showToast(`Download failed: ${error.message}`, 5000);
+    } finally {
+      state.downloading = false;
+      setDownloadControls(false);
+    }
+  }
+
   async function copyPath(path) {
     try {
       await navigator.clipboard.writeText(path);
@@ -546,11 +951,18 @@
   }
 
   let toastTimer;
-  function showToast(message) {
+  function showToast(message, duration = 1800) {
     elements.toast.textContent = message;
+    elements.toast.classList.remove("progress");
     elements.toast.classList.add("visible");
     clearTimeout(toastTimer);
-    toastTimer = setTimeout(() => elements.toast.classList.remove("visible"), 1800);
+    toastTimer = setTimeout(() => elements.toast.classList.remove("visible"), duration);
+  }
+
+  function showProgress(message) {
+    clearTimeout(toastTimer);
+    elements.toast.textContent = message;
+    elements.toast.classList.add("visible", "progress");
   }
 
   function showError(message) {
@@ -606,6 +1018,11 @@
   });
 
   elements.refreshButton.addEventListener("click", () => fetchTree());
+  elements.directoryDownloadButton.addEventListener("click", () => downloadDirectory(downloadScopePath()));
+  elements.previewClose.addEventListener("click", () => elements.previewDialog.close());
+  elements.previewDialog.addEventListener("click", event => {
+    if (event.target === elements.previewDialog) elements.previewDialog.close();
+  });
 
   document.addEventListener("keydown", event => {
     if (event.key === "/" && !/^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement.tagName)) {

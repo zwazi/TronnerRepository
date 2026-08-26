@@ -472,147 +472,147 @@
     </ShapeCircle>
    </Zone>
 
-   <Wall height="5">
+   <Wall height="4">
     <Point x="360" y="-1240"/>
     <Point x="440" y="-1240"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="440" y="-1240"/>
     <Point x="440" y="-1120"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="440" y="-1120"/>
     <Point x="520" y="-1040"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="520" y="-1040"/>
     <Point x="440" y="-960"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="440" y="-960"/>
     <Point x="520" y="-880"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="520" y="-880"/>
     <Point x="440" y="-800"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="440" y="-800"/>
     <Point x="600" y="-640"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="600" y="-640"/>
     <Point x="600" y="-440"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="600" y="-440"/>
     <Point x="360" y="-680"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="600" y="-440"/>
     <Point x="480" y="-320"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="480" y="-320"/>
     <Point x="404" y="-396"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="404" y="-396"/>
     <Point x="404" y="-404"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="404" y="-404"/>
     <Point x="480" y="-480"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="480" y="-480"/>
     <Point x="520" y="-440"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="520" y="-440"/>
     <Point x="480" y="-400"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="480" y="-440"/>
     <Point x="440" y="-400"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="440" y="-400"/>
     <Point x="480" y="-360"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="480" y="-360"/>
     <Point x="560" y="-440"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="560" y="-440"/>
     <Point x="280" y="-720"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="280" y="-720"/>
     <Point x="360" y="-720"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="360" y="-720"/>
     <Point x="560" y="-520"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="560" y="-520"/>
     <Point x="560" y="-600"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="560" y="-600"/>
     <Point x="280" y="-880"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="280" y="-880"/>
     <Point x="360" y="-960"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="360" y="-960"/>
     <Point x="280" y="-1040"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="280" y="-1040"/>
     <Point x="360" y="-1120"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="360" y="-1120"/>
     <Point x="360" y="-1240"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="480" y="-520"/>
     <Point x="320" y="-360"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="320" y="-360"/>
     <Point x="320" y="-200"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="320" y="-200"/>
     <Point x="360" y="-160"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="360" y="-160"/>
     <Point x="360" y="-20"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="360" y="-20"/>
     <Point x="440" y="-20"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="440" y="-20"/>
     <Point x="440" y="-160"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="440" y="-160"/>
     <Point x="480" y="-200"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="480" y="-200"/>
     <Point x="480" y="-320"/>
    </Wall>
-   <Wall height="5">
+   <Wall height="4">
     <Point x="400" y="-440"/>
     <Point x="400" y="-438"/>
    </Wall>
