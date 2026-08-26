@@ -308,6 +308,7 @@ def check_repository(root: Path) -> int:
     records = discover_maps(root)
     errors: list[str] = []
     identities: dict[tuple[str, str], list[Path]] = defaultdict(list)
+    cockpit_count = 0
 
     for record in records:
         identities[map_identity(record, root)].append(record.path)
@@ -326,13 +327,49 @@ def check_repository(root: Path) -> int:
         if len(paths) > 1:
             errors.append("duplicate map identity: " + ", ".join(str(path) for path in paths))
 
+    for path in sorted(root.rglob("*.xml")):
+        if ".git" in path.parts:
+            continue
+        data = path.read_bytes()
+        resource_match = RESOURCE_RE.search(data)
+        if resource_match is None:
+            continue
+        attributes = parse_attributes(resource_match.group(0))
+        resource_type = attributes.get("type", "").casefold()
+        filename = path.name.casefold()
+        map_suffix = bool(MAP_SUFFIX_RE.search(filename))
+        cockpit_suffix = filename.endswith(".aacockpit.xml")
+
+        if map_suffix and resource_type != "aamap":
+            errors.append(f"{path}: .aamap.xml file contains Resource type {resource_type!r}")
+        if resource_type == "aamap" and not map_suffix:
+            errors.append(f"{path}: aamap Resource does not use the .aamap.xml suffix")
+        if cockpit_suffix and resource_type != "aacockpit":
+            errors.append(f"{path}: .aacockpit.xml file contains Resource type {resource_type!r}")
+        if resource_type == "aacockpit":
+            cockpit_count += 1
+            if not cockpit_suffix:
+                errors.append(f"{path}: aacockpit Resource does not use the .aacockpit.xml suffix")
+                continue
+            name = attributes.get("name")
+            version = attributes.get("version")
+            if not name or not version:
+                errors.append(f"{path}: aacockpit Resource is missing its name or version")
+                continue
+            expected_name = f"{name}-{version}.aacockpit.xml"
+            if path.name != expected_name:
+                errors.append(f"{path}: expected cockpit filename {expected_name!r}")
+
     if errors:
         print("Map normalization check failed:", file=sys.stderr)
         for error in errors:
             print(f"- {error}", file=sys.stderr)
         return 1
 
-    print(f"Map normalization check passed for {len(records)} maps.")
+    print(
+        f"Resource normalization check passed for {len(records)} maps "
+        f"and {cockpit_count} cockpits."
+    )
     return 0
 
 
