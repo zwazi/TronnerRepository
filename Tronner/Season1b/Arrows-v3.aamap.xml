@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE Resource SYSTEM "sty.dtd"> 
-<Resource type="aamap" name="Arrows" version="v2" author="Tronner" category="Season1b">
+<Resource type="aamap" name="Arrows" version="v3" author="Tronner" category="Season1b">
 <Map version="0.2.8">
 <World>
 <Field>
