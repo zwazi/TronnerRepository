@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Resource SYSTEM "sty.dtd">
-<Resource type="aamap" name="Retro_9" category="SubMaps" version="v1" author="Wrtlprnft">
-  <Map version="0.2.8">
+<Resource type="aamap" name="Retro_9" category="SubMaps" version="v2" author="Wrtlprnft">
+<Map version="0.2.8">
+<Settings>
+<Setting name="SIZE_FACTOR" value="-2" />
+</Settings>
     <World>
       <Field>
         <Axes number="8"/>

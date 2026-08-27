@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Resource SYSTEM "sty.dtd">
-<Resource type="aamap" name="Retro_18" category="SubMaps" version="v2" author="Wrtlprnft">
+<Resource type="aamap" name="Retro_18" category="SubMaps" version="v3" author="Wrtlprnft">
   <Map version="0.2.8">
     <Settings>
-<Setting name="SIZE_FACTOR" value="-1.5" />
+<Setting name="SIZE_FACTOR" value="-2" />
 </Settings>
     <World>
       <Field>
