@@ -1,0 +1,604 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Resource SYSTEM "sty.dtd">
+<Resource type="aamap" name="Hydrant" version="v5" author="TestSubject" category="maps">
+<Map version="0.2.8">
+<Settings>
+<Setting name="SIZE_FACTOR" value="0" />
+</Settings>
+<World>
+<Field logicalBox="true">
+<Axes number="8" />
+<Spawn x="362.038671968" y="97.297893091" angle="90" />
+<Wall height="4">
+<Point x="0" y="1074.802307404" />
+<Point x="181.019335984" y="1255.821643387" />
+<Point x="543.058007951" y="1255.821643387" />
+<Point x="724.077343935" y="1074.802307404" />
+<Point x="452.548339959" y="1074.802307404" />
+<Point x="452.548339959" y="712.763635436" />
+<Point x="543.058007951" y="712.763635436" />
+<Point x="543.058007951" y="893.78297142" />
+<Point x="724.077343935" y="712.763635436" />
+<Point x="724.077343935" y="531.744299452" />
+<Point x="543.058007951" y="350.724963469" />
+<Point x="543.058007951" y="531.744299452" />
+<Point x="452.548339959" y="531.744299452" />
+<Point x="452.548339959" y="260.215295477" />
+<Point x="543.058007951" y="260.215295477" />
+<Point x="633.567675943" y="169.705627485" />
+<Point x="633.567675943" y="79.195959493" />
+</Wall>
+<Wall height="4">
+<Point x="0" y="1074.802307404" />
+<Point x="271.529003976" y="1074.802307404" />
+<Point x="271.529003976" y="712.763635436" />
+<Point x="181.019335984" y="712.763635436" />
+<Point x="181.019335984" y="893.78297142" />
+<Point x="0" y="712.763635436" />
+<Point x="0" y="531.744299452" />
+<Point x="181.019335984" y="350.724963469" />
+<Point x="181.019335984" y="531.744299452" />
+<Point x="271.529003976" y="531.744299452" />
+<Point x="271.529003976" y="260.215295477" />
+<Point x="181.019335984" y="260.215295477" />
+<Point x="90.509667992" y="169.705627485" />
+<Point x="90.509667992" y="79.195959493" />
+<Point x="633.567675943" y="79.195959493" />
+</Wall>
+<Wall height="4">
+<Point x="362.038671968" y="531.744299452" />
+<Point x="271.529003976" y="622.253967444" />
+<Point x="181.019335984" y="622.253967444" />
+<Point x="90.509667992" y="712.763635436" />
+<Point x="90.509667992" y="531.744299452" />
+<Point x="181.019335984" y="622.253967444" />
+</Wall>
+<Wall height="4">
+<Point x="362.038671968" y="531.744299452" />
+<Point x="452.548339959" y="622.253967444" />
+<Point x="543.058007951" y="622.253967444" />
+<Point x="633.567675943" y="712.763635436" />
+<Point x="633.567675943" y="531.744299452" />
+<Point x="543.058007951" y="622.253967444" />
+</Wall>
+<Wall height="4">
+<Point x="271.529003976" y="712.763635436" />
+<Point x="316.783837972" y="667.50880144" />
+<Point x="316.783837972" y="758.018469432" />
+<Point x="271.529003976" y="803.273303428" />
+</Wall>
+<Wall height="4">
+<Point x="452.548339959" y="712.763635436" />
+<Point x="407.293505963" y="667.50880144" />
+<Point x="407.293505963" y="758.018469432" />
+<Point x="452.548339959" y="803.273303428" />
+</Wall>
+<Wall height="4">
+<Point x="362.038671968" y="667.50880144" />
+<Point x="316.783837972" y="622.253967444" />
+<Point x="362.038671968" y="576.999133448" />
+<Point x="407.293505963" y="622.253967444" />
+<Point x="362.038671968" y="667.50880144" />
+</Wall>
+<Wall height="4">
+<Point x="362.038671968" y="758.018469432" />
+<Point x="316.783837972" y="803.273303428" />
+<Point x="316.783837972" y="848.528137424" />
+<Point x="362.038671968" y="893.78297142" />
+<Point x="407.293505963" y="848.528137424" />
+<Point x="407.293505963" y="803.273303428" />
+<Point x="362.038671968" y="758.018469432" />
+</Wall>
+<Wall height="4">
+<Point x="452.548339959" y="848.528137424" />
+<Point x="407.293505963" y="893.78297142" />
+<Point x="407.293505963" y="984.292639412" />
+<Point x="452.548339959" y="1029.547473408" />
+</Wall>
+<Wall height="4">
+<Point x="271.529003976" y="848.528137424" />
+<Point x="316.783837972" y="893.78297142" />
+<Point x="316.783837972" y="984.292639412" />
+<Point x="271.529003976" y="1029.547473408" />
+</Wall>
+<Wall height="4">
+<Point x="271.529003976" y="486.489465456" />
+<Point x="316.783837972" y="486.489465456" />
+<Point x="271.529003976" y="441.23463146" />
+</Wall>
+<Wall height="4">
+<Point x="452.548339959" y="486.489465456" />
+<Point x="407.293505963" y="486.489465456" />
+<Point x="452.548339959" y="441.23463146" />
+</Wall>
+<Wall height="4">
+<Point x="316.783837972" y="124.450793489" />
+<Point x="362.038671968" y="169.705627485" />
+<Point x="407.293505963" y="124.450793489" />
+</Wall>
+<Wall height="4">
+<Point x="452.548339959" y="124.450793489" />
+<Point x="407.293505963" y="79.195959493" />
+</Wall>
+<Wall height="4">
+<Point x="271.529003976" y="124.450793489" />
+<Point x="316.783837972" y="79.195959493" />
+</Wall>
+<Wall height="4">
+<Point x="316.783837972" y="124.450793489" />
+<Point x="271.529003976" y="169.705627485" />
+<Point x="226.27416998" y="124.450793489" />
+<Point x="135.764501988" y="124.450793489" />
+<Point x="135.764501988" y="169.705627485" />
+<Point x="181.019335984" y="124.450793489" />
+</Wall>
+<Wall height="4">
+<Point x="407.293505963" y="124.450793489" />
+<Point x="452.548339959" y="169.705627485" />
+<Point x="497.803173955" y="124.450793489" />
+<Point x="588.312841947" y="124.450793489" />
+<Point x="588.312841947" y="169.705627485" />
+<Point x="543.058007951" y="124.450793489" />
+</Wall>
+<Wall height="4">
+<Point x="588.312841947" y="214.960461481" />
+<Point x="543.058007951" y="169.705627485" />
+<Point x="497.803173955" y="214.960461481" />
+<Point x="452.548339959" y="214.960461481" />
+<Point x="407.293505963" y="260.215295477" />
+</Wall>
+<Wall height="4">
+<Point x="407.293505963" y="260.215295477" />
+<Point x="452.548339959" y="305.470129473" />
+</Wall>
+<Wall height="4">
+<Point x="135.764501988" y="214.960461481" />
+<Point x="181.019335984" y="169.705627485" />
+<Point x="226.27416998" y="214.960461481" />
+<Point x="271.529003976" y="214.960461481" />
+<Point x="316.783837972" y="260.215295477" />
+<Point x="271.529003976" y="305.470129473" />
+</Wall>
+<Wall height="4">
+<Point x="362.038671968" y="305.470129473" />
+<Point x="316.783837972" y="350.724963469" />
+<Point x="407.293505963" y="350.724963469" />
+<Point x="362.038671968" y="305.470129473" />
+</Wall>
+<Wall height="4">
+<Point x="362.038671968" y="441.23463146" />
+<Point x="316.783837972" y="395.979797464" />
+<Point x="407.293505963" y="395.979797464" />
+<Point x="362.038671968" y="441.23463146" />
+</Wall>
+<Wall height="4">
+<Point x="362.038671968" y="984.292639412" />
+<Point x="316.783837972" y="1029.547473408" />
+<Point x="316.783837972" y="1074.802307404" />
+<Point x="362.038671968" y="1120.057141399" />
+<Point x="407.293505963" y="1074.802307404" />
+<Point x="407.293505963" y="1029.547473408" />
+<Point x="362.038671968" y="984.292639412" />
+</Wall>
+<Wall height="4">
+<Point x="271.529003976" y="1074.802307404" />
+<Point x="316.783837972" y="1120.057141399" />
+<Point x="316.783837972" y="1165.311975395" />
+<Point x="271.529003976" y="1210.566809391" />
+<Point x="271.529003976" y="1074.802307404" />
+</Wall>
+<Wall height="4">
+<Point x="452.548339959" y="1074.802307404" />
+<Point x="407.293505963" y="1120.057141399" />
+<Point x="407.293505963" y="1165.311975395" />
+<Point x="452.548339959" y="1210.566809391" />
+<Point x="452.548339959" y="1074.802307404" />
+</Wall>
+<Wall height="4">
+<Point x="452.548339959" y="1255.821643387" />
+<Point x="497.803173955" y="1210.566809391" />
+<Point x="497.803173955" y="1120.057141399" />
+</Wall>
+<Wall height="4">
+<Point x="497.803173955" y="1074.802307404" />
+<Point x="543.058007951" y="1120.057141399" />
+<Point x="543.058007951" y="1210.566809391" />
+</Wall>
+<Wall height="4">
+<Point x="271.529003976" y="1255.821643387" />
+<Point x="226.27416998" y="1210.566809391" />
+<Point x="226.27416998" y="1120.057141399" />
+</Wall>
+<Wall height="4">
+<Point x="226.27416998" y="1074.802307404" />
+<Point x="181.019335984" y="1120.057141399" />
+<Point x="181.019335984" y="1210.566809391" />
+</Wall>
+<Wall height="4">
+<Point x="135.764501988" y="1210.566809391" />
+<Point x="135.764501988" y="1120.057141399" />
+</Wall>
+<Wall height="4">
+<Point x="135.764501988" y="1074.802307404" />
+<Point x="90.509667992" y="1120.057141399" />
+</Wall>
+<Wall height="4">
+<Point x="588.312841947" y="1210.566809391" />
+<Point x="588.312841947" y="1120.057141399" />
+</Wall>
+<Wall height="4">
+<Point x="588.312841947" y="1074.802307404" />
+<Point x="633.567675943" y="1120.057141399" />
+</Wall>
+<Wall height="4">
+<Point x="633.567675943" y="712.763635436" />
+<Point x="588.312841947" y="758.018469432" />
+<Point x="588.312841947" y="803.273303428" />
+</Wall>
+<Wall height="4">
+<Point x="633.567675943" y="531.744299452" />
+<Point x="588.312841947" y="486.489465456" />
+<Point x="588.312841947" y="441.23463146" />
+</Wall>
+<Wall height="4">
+<Point x="90.509667992" y="712.763635436" />
+<Point x="135.764501988" y="758.018469432" />
+<Point x="135.764501988" y="803.273303428" />
+</Wall>
+<Wall height="4">
+<Point x="90.509667992" y="531.744299452" />
+<Point x="135.764501988" y="486.489465456" />
+<Point x="135.764501988" y="441.23463146" />
+</Wall>
+<Wall height="4">
+<Point x="181.019335984" y="531.744299452" />
+<Point x="226.27416998" y="576.999133448" />
+<Point x="271.529003976" y="531.744299452" />
+</Wall>
+<Wall height="4">
+<Point x="452.548339959" y="531.744299452" />
+<Point x="497.803173955" y="576.999133448" />
+<Point x="543.058007951" y="531.744299452" />
+<Point x="452.548339959" y="531.744299452" />
+<Point x="452.548339959" y="576.999133448" />
+<Point x="407.293505963" y="531.744299452" />
+<Point x="452.548339959" y="531.744299452" />
+</Wall>
+<Wall height="4">
+<Point x="271.529003976" y="531.744299452" />
+<Point x="316.783837972" y="531.744299452" />
+<Point x="271.529003976" y="576.999133448" />
+<Point x="271.529003976" y="531.744299452" />
+</Wall>
+<Wall height="4">
+<Point x="181.019335984" y="531.744299452" />
+<Point x="135.764501988" y="531.744299452" />
+<Point x="181.019335984" y="576.999133448" />
+<Point x="181.019335984" y="531.744299452" />
+</Wall>
+<Wall height="4">
+<Point x="543.058007951" y="531.744299452" />
+<Point x="543.058007951" y="576.999133448" />
+<Point x="588.312841947" y="531.744299452" />
+<Point x="543.058007951" y="531.744299452" />
+</Wall>
+<Wall height="4">
+<Point x="271.529003976" y="124.450793489" />
+<Point x="271.529003976" y="79.195959493" />
+</Wall>
+<Wall height="4">
+<Point x="452.548339959" y="124.450793489" />
+<Point x="452.548339959" y="79.195959493" />
+</Wall>
+<Wall height="4">
+<Point x="407.293505963" y="305.470129473" />
+<Point x="362.038671968" y="260.215295477" />
+<Point x="407.293505963" y="214.960461481" />
+<Point x="316.783837972" y="214.960461481" />
+<Point x="362.038671968" y="260.215295477" />
+<Point x="316.783837972" y="305.470129473" />
+</Wall>
+<Wall height="4">
+<Point x="135.764501988" y="712.763635436" />
+<Point x="181.019335984" y="667.50880144" />
+<Point x="271.529003976" y="667.50880144" />
+</Wall>
+<Wall height="4">
+<Point x="452.548339959" y="667.50880144" />
+<Point x="543.058007951" y="667.50880144" />
+<Point x="588.312841947" y="712.763635436" />
+</Wall>
+<Wall height="4">
+<Point x="203.646752982" y="588.312841947" />
+<Point x="248.901586978" y="588.312841947" />
+<Point x="226.27416998" y="599.626550446" />
+<Point x="203.646752982" y="588.312841947" />
+</Wall>
+<Wall height="4">
+<Point x="475.175756957" y="588.312841947" />
+<Point x="520.430590953" y="588.312841947" />
+<Point x="497.803173955" y="599.626550446" />
+<Point x="475.175756957" y="588.312841947" />
+</Wall>
+<Wall height="4">
+<Point x="316.783837972" y="1165.311975395" />
+<Point x="339.41125497" y="1187.939392393" />
+</Wall>
+<Wall height="4">
+<Point x="407.293505963" y="1165.311975395" />
+<Point x="384.666088965" y="1187.939392393" />
+</Wall>
+<Wall height="4">
+<Point x="294.156420974" y="509.116882454" />
+<Point x="429.920922961" y="509.116882454" />
+</Wall>
+<Wall height="4">
+<Point x="328.097546471" y="373.352380466" />
+<Point x="271.529003976" y="373.352380466" />
+</Wall>
+<Wall height="4">
+<Point x="395.979797464" y="373.352380466" />
+<Point x="452.548339959" y="373.352380466" />
+</Wall>
+<Wall height="4">
+<Point x="271.529003976" y="305.470129473" />
+<Point x="305.470129473" y="339.41125497" />
+<Point x="350.724963469" y="294.156420974" />
+</Wall>
+<Wall height="4">
+<Point x="452.548339959" y="305.470129473" />
+<Point x="418.607214462" y="339.41125497" />
+<Point x="373.352380466" y="294.156420974" />
+</Wall>
+<Wall height="4">
+<Point x="316.783837972" y="350.724963469" />
+<Point x="294.156420974" y="350.724963469" />
+<Point x="282.842712475" y="339.41125497" />
+<Point x="282.842712475" y="362.038671968" />
+<Point x="294.156420974" y="362.038671968" />
+<Point x="305.470129473" y="350.724963469" />
+</Wall>
+<Wall height="4">
+<Point x="407.293505963" y="350.724963469" />
+<Point x="429.920922961" y="350.724963469" />
+<Point x="441.23463146" y="339.41125497" />
+<Point x="441.23463146" y="362.038671968" />
+<Point x="429.920922961" y="362.038671968" />
+<Point x="418.607214462" y="350.724963469" />
+</Wall>
+<Wall height="4">
+<Point x="135.764501988" y="1120.057141399" />
+<Point x="158.391918986" y="1097.429724402" />
+<Point x="181.019335984" y="1097.429724402" />
+</Wall>
+<Wall height="4">
+<Point x="588.312841947" y="1120.057141399" />
+<Point x="565.685424949" y="1097.429724402" />
+<Point x="543.058007951" y="1097.429724402" />
+</Wall>
+<Wall height="4">
+<Point x="316.783837972" y="690.136218438" />
+<Point x="350.724963469" y="724.077343935" />
+<Point x="316.783837972" y="724.077343935" />
+</Wall>
+<Wall height="4">
+<Point x="407.293505963" y="690.136218438" />
+<Point x="373.352380466" y="724.077343935" />
+<Point x="407.293505963" y="724.077343935" />
+</Wall>
+<Wall height="4">
+<Point x="362.038671968" y="735.391052434" />
+<Point x="362.038671968" y="690.136218438" />
+<Point x="339.41125497" y="690.136218438" />
+<Point x="362.038671968" y="667.50880144" />
+<Point x="384.666088965" y="690.136218438" />
+<Point x="362.038671968" y="690.136218438" />
+</Wall>
+<Wall height="4">
+<Point x="328.097546471" y="746.704760933" />
+<Point x="339.41125497" y="735.391052434" />
+<Point x="350.724963469" y="746.704760933" />
+<Point x="328.097546471" y="746.704760933" />
+</Wall>
+<Wall height="4">
+<Point x="373.352380466" y="746.704760933" />
+<Point x="384.666088965" y="735.391052434" />
+<Point x="395.979797464" y="746.704760933" />
+<Point x="373.352380466" y="746.704760933" />
+</Wall>
+<Wall height="4">
+<Point x="282.842712475" y="837.214428925" />
+<Point x="305.470129473" y="859.841845923" />
+<Point x="305.470129473" y="837.214428925" />
+<Point x="282.842712475" y="837.214428925" />
+</Wall>
+<Wall height="4">
+<Point x="418.607214462" y="859.841845923" />
+<Point x="418.607214462" y="837.214428925" />
+<Point x="441.23463146" y="837.214428925" />
+<Point x="418.607214462" y="859.841845923" />
+</Wall>
+<Wall height="4">
+<Point x="339.41125497" y="486.489465456" />
+<Point x="305.470129473" y="452.548339959" />
+<Point x="305.470129473" y="429.920922961" />
+</Wall>
+<Wall height="4">
+<Point x="384.666088965" y="486.489465456" />
+<Point x="418.607214462" y="452.548339959" />
+<Point x="418.607214462" y="429.920922961" />
+</Wall>
+<Wall height="4">
+<Point x="271.529003976" y="214.960461481" />
+<Point x="316.783837972" y="169.705627485" />
+<Point x="339.41125497" y="192.333044483" />
+<Point x="294.156420974" y="192.333044483" />
+</Wall>
+<Wall height="4">
+<Point x="452.548339959" y="214.960461481" />
+<Point x="407.293505963" y="169.705627485" />
+<Point x="384.666088965" y="192.333044483" />
+<Point x="429.920922961" y="192.333044483" />
+</Wall>
+<Wall height="4">
+<Point x="429.920922961" y="192.333044483" />
+<Point x="429.920922961" y="237.587878479" />
+</Wall>
+<Wall height="4">
+<Point x="294.156420974" y="192.333044483" />
+<Point x="294.156420974" y="237.587878479" />
+</Wall>
+<Wall height="4">
+<Point x="678.822509939" y="1120.057141399" />
+<Point x="644.881384442" y="1086.116015903" />
+<Point x="622.253967444" y="1086.116015903" />
+</Wall>
+<Wall height="4">
+<Point x="45.254833996" y="1120.057141399" />
+<Point x="79.195959493" y="1086.116015903" />
+<Point x="101.823376491" y="1086.116015903" />
+</Wall>
+<Zone effect="win"><ShapeCircle radius="45.254833996"><Point x="0" y="1074.802307404" /></ShapeCircle></Zone>
+<Zone effect="win"><ShapeCircle radius="45.254833996"><Point x="724.077343935" y="1074.802307404" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="18.101933598"><Point x="362.038671968" y="939.037805416" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="18.101933598"><Point x="452.548339959" y="803.273303428" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="18.101933598"><Point x="271.529003976" y="803.273303428" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="18.101933598"><Point x="90.509667992" y="622.253967444" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="18.101933598"><Point x="0" y="622.253967444" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="27.152900398"><Point x="45.254833996" y="667.50880144" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="9.050966799"><Point x="90.509667992" y="758.018469432" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="9.050966799"><Point x="633.567675943" y="758.018469432" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="18.101933598"><Point x="633.567675943" y="622.253967444" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="18.101933598"><Point x="724.077343935" y="622.253967444" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="27.152900398"><Point x="678.822509939" y="667.50880144" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="18.101933598"><Point x="588.312841947" y="441.23463146" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="18.101933598"><Point x="135.764501988" y="441.23463146" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="18.101933598"><Point x="678.822509939" y="486.489465456" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="9.050966799"><Point x="633.567675943" y="486.489465456" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="18.101933598"><Point x="45.254833996" y="486.489465456" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="9.050966799"><Point x="90.509667992" y="486.489465456" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="9.050966799"><Point x="660.720576341" y="558.89719985" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="9.050966799"><Point x="63.356767594" y="558.89719985" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="40.729350596"><Point x="362.038671968" y="848.528137424" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="40.729350596"><Point x="362.038671968" y="803.273303428" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="45.254833996"><Point x="362.038671968" y="1074.802307404" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="45.254833996"><Point x="362.038671968" y="441.23463146" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="45.254833996"><Point x="362.038671968" y="622.253967444" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="18.101933598"><Point x="316.783837972" y="1210.566809391" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="18.101933598"><Point x="407.293505963" y="1210.566809391" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="6.788225099"><Point x="407.293505963" y="984.292639412" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="6.788225099"><Point x="316.783837972" y="984.292639412" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="9.050966799"><Point x="362.038671968" y="984.292639412" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="24.890158698"><Point x="226.27416998" y="554.37171645" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="24.890158698"><Point x="497.803173955" y="554.37171645" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="4.5254834"><Point x="260.215295477" y="1210.566809391" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="4.5254834"><Point x="463.862048458" y="1210.566809391" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="6.788225099"><Point x="226.27416998" y="1120.057141399" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="6.788225099"><Point x="497.803173955" y="1120.057141399" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="9.050966799"><Point x="339.41125497" y="79.195959493" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="9.050966799"><Point x="339.41125497" y="90.509667992" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="9.050966799"><Point x="339.41125497" y="101.823376491" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="9.050966799"><Point x="339.41125497" y="113.13708499" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="6.788225099"><Point x="316.783837972" y="124.450793489" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="6.788225099"><Point x="407.293505963" y="124.450793489" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="9.050966799"><Point x="384.666088965" y="79.195959493" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="9.050966799"><Point x="384.666088965" y="90.509667992" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="9.050966799"><Point x="384.666088965" y="101.823376491" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="9.050966799"><Point x="384.666088965" y="113.13708499" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="22.627416998"><Point x="633.567675943" y="1120.057141399" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="22.627416998"><Point x="90.509667992" y="1120.057141399" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="22.627416998"><Point x="181.019335984" y="712.763635436" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="22.627416998"><Point x="543.058007951" y="712.763635436" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="11.313708499"><Point x="181.019335984" y="667.50880144" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="11.313708499"><Point x="543.058007951" y="667.50880144" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="22.627416998"><Point x="543.058007951" y="622.253967444" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="22.627416998"><Point x="181.019335984" y="622.253967444" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="9.050966799"><Point x="294.156420974" y="509.116882454" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="9.050966799"><Point x="429.920922961" y="509.116882454" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="11.313708499"><Point x="316.783837972" y="531.744299452" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="11.313708499"><Point x="407.293505963" y="531.744299452" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="22.627416998"><Point x="362.038671968" y="531.744299452" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="22.627416998"><Point x="362.038671968" y="169.705627485" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="4.5254834"><Point x="316.783837972" y="305.470129473" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="4.5254834"><Point x="350.724963469" y="294.156420974" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="4.5254834"><Point x="373.352380466" y="294.156420974" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="4.5254834"><Point x="407.293505963" y="305.470129473" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="4.5254834"><Point x="362.038671968" y="305.470129473" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="4.5254834"><Point x="305.470129473" y="339.41125497" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="4.5254834"><Point x="418.607214462" y="339.41125497" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="4.5254834"><Point x="271.529003976" y="350.724963469" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="4.5254834"><Point x="452.548339959" y="350.724963469" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="13.576450199"><Point x="135.764501988" y="712.763635436" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="13.576450199"><Point x="588.312841947" y="712.763635436" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="9.050966799"><Point x="588.312841947" y="667.50880144" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="9.050966799"><Point x="135.764501988" y="667.50880144" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="11.313708499"><Point x="248.901586978" y="1165.311975395" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="11.313708499"><Point x="475.175756957" y="1165.311975395" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="11.313708499"><Point x="203.646752982" y="1142.684558397" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="11.313708499"><Point x="181.019335984" y="1210.566809391" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="11.313708499"><Point x="520.430590953" y="1142.684558397" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="11.313708499"><Point x="543.058007951" y="1210.566809391" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="15.839191899"><Point x="158.391918986" y="1165.311975395" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="15.839191899"><Point x="565.685424949" y="1165.311975395" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="9.050966799"><Point x="543.058007951" y="1097.429724402" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="9.050966799"><Point x="181.019335984" y="1097.429724402" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="9.050966799"><Point x="158.391918986" y="1074.802307404" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="9.050966799"><Point x="565.685424949" y="1074.802307404" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="6.788225099"><Point x="362.038671968" y="746.704760933" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="11.313708499"><Point x="565.685424949" y="576.999133448" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="11.313708499"><Point x="158.391918986" y="576.999133448" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="11.313708499"><Point x="316.783837972" y="486.489465456" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="11.313708499"><Point x="407.293505963" y="486.489465456" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="11.313708499"><Point x="328.097546471" y="373.352380466" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="11.313708499"><Point x="395.979797464" y="373.352380466" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="22.627416998"><Point x="226.27416998" y="169.705627485" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="22.627416998"><Point x="497.803173955" y="169.705627485" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="4.5254834"><Point x="305.470129473" y="429.920922961" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="4.5254834"><Point x="418.607214462" y="429.920922961" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="4.5254834"><Point x="316.783837972" y="825.900720426" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="4.5254834"><Point x="407.293505963" y="825.900720426" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="4.5254834"><Point x="418.607214462" y="859.841845923" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="4.5254834"><Point x="305.470129473" y="859.841845923" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="11.313708499"><Point x="294.156420974" y="124.450793489" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="11.313708499"><Point x="429.920922961" y="124.450793489" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="11.313708499"><Point x="169.705627485" y="158.391918986" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="11.313708499"><Point x="554.37171645" y="158.391918986" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="6.788225099"><Point x="599.626550446" y="147.078210487" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="6.788225099"><Point x="124.450793489" y="147.078210487" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="6.788225099"><Point x="158.391918986" y="113.13708499" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="6.788225099"><Point x="565.685424949" y="113.13708499" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="6.788225099"><Point x="497.803173955" y="124.450793489" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="6.788225099"><Point x="226.27416998" y="124.450793489" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="22.627416998"><Point x="260.215295477" y="90.509667992" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="22.627416998"><Point x="463.862048458" y="90.509667992" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="9.050966799"><Point x="599.626550446" y="113.13708499" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="9.050966799"><Point x="124.450793489" y="113.13708499" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="11.313708499"><Point x="203.646752982" y="101.823376491" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="11.313708499"><Point x="520.430590953" y="101.823376491" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="15.839191899"><Point x="135.764501988" y="803.273303428" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="15.839191899"><Point x="588.312841947" y="803.273303428" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="13.576450199"><Point x="316.783837972" y="214.960461481" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="13.576450199"><Point x="407.293505963" y="214.960461481" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="9.050966799"><Point x="294.156420974" y="237.587878479" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="9.050966799"><Point x="429.920922961" y="237.587878479" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="9.050966799"><Point x="429.920922961" y="192.333044483" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="9.050966799"><Point x="294.156420974" y="192.333044483" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="15.839191899"><Point x="271.529003976" y="169.705627485" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="15.839191899"><Point x="452.548339959" y="169.705627485" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="13.576450199"><Point x="384.666088965" y="260.215295477" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="13.576450199"><Point x="339.41125497" y="260.215295477" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="22.627416998"><Point x="271.529003976" y="305.470129473" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="22.627416998"><Point x="452.548339959" y="305.470129473" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="11.313708499"><Point x="135.764501988" y="509.116882454" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="11.313708499"><Point x="588.312841947" y="509.116882454" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="11.313708499"><Point x="45.254833996" y="1120.057141399" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="11.313708499"><Point x="678.822509939" y="1120.057141399" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="27.152900398"><Point x="362.038671968" y="1255.821643387" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="22.627416998"><Point x="407.293505963" y="1052.174890406" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="22.627416998"><Point x="316.783837972" y="1052.174890406" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="18.101933598"><Point x="429.920922961" y="644.881384442" /></ShapeCircle></Zone>
+<Zone effect="death"><ShapeCircle radius="18.101933598"><Point x="294.156420974" y="644.881384442" /></ShapeCircle></Zone>
+</Field>
+</World>
+</Map>
+</Resource>
