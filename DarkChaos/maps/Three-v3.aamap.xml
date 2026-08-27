@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Resource SYSTEM "sty.dtd">
-<Resource type='aamap' name='Three' category='maps' version='v2' author='DarkChaos'>
+<Resource type='aamap' name='Three' category='maps' version='v3' author='DarkChaos'>
 	<Map version='0.2.8'>
 		<World>
 			<Field>
@@ -415,26 +415,6 @@
 				<Zone effect='death'>
 					<ShapeCircle radius='7' growth='0'>
 						<Point x='909' y='277'/>
-					</ShapeCircle>
-				</Zone>
-				<Zone effect='death'>
-					<ShapeCircle radius='3' growth='7'>
-						<Point x='576' y='-624'/>
-					</ShapeCircle>
-				</Zone>
-				<Zone effect='death'>
-					<ShapeCircle radius='3' growth='7'>
-						<Point x='576' y='-640'/>
-					</ShapeCircle>
-				</Zone>
-				<Zone effect='death'>
-					<ShapeCircle radius='3' growth='7'>
-						<Point x='1440' y='-624'/>
-					</ShapeCircle>
-				</Zone>
-				<Zone effect='death'>
-					<ShapeCircle radius='3' growth='7'>
-						<Point x='1440' y='-640'/>
 					</ShapeCircle>
 				</Zone>
 				<Zone effect='death'>

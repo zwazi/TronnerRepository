@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
 <!DOCTYPE Resource SYSTEM "sty.dtd">
-<Resource type="aamap" name="One" version="v2" author="DarkChaos" category="maps">
+<Resource type="aamap" name="One" version="v3" author="DarkChaos" category="maps">
 <Map version="0.2.8">
 <World>
 <Field>
@@ -33,13 +33,6 @@
 <Zone effect="death"><ShapeCircle radius="2"><Point x="928" y="256"/></ShapeCircle></Zone>
 <Zone effect="death"><ShapeCircle radius="2"><Point x="1150" y="2393"/></ShapeCircle></Zone>
 <Zone effect="death"><ShapeCircle radius="3"><Point x="1217" y="2368"/></ShapeCircle></Zone>
-<Zone effect="death"><ShapeCircle radius="9" growth="6"><Point x="0" y="432"/></ShapeCircle></Zone>
-<Zone effect="death"><ShapeCircle radius="9" growth="6"><Point x="0" y="416"/></ShapeCircle></Zone>
-<Zone effect="death"><ShapeCircle radius="10" growth="3"><Point x="784" y="400"/></ShapeCircle></Zone>
-<Zone effect="death"><ShapeCircle radius="9" growth="6"><Point x="384" y="0"/></ShapeCircle></Zone>
-<Zone effect="death"><ShapeCircle radius="9" growth="6"><Point x="368" y="0"/></ShapeCircle></Zone>
-<Zone effect="death"><ShapeCircle radius="8" growth="5"><Point x="368" y="848"/></ShapeCircle></Zone>
-<Zone effect="death"><ShapeCircle radius="8" growth="5"><Point x="384" y="848"/></ShapeCircle></Zone>
 <Zone effect="death"><ShapeCircle radius="25"><Point x="1392" y="1616"/></ShapeCircle></Zone>
 <Zone effect="death"><ShapeCircle radius="3"><Point x="1408" y="1728"/></ShapeCircle></Zone>
 <Zone effect="death"><ShapeCircle radius="4"><Point x="1392" y="1776"/></ShapeCircle></Zone>
