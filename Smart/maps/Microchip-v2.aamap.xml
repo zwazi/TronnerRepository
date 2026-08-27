@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
 <!DOCTYPE Resource SYSTEM "sty.dtd">
-<Resource type="aamap" name="Microchip" version="v1" author="Smart" category="maps">
+<Resource type="aamap" name="Microchip" version="v2" author="Smart" category="maps">
   <Map version="0.2.8">
     <World>
       <Field>
