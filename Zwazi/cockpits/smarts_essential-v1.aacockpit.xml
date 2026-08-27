@@ -3,7 +3,7 @@
 
 
 
-<Resource type="aacockpit" name="smarts_essential" version="1.0.5" author="Smart" category="cockpits">
+<Resource type="aacockpit" name="smarts_essential" version="v1" author="Zwazi" category="cockpits">
 <Cockpit version="0.3.0">
 
 <!-- toggle key 1 = toggle between ping, the time, and FPS; and Current player, and the time. tubber -->
@@ -14,15 +14,15 @@
 
 <!-- rubber meter -->
 <BarGauge camera="all">
-	<Position x="0" y="-1" />
-	<Size height="0.03" width="0.45" />
-	<ShowCurrent value="true" />
+	<Position x="0.25" y="-1" />
+	<Size height="0.03" width="0.25" />
+	<ShowCurrent value="false" />
 	<ShowMaximum value="false" />
 	<ShowMinimum value="false" />
 	<DataSet>
 		<AtomicData field="source" source="player_rubber" />
-		<AtomicData field="maximum" source="cycle_rubber" />
 		<AtomicData field="minimum" source="0" />
+		<AtomicData field="maximum" source="cycle_rubber" />
 	</DataSet>
 	<Background>
 		<Gradient orientation="value">
@@ -41,6 +41,65 @@
 	</Foreground>
 </BarGauge>
 <!-- rubber meter -->
+<!-- rubber meter -->
+<BarGauge camera="all">
+	<Position x="-0.25" y="-1." />
+	<Size height="0.03" width="0.25" />
+	<ShowCurrent value="false" />
+	<ShowMaximum value="false" />
+	<ShowMinimum value="false" />
+	<Reverse value="true"/>
+	<DataSet>
+		<AtomicData field="source" source="player_rubber" />
+		<AtomicData field="maximum" source="cycle_rubber" />
+		<AtomicData field="minimum" source="0" />
+	</DataSet>
+	<Background>
+		<Gradient orientation="value">
+			<Color r="1." g="1." b="1." alpha=".2" at="1." />
+			<Color r="1." g="1." b="1." alpha=".2" at="0." />
+		</Gradient>
+	</Background>
+	<Foreground>
+		<Gradient orientation="value">
+			<Color r="0." g="1." b="0." alpha=".7" at="1." />
+			<Color r="0." g="1." b="0." alpha=".7" at=".7" />
+			<Color r="1." g="1." b="0." alpha=".7" at=".4" />
+			<Color r="1." g="0." b="0." alpha=".7" at=".2" />
+			<Color r="1." g="0." b="0." alpha=".7" at="0." />
+		</Gradient>
+	</Foreground>
+</BarGauge>
+<!-- rubber meter -->
+<!-- rubber meter -->
+<BarGauge camera="all">
+	<Position x="0" y="-1.024" />
+	<Size height="0.03" width="0.5" />
+	<ShowCurrent value="true" />
+	<ShowMaximum value="false" />
+	<ShowMinimum value="false" />
+	<DataSet>
+		<AtomicData field="source" source="player_rubber" />
+		<AtomicData field="maximum" source="10000000" />
+		<AtomicData field="minimum" source="0" />
+	</DataSet>
+	<Background>
+		<Gradient orientation="value">
+			<Color r="1." g="1." b="1." alpha="0." at="0." />
+			<Color r="1." g="1." b="1." alpha="0." at="1." />
+		</Gradient>
+	</Background>
+	<Foreground>
+		<Gradient orientation="value">
+			<Color r="0." g="1." b="0." alpha="0." at="0." />
+			<Color r="0." g="1." b="0." alpha="0." at=".3" />
+			<Color r="1." g="1." b="0." alpha="0." at=".6" />
+			<Color r="1." g="0." b="0." alpha="0." at=".8" />
+			<Color r="1." g="0." b="0." alpha="0." at="1." />
+		</Gradient>
+	</Foreground>
+</BarGauge>
+<!-- rubber meter -->
 
 <!-- speed meter -->
 <BarGauge camera="all">
@@ -52,8 +111,8 @@
 	<Reverse value="true"/>
 	<DataSet>
 		<AtomicData field="source" source="player_speed" />
-		<AtomicData field="maximum" source="max_speed" />
-		<AtomicData field="minimum" source="-1" />
+		<AtomicData field="maximum" source="150" />
+		<AtomicData field="minimum" source="0" />
 	</DataSet>
 	<Background>
 		<Gradient orientation="value">
@@ -99,13 +158,7 @@
 <!-- label: time, fps, & ping -->
 <Label camera="all" viewport="all" toggle="1" toggleSticky="true" toggleDefault="on">
 	<Position x="0.80" y="0.46" />
-	<Size height="0.04" width="0.02" />
-	<DataSet id="ping">
-		<AtomicData source="current_ping" />
-	</DataSet>
-            <Caption location="off">
-                <Text value="Player Status" />
-            </Caption>
+	<Size height="0.06" width="0.025" />
 	<DataSet id="hours">
 		<AtomicData source="current_hours12h" minwidth="2" fill="0" />
 	</DataSet>
@@ -125,6 +178,12 @@
 			</IfFalse>
 		</Conditional>
 	</DataSet>
+	<DataSet id="ping">
+		<AtomicData source="current_ping" />
+	</DataSet>
+            <Caption location="off">
+                <Text value="Player Status" />
+            </Caption>
 	<DataSet id="FPS">
 		<AtomicData source="current_framerate" />
 	</DataSet>
@@ -133,12 +192,6 @@
 	</DataSet>
 	<Face>
 		<Table>
-			<Row>
-				<Cell>
-					<Text value="Ping: " />
-					<GameData data="ping" />
-				</Cell>
-			</Row>
 			<Row>
 				<Cell>
 					<GameData data="hours" />
@@ -152,13 +205,19 @@
 			</Row>
 			<Row>
 				<Cell>
+					<Text value="0x333388Ping:0xffffff " />
+					<GameData data="ping" />
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
 					<GameData data="FPS" />
-					<Text value=" FPS" />
+					<Text value=" 0x883333FPS" />
 				</Cell>
 			</Row>   
 			<Row>
 				<Cell>
-					<Text value="Watching: " />
+					<Text value="0x338833Watching:0xffffff " />
 					<GameData data="currentplayer" />
 				</Cell>
 			</Row>

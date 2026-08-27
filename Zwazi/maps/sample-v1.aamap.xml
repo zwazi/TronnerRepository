@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE Resource SYSTEM "AATeam/map-0.2.8.0_pig2.dtd">
-<Resource type="aamap" name="sample" version="v1" author="smart" category="maps">
+<Resource type="aamap" name="sample" version="v1" author="Zwazi" category="maps">
 <Map version="2">
   <World>
   <Settings>

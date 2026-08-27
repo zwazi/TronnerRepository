@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Resource SYSTEM "sty.dtd">
-<Resource type="aamap" name="asdf" category="maps" version="v1" author="Smart">
+<Resource type="aamap" name="asdf" category="maps" version="v1" author="Zwazi">
   <Map version="0.2.8">
     <World>
       <Field>

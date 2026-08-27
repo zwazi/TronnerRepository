@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
 <!DOCTYPE Resource SYSTEM "AATeam/cockpit-0.3.0.dtd">
-<Resource type="aacockpit" name="zwazi_minimal" version="1.0.0" author="Zwazi" category="cockpits">
+<Resource type="aacockpit" name="zwazi_minimal" version="v1" author="Zwazi" category="cockpits">
 <Cockpit version="0.3.0">
     <!-- rubber gauge right -->
     <BarGauge camera="all">

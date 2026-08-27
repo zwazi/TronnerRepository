@@ -3,7 +3,7 @@
 
 
 
-<Resource type="aacockpit" name="abyss" version="1.0.0" author="Smart" category="cockpits">
+<Resource type="aacockpit" name="abyss" version="v1" author="Zwazi" category="cockpits">
 
 
    <Cockpit version="0.0.1">
