@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE Resource SYSTEM "sty.dtd">
+<Resource type="aamap" name="Trijecture_Fixed" version="0.1" author="Zwazi" category="race">
+  <Map version="0.2.8">
+    <Settings>
+      <Setting name="SIZE_FACTOR" value="0" />
+      <Setting name="SP_SIZE_FACTOR" value="0" />
+      <Setting name="ARENA_AXES" value="6" />
+    </Settings>
+    <World>
+      <Field>
+        <Axes number="6"/>
+        <Spawn x="-192" y="32" xdir="-1" ydir="0"/>
+        <Wall height="50">
+          <Point x="50" y="-50"/>
+          <Point x="50" y="290"/>
+          <Point x="-306" y="290"/>
+          <Point x="-306" y="-50"/>
+          <Point x="50" y="-50"/>
+        </Wall>
+        <Wall height="4">
+          <Point x="0" y="0"/>
+          <Point x="-46.188022" y="80"/>
+        </Wall>
+        <Wall height="4">
+          <Point x="-27.712813" y="48"/>
+          <Point x="27.712813" y="144"/>
+          <Point x="-46.188022" y="144"/>
+          <Point x="9.237604" y="240"/>
+          <Point x="-230.940108" y="240"/>
+          <Point x="-138.564065" y="80"/>
+        </Wall>
+        <Wall height="4">
+          <Point x="-157.039273" y="112"/>
+          <Point x="-120.088856" y="176"/>
+          <Point x="-101.613647" y="144"/>
+          <Point x="-83.138439" y="176"/>
+        </Wall>
+        <Wall height="4">
+          <Point x="0" y="0"/>
+          <Point x="-157.039273" y="0"/>
+          <Point x="-36.950417" y="208"/>
+          <Point x="-157.039273" y="208"/>
+          <Point x="-176" y="176"/>
+          <Point x="-138.564065" y="176"/>
+          <Point x="-157.039273" y="208"/>
+        </Wall>
+        <Wall height="4">
+          <Point x="-193.98969" y="16"/>
+          <Point x="-175.514482" y="48"/>
+          <Point x="-230.940108" y="48"/>
+          <Point x="-193.98969" y="112"/>
+          <Point x="-143.182867" y="24"/>
+        </Wall>
+        <Wall height="4">
+          <Point x="-120.088856" y="112"/>
+          <Point x="-27.712813" y="112"/>
+        </Wall>
+        <Wall height="4">
+          <Point x="-92.376043" y="112"/>
+          <Point x="-41.569219" y="24"/>
+          <Point x="-78.519637" y="24"/>
+          <Point x="-60.044428" y="56"/>
+        </Wall>
+        <Wall height="4">
+          <Point x="-193.98969" y="16"/>
+          <Point x="-286.365734" y="16"/>
+          <Point x="-193.98969" y="176"/>
+        </Wall>
+        <Zone effect="death">
+          <ShapeCircle radius=" 16 " growth="0">
+            <Point x="-184.752086" y="240"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius=" 16 " growth="0">
+            <Point x="-212.464899" y="192"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius=" 9.237604 " growth="0">
+            <Point x="-157.039273" y="160"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius=" 9.237604 " growth="0">
+            <Point x="-101.613647" y="192"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius=" 16 " growth="0">
+            <Point x="-18.475209" y="224"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius=" 9.237604 " growth="0">
+            <Point x="-46.188022" y="128"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius=" 16 " growth="0">
+            <Point x="27.712813" y="128"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius=" 9.237604 " growth="0">
+            <Point x="-27.712813" y="96"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius=" 16 " growth="0">
+            <Point x="-73.900834" y="96"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius=" 16 " growth="0">
+            <Point x="-129.32646" y="16"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius=" 16 " growth="0">
+            <Point x="-193.98969" y="112"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius=" 16 " growth="0">
+            <Point x="-143.182867" y="40"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius=" 9.237604 " growth="0">
+            <Point x="-120.088856" y="128"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="win">
+          <ShapeCircle radius=" 18.475209 " growth="0">
+            <Point x="-96.994845" y="56"/>
+          </ShapeCircle>
+        </Zone>
+      </Field>
+    </World>
+  </Map>
+</Resource>
+<!-- Exported from Vectron 1.1 -->
+<!-- Use at: zwazi.github.io/Vectron -->
+<!-- Source Code: github.com/zwazi/Vectron -->
+
+<!-- Alternate Version: https://vectron.armanelgtron.tk/ -->
+<!-- Source Code: https://gitlab.com/Armanelgtron/Vectron/ -->
