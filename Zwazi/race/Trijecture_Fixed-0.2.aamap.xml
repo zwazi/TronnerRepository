@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
 <!DOCTYPE Resource SYSTEM "sty.dtd">
-<Resource type="aamap" name="Trijecture_Fixed" version="0.1" author="Zwazi" category="race">
+<Resource type="aamap" name="Trijecture_Fixed" version="0.2" author="Zwazi" category="race">
   <Map version="0.2.8">
     <Settings>
       <Setting name="SIZE_FACTOR" value="0" />
@@ -11,7 +11,7 @@
       <Field>
         <Axes number="6"/>
         <Spawn x="-192" y="32" xdir="-1" ydir="0"/>
-        <Wall height="50">
+        <Wall height="4">
           <Point x="50" y="-50"/>
           <Point x="50" y="290"/>
           <Point x="-306" y="290"/>
