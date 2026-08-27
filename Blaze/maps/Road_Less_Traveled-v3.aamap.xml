@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
 <!DOCTYPE Resource SYSTEM "sty.dtd">
-<Resource type="aamap" name="Road_Less_Traveled" version="v2" author="Blaze" category="maps">
+<Resource type="aamap" name="Road_Less_Traveled" version="v3" author="Blaze" category="maps">
 <Map version="0.2.8">
 <World>
 <Field>
