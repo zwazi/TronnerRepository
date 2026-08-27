@@ -1,22 +1,26 @@
 #!/usr/bin/env python3
-"""Keep the newest copy of each map and normalize it to version v1."""
+"""Normalize imported maps and enforce immutable versioned resources."""
 
 from __future__ import annotations
 
 import argparse
+import hashlib
 import os
 import re
 import stat
+import subprocess
 import sys
 from collections import defaultdict
 from dataclasses import dataclass
 from pathlib import Path
 
 
-TARGET_VERSION = "v1"
 TARGET_WALL_HEIGHT = "4"
+TARGET_AXES = "8"
 RESOURCE_RE = re.compile(br"<Resource\b[^>]*>", re.IGNORECASE | re.DOTALL)
 WALL_TAG_RE = re.compile(br"<Wall\b[^>]*>", re.IGNORECASE | re.DOTALL)
+AXES_TAG_RE = re.compile(br"<Axes\b[^>]*>", re.IGNORECASE | re.DOTALL)
+FIELD_TAG_RE = re.compile(br"<Field\b[^>]*>", re.IGNORECASE | re.DOTALL)
 WALL_LINE_TRAILING_RE = re.compile(
     br"(<Wall\b[^>\r\n]*>)[ \t]+$", re.IGNORECASE | re.MULTILINE
 )
@@ -200,12 +204,27 @@ def choose_winners(
 
 
 def destination_for(record: MapRecord, root: Path) -> Path:
-    filename = f"{logical_name(record)}-{TARGET_VERSION}.aamap.xml"
+    filename = f"{logical_name(record)}-{record.version}.aamap.xml"
     return canonical_parent(record, root) / filename
 
 
 def update_map(record: MapRecord) -> tuple[bytes, int]:
-    resource_tag = record.data[record.resource_start : record.resource_end]
+    updated_data = record.data
+    updated_data, target_count = TARGET_EFFECT_RE.subn(
+        lambda match: match.group(1) + match.group(2) + b"win" + match.group(2),
+        updated_data,
+    )
+    updated_data = WALL_TAG_RE.sub(normalize_wall_tag, updated_data)
+    updated_data = WALL_LINE_TRAILING_RE.sub(br"\1", updated_data)
+    updated_data = add_default_axes(updated_data, record.path)
+    return updated_data, target_count
+
+
+def set_resource_version(data: bytes, version: str, path: Path) -> bytes:
+    resource_match = RESOURCE_RE.search(data)
+    if resource_match is None:
+        raise ValueError(f"{path}: aamap Resource tag is missing")
+    resource_tag = resource_match.group(0)
     version_match = next(
         (
             match
@@ -215,25 +234,65 @@ def update_map(record: MapRecord) -> tuple[bytes, int]:
         None,
     )
     if version_match is None:
-        raise ValueError(f"{record.path}: Resource tag has no version attribute")
+        raise ValueError(f"{path}: Resource tag has no version attribute")
 
     updated_tag = (
         resource_tag[: version_match.start(3)]
-        + TARGET_VERSION.encode("ascii")
+        + version.encode("ascii")
         + resource_tag[version_match.end(3) :]
     )
-    updated_data = (
-        record.data[: record.resource_start]
+    return (
+        data[: resource_match.start()]
         + updated_tag
-        + record.data[record.resource_end :]
+        + data[resource_match.end() :]
     )
-    updated_data, target_count = TARGET_EFFECT_RE.subn(
-        lambda match: match.group(1) + match.group(2) + b"win" + match.group(2),
-        updated_data,
+
+
+def bump_resource_version(version: str) -> str:
+    match = re.match(r"^(.*?)(\d+)$", version)
+    if match is None:
+        return version + ".1"
+    prefix, digits = match.groups()
+    bumped = str(int(digits) + 1)
+    if len(digits) > 1 and digits.startswith("0"):
+        bumped = bumped.zfill(len(digits))
+    return prefix + bumped
+
+
+def destination_for_version(record: MapRecord, root: Path, version: str) -> Path:
+    return canonical_parent(record, root) / (
+        f"{logical_name(record)}-{version}.aamap.xml"
     )
-    updated_data = WALL_TAG_RE.sub(normalize_wall_tag, updated_data)
-    updated_data = WALL_LINE_TRAILING_RE.sub(br"\1", updated_data)
-    return updated_data, target_count
+
+
+def add_default_axes(data: bytes, path: Path) -> bytes:
+    """Add the standard axis count when a map does not define one."""
+    if AXES_TAG_RE.search(data) is not None:
+        return data
+
+    field = FIELD_TAG_RE.search(data)
+    if field is None:
+        raise ValueError(f"{path}: aamap Resource has no Field element")
+
+    remainder = data[field.end() :]
+    child = re.search(br"(?:\r\n|\n|\r)([ \t]*)<", remainder)
+    if child is not None:
+        newline_match = re.match(br"\r\n|\n|\r", child.group(0))
+        assert newline_match is not None
+        newline = newline_match.group(0)
+        indentation = child.group(1)
+    else:
+        newline = b"\r\n" if b"\r\n" in data else b"\n"
+        line_start = data.rfind(b"\n", 0, field.start()) + 1
+        field_indentation = data[line_start:field.start()]
+        indentation = (
+            field_indentation + b"  "
+            if field_indentation.strip() == b""
+            else b"  "
+        )
+
+    axes = b'<Axes number="' + TARGET_AXES.encode("ascii") + b'"/>'
+    return data[: field.end()] + newline + indentation + axes + data[field.end() :]
 
 
 def normalize_wall_tag(match: re.Match[bytes]) -> bytes:
@@ -273,9 +332,20 @@ def build_plan(root: Path) -> tuple[
     winners, tied_newest_groups = choose_winners(records, root)
     outputs: dict[Path, tuple[bytes, int, int]] = {}
     target_count = 0
+    reserved = {record.path for record in records}
 
     for winner in winners:
-        destination = destination_for(winner, root)
+        updated_data, replaced = update_map(winner)
+        if updated_data != winner.data:
+            version = bump_resource_version(winner.version)
+            destination = destination_for_version(winner, root, version)
+            while destination in reserved or destination in outputs:
+                version = bump_resource_version(version)
+                destination = destination_for_version(winner, root, version)
+            updated_data = set_resource_version(updated_data, version, winner.path)
+            reserved.add(destination)
+        else:
+            destination = destination_for(winner, root)
         if destination in outputs:
             other_source = next(
                 record.path
@@ -285,7 +355,6 @@ def build_plan(root: Path) -> tuple[
             raise ValueError(
                 f"destination collision: {winner.path} and {other_source} both map to {destination}"
             )
-        updated_data, replaced = update_map(winner)
         outputs[destination] = (updated_data, winner.mode, replaced)
         target_count += replaced
 
@@ -320,7 +389,7 @@ def print_plan(
     print(f"target zones changed to win: {target_count}")
     print(f"newest-version ties resolved: {tied_newest_groups}")
     print(f"source filename/header version mismatches: {version_mismatch_count}")
-    print(f"output version: {TARGET_VERSION}")
+    print("output versions: preserved, or bumped when normalization changes bytes")
     if non_numeric:
         print(f"non-numeric source versions: {', '.join(non_numeric)}")
 
@@ -337,17 +406,201 @@ def apply_plan(
         os.chmod(destination, mode)
 
 
+def apply_missing_axes(records: list[MapRecord], root: Path) -> int:
+    """Add Axes and assign a new resource identity to every changed map."""
+    reserved = {record.path for record in records}
+    outputs: list[tuple[MapRecord, Path, bytes]] = []
+    for record in records:
+        if AXES_TAG_RE.search(record.data) is not None:
+            continue
+        version = bump_resource_version(record.version)
+        destination = destination_for_version(record, root, version)
+        while destination in reserved or destination.exists():
+            version = bump_resource_version(version)
+            destination = destination_for_version(record, root, version)
+        data = add_default_axes(record.data, record.path)
+        data = set_resource_version(data, version, record.path)
+        outputs.append((record, destination, data))
+        reserved.add(destination)
+
+    written: list[Path] = []
+    try:
+        for record, destination, data in outputs:
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            temporary = destination.with_name(
+                f".{destination.name}.{os.getpid()}.tmp"
+            )
+            temporary.write_bytes(data)
+            os.chmod(temporary, record.mode)
+            os.replace(temporary, destination)
+            written.append(destination)
+    except Exception:
+        for path in written:
+            path.unlink(missing_ok=True)
+        raise
+
+    for record, destination, _ in outputs:
+        if record.path != destination:
+            record.path.unlink()
+    return len(outputs)
+
+
+def bump_changed_maps(records: list[MapRecord], root: Path, reference: str) -> int:
+    """Bump every currently changed map relative to a Git reference."""
+    try:
+        changed_output = subprocess.run(
+            [
+                "git",
+                "-C",
+                str(root),
+                "diff",
+                "--name-only",
+                "-z",
+                reference,
+                "--",
+                "*.aamap.xml",
+            ],
+            check=True,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+        ).stdout
+    except subprocess.CalledProcessError as error:
+        detail = error.stderr.decode("utf-8", "replace").strip()
+        raise ValueError(f"cannot diff Git reference {reference!r}: {detail}") from error
+
+    changed = {
+        (root / encoded.decode("utf-8", "surrogateescape")).resolve()
+        for encoded in changed_output.rstrip(b"\0").split(b"\0")
+        if encoded
+    }
+    selected = [record for record in records if record.path.resolve() in changed]
+    reserved = {record.path for record in records}
+    outputs: list[tuple[MapRecord, Path, bytes]] = []
+    for record in selected:
+        version = bump_resource_version(record.version)
+        destination = destination_for_version(record, root, version)
+        while destination in reserved or destination.exists():
+            version = bump_resource_version(version)
+            destination = destination_for_version(record, root, version)
+        outputs.append(
+            (
+                record,
+                destination,
+                set_resource_version(record.data, version, record.path),
+            )
+        )
+        reserved.add(destination)
+
+    written: list[Path] = []
+    try:
+        for record, destination, data in outputs:
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            temporary = destination.with_name(
+                f".{destination.name}.{os.getpid()}.tmp"
+            )
+            temporary.write_bytes(data)
+            os.chmod(temporary, record.mode)
+            os.replace(temporary, destination)
+            written.append(destination)
+    except Exception:
+        for path in written:
+            path.unlink(missing_ok=True)
+        raise
+
+    for record, destination, _ in outputs:
+        if record.path != destination:
+            record.path.unlink()
+    return len(outputs)
+
+
+def immutable_resource_key(attributes: dict[str, str]) -> tuple[str, str, str, str]:
+    return (
+        attributes["author"].casefold(),
+        attributes.get("category", "").strip("/").casefold(),
+        attributes["name"].casefold(),
+        attributes["version"].casefold(),
+    )
+
+
+def check_version_history(root: Path, reference: str) -> int:
+    """Reject changed bytes that reuse an aamap resource identity from Git."""
+    try:
+        listed = subprocess.run(
+            ["git", "-C", str(root), "ls-tree", "-rz", "--name-only", reference],
+            check=True,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+        ).stdout
+    except subprocess.CalledProcessError as error:
+        detail = error.stderr.decode("utf-8", "replace").strip()
+        raise ValueError(f"cannot read Git reference {reference!r}: {detail}") from error
+
+    historical: dict[tuple[str, str, str, str], set[str]] = defaultdict(set)
+    for encoded_path in listed.rstrip(b"\0").split(b"\0"):
+        if not encoded_path:
+            continue
+        relative = encoded_path.decode("utf-8", "surrogateescape")
+        if not relative.casefold().endswith(".xml"):
+            continue
+        try:
+            data = subprocess.run(
+                ["git", "-C", str(root), "show", f"{reference}:{relative}"],
+                check=True,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+            ).stdout
+        except subprocess.CalledProcessError:
+            continue
+        resource_match = RESOURCE_RE.search(data)
+        if resource_match is None:
+            continue
+        attributes = parse_attributes(resource_match.group(0))
+        if attributes.get("type", "").casefold() != "aamap":
+            continue
+        if not all(attributes.get(field) for field in ("author", "name", "version")):
+            continue
+        historical[immutable_resource_key(attributes)].add(
+            hashlib.sha256(data).hexdigest()
+        )
+
+    errors: list[str] = []
+    for record in discover_maps(root):
+        key = immutable_resource_key(record.attributes)
+        old_hashes = historical.get(key)
+        if old_hashes and hashlib.sha256(record.data).hexdigest() not in old_hashes:
+            resource = "/".join(part for part in key if part)
+            errors.append(
+                f"{record.path.relative_to(root)}: changed bytes reuse resource "
+                f"identity {resource}; bump its version"
+            )
+
+    if errors:
+        print("Immutable resource check failed:", file=sys.stderr)
+        for error in errors:
+            print(f"- {error}", file=sys.stderr)
+        return 1
+    print(
+        f"Immutable resource check passed against {reference} for "
+        f"{len(discover_maps(root))} maps."
+    )
+    return 0
+
+
 def check_repository(root: Path) -> int:
     records = discover_maps(root)
     errors: list[str] = []
     identities: dict[tuple[str, str], list[Path]] = defaultdict(list)
+    resource_identities: dict[
+        tuple[str, str, str, str], list[Path]
+    ] = defaultdict(list)
     cockpit_count = 0
 
     for record in records:
         identities[map_identity(record, root)].append(record.path)
-        expected_name = f"{logical_name(record)}-{TARGET_VERSION}.aamap.xml"
-        if record.version != TARGET_VERSION:
-            errors.append(f"{record.path}: Resource version is {record.version!r}")
+        resource_identities[immutable_resource_key(record.attributes)].append(
+            record.path
+        )
+        expected_name = f"{logical_name(record)}-{record.version}.aamap.xml"
         if record.path.name != expected_name:
             errors.append(f"{record.path}: expected filename {expected_name!r}")
         if record.path.parent != canonical_parent(record, root):
@@ -355,6 +608,10 @@ def check_repository(root: Path) -> int:
         target_count = len(TARGET_EFFECT_RE.findall(record.data))
         if target_count:
             errors.append(f"{record.path}: still contains {target_count} target zone(s)")
+        if AXES_TAG_RE.search(record.data) is None:
+            errors.append(
+                f"{record.path}: has no Axes element (expected number={TARGET_AXES!r})"
+            )
         incorrect_walls = sum(
             parse_attributes(wall.group(0)).get("height") != TARGET_WALL_HEIGHT
             for wall in WALL_TAG_RE.finditer(record.data)
@@ -368,6 +625,13 @@ def check_repository(root: Path) -> int:
     for paths in identities.values():
         if len(paths) > 1:
             errors.append("duplicate map identity: " + ", ".join(str(path) for path in paths))
+
+    for paths in resource_identities.values():
+        if len(paths) > 1:
+            errors.append(
+                "duplicate immutable resource identity: "
+                + ", ".join(str(path) for path in paths)
+            )
 
     for path in sorted(root.rglob("*.xml")):
         if ".git" in path.parts:
@@ -419,7 +683,25 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     action = parser.add_mutually_exclusive_group()
     action.add_argument("--apply", action="store_true", help="apply the normalization plan")
+    action.add_argument(
+        "--apply-missing-axes",
+        action="store_true",
+        help=(
+            f"add Axes number={TARGET_AXES} to maps that do not define Axes "
+            "and bump their versions"
+        ),
+    )
     action.add_argument("--check", action="store_true", help="verify an already normalized tree")
+    action.add_argument(
+        "--check-version-history",
+        metavar="GIT_REF",
+        help="reject changed map bytes that reuse a resource identity from GIT_REF",
+    )
+    action.add_argument(
+        "--bump-changed-since",
+        metavar="GIT_REF",
+        help="bump every map currently changed relative to GIT_REF",
+    )
     parser.add_argument(
         "--root",
         type=Path,
@@ -433,8 +715,23 @@ def main() -> int:
     args = parse_args()
     root = args.root.resolve()
     try:
+        if args.apply_missing_axes:
+            count = apply_missing_axes(discover_maps(root), root)
+            print(
+                f"Added Axes number={TARGET_AXES} and bumped the version of "
+                f"{count} map(s)."
+            )
+            return 0
         if args.check:
             return check_repository(root)
+        if args.check_version_history:
+            return check_version_history(root, args.check_version_history)
+        if args.bump_changed_since:
+            count = bump_changed_maps(
+                discover_maps(root), root, args.bump_changed_since
+            )
+            print(f"Bumped the version of {count} changed map(s).")
+            return 0
 
         records, winners, outputs, target_count, tied_newest_groups = build_plan(root)
         print_plan(root, records, winners, target_count, tied_newest_groups)
